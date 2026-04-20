@@ -1,0 +1,9 @@
+[dotenv@17.3.1] injecting env (9) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+=== API 1: vulnerableUserInfo ===
+Only base params - items count: 20
+Item 1: 3호선 을지로3가 방면 -> 4호선 동대문역사문화공원 방면
+
+=== API 1 with chtnNextStinCd ===
+With chtnNextStinCd - items count: 8
+stMovePaths: [ '3호선 을지로3가 방면', '3호선 동대입구 방면' ]
+edMovePaths: [ '4호선 명동 방면' ]

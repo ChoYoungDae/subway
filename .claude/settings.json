@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \":*)",
+      "Bash(curl -s -X POST \"https://zpvlancuprogmakgihad.supabase.co/rest/v1/proper_nouns\" -H \"apikey: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpwdmxhbmN1cHJvZ21ha2dpaGFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0ODI0MDYsImV4cCI6MjA4NzA1ODQwNn0.VbTXNEWSFDKBdQWTe6WLiJbJiH2mxdsQTrK4ezo2VhA\" -H \"Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InpwdmxhbmN1cHJvZ21ha2dpaGFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE0ODI0MDYsImV4cCI6MjA4NzA1ODQwNn0.VbTXNEWSFDKBdQWTe6WLiJbJiH2mxdsQTrK4ezo2VhA\" -H \"Content-Type: application/json\" -H \"Prefer: return=representation\" -d '{\"\"kr\"\":\"\"승강장\"\",\"\"en\"\":\"\"Platform\"\"}')"
+    ]
+  }
+}

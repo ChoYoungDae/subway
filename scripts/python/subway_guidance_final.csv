@@ -1,0 +1,1446 @@
+﻿Category,Icon,Location,Refined_KR,Refined_EN,Original
+Elevator Activity,🛗,1F,엘리베이터 탑승 (10번 출입구),Enter Elevator (10번 Exit),(1F)  10번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,"엘리베이터 탑승 (1, 3번 출구 횡단보도 건너)","Enter Elevator (1, 3번 Exit 횡단보도 건너)","(1F) 1, 3번 출구 횡단보도 건너 엘리베이터 탑승"
+Elevator Activity,🛗,1F,엘리베이터 탑승 (10번 출입구 효성헤링턴건물 방향 중간쯤),Enter Elevator (10번 Exit 효성헤링턴건물 방향 중간쯤),(1F) 10번 출입구 에서 효성헤링턴건물 방향 중간쯤  엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (10번 출입구 지상1층),Enter Elevator (10번 Exit 지상1층),(1F) 10번 출입구 옆 지상1층 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (11번 출입구),Enter Elevator (11번 Exit),(1F) 11번 출입구 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (11번 출입구),Enter Elevator (11번 Exit),(1F) 11번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (1-1번 출입구),Enter Elevator (1-1번 Exit),(1F) 1-1번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (12번 출입구),Enter Elevator (12번 Exit),(1F) 12번 출입구 옆 엘리베이터 탑승
+Move,🚶,1F,이동 (15번 출입구 대합실로),Move (15번 Exit 대합실로),(1F) 15번 출입구 대합실로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (1번 출입구 경사),Enter Elevator (1번 Exit 경사),(1F) 1번 출입구 경사엘리베이터 탑승
+Move,🚶,1F,이동 (1번 출입구 대합실로),Move (1번 Exit 대합실로),(1F) 1번 출입구 대합실로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (1번 출입구),Enter Elevator (1번 Exit),(1F) 1번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (1번 출입구와 6번 출입구 사이),Enter Elevator (1번 Exit와 6번 Exit 사이),(1F) 1번 출입구와 6번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (1번/2번 출입구 사이),Enter Elevator (1번/2번 Exit 사이),(1F) 1번/2번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2-1번 출입구),Enter Elevator (2-1번 Exit),(1F) 2-1번 출입구 옆 엘리베이터 탑승
+Move,🚶,1F,이동 (2번 출입구 대합실로),Move (2번 Exit 대합실로),(1F) 2번 출입구 대합실로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2번 출입구 또는 3번 출입구),Enter Elevator (2번 Exit 또는 3번 Exit),(1F) 2번 출입구 옆 엘리베이터 또는 3번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2번 출입구),Enter Elevator (2번 Exit),(1F) 2번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2번 출입구 지상),Enter Elevator (2번 Exit 지상),(1F) 2번 출입구 지상 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2번 출입구와 3번 출입구 사이),Enter Elevator (2번 Exit와 3번 Exit 사이),(1F) 2번 출입구와 3번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2번/3번 출입구 사이),Enter Elevator (2번/3번 Exit 사이),(1F) 2번/3번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,"엘리베이터 탑승 (3, 4번 출입구 사이)","Enter Elevator (3, 4번 Exit 사이)","(1F) 3, 4번 출입구 사이 엘리베이터 탑승"
+Elevator Activity,🛗,1F,엘리베이터 탑승 (3-1번 출입구),Enter Elevator (3-1번 Exit),(1F) 3-1번 출입구 옆 엘리베이터 탑승
+Move,🚶,1F,이동 (3번 출입구 대합실로),Move (3번 Exit 대합실로),(1F) 3번 출입구 대합실로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (3번 출입구 사이),Enter Elevator (3번 Exit 사이),(1F) 3번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (3번 출입구),Enter Elevator (3번 Exit),(1F) 3번 출입구 옆 엘리베이터 탑승
+Subway Activity,🚉,1F,승차 (3번 출입구 휠체어리프트),Board (3번 Exit 휠체어리프트),(1F) 3번 출입구 휠체어리프트 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (3번/4번 출입구 사이),Enter Elevator (3번/4번 Exit 사이),(1F) 3번/4번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (3번출입구),Enter Elevator (3번Exit),(1F) 3번출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,"엘리베이터 탑승 (4, 5번 출구 사이 중앙)","Enter Elevator (4, 5번 Exit 사이 중앙)","(1F) 4, 5번 출구 사이 중앙 엘리베이터 탑승"
+Move,🚶,1F,이동 (4번 출입구 대합실로),Move (4번 Exit 대합실로),(1F) 4번 출입구 대합실로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (4번 출입구 외부),Enter Elevator (4번 Exit 외부),(1F) 4번 출입구 옆 외부엘리베이터 탑승
+Subway Activity,🚉,1F,승차 (4번 출입구 휠체어리프트),Board (4번 Exit 휠체어리프트),(1F) 4번 출입구 휠체어리프트 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (4번/5번 출입구 사이),Enter Elevator (4번/5번 Exit 사이),(1F) 4번/5번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,"엘리베이터 탑승 (5,6번 출입구 사이)","Enter Elevator (5,6번 Exit 사이)","(1F) 5,6번 출입구 사이 엘리베이터 탑승"
+Elevator Activity,🛗,1F,엘리베이터 탑승 (5번 출입구 사이),Enter Elevator (5번 Exit 사이),(1F) 5번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (5번 출입구 지상1층),Enter Elevator (5번 Exit 지상1층),(1F) 5번 출입구 옆 지상1층 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (5번/6번 출입구 사이),Enter Elevator (5번/6번 Exit 사이),(1F) 5번/6번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (6-1번 출입구),Enter Elevator (6-1번 Exit),(1F) 6-1번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (6번 출입구),Enter Elevator (6번 Exit),(1F) 6번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (6번출구),Enter Elevator (6번Exit),(1F) 6번출구 엘리베이터 탑승
+Subway Activity,🚉,1F,하차 (6호선 신내 (종착) 승강장),Alight (6Line  신내 (종착) 승강장),(1F) 6호선 신내 (종착역) 승강장 하차
+Elevator Activity,🛗,1F,엘리베이터 탑승 (7번/8번 출입구 사이),Enter Elevator (7번/8번 Exit 사이),(1F) 7번/8번 출입구 사이 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (8번 출입구),Enter Elevator (8번 Exit),(1F) 8번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (경의중앙선 4번 출입구 근처),Enter Elevator (경의중앙선 4번 Exit 근처),(1F) 경의중앙선 4번 출입구 근처 엘리베이터 탑승
+Subway Activity,🚉,2F,하차 (7호선 수락산 방면 승강장),Alight (7Line  수락산 Bound for 승강장),(2F) 7호선 수락산 방면 승강장 하차
+Subway Activity,🚉,2F,하차 (7호선 장암 방면 승강장),Alight (7Line  장암 Bound for 승강장),(2F) 7호선 장암 방면 승강장 하차
+Subway Activity,🚉,2F,하차 (공항철도 검암 방면 승강장),Alight (공항철도 검암 Bound for 승강장),(2F) 공항철도 검암 방면 승강장 하차
+Subway Activity,🚉,2F,하차 (공항철도 계양 방면 승강장),Alight (공항철도 계양 Bound for 승강장),(2F) 공항철도 계양 방면 승강장 하차
+Subway Activity,🚉,2F,하차 (공항철도 김포공항 방면 승강장),Alight (공항철도 김포공항 Bound for 승강장),(2F) 공항철도 김포공항 방면 승강장 하차
+Subway Activity,🚉,2F,하차 (공항철도 청라국제도시 방면 승강장),Alight (공항철도 청라국제도시 Bound for 승강장),(2F) 공항철도 청라국제도시 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 건대입구 방면 승강장),Alight (2Line  건대입구 Bound for 승강장),(3F) 2호선 건대입구 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 구의 방면 승강장),Alight (2Line  구의 Bound for 승강장),(3F) 2호선 구의 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 뚝섬 방면 승강장),Alight (2Line  뚝섬 Bound for 승강장),(3F) 2호선 뚝섬 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 성수 방면 승강장),Alight (2Line  성수 Bound for 승강장),(3F) 2호선 성수 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 영등포구청 방면 승강장),Alight (2Line  영등포구청 Bound for 승강장),(3F) 2호선 영등포구청 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 용답 방면 승강장),Alight (2Line  용답 Bound for 승강장),(3F) 2호선 용답 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (2호선 합정 방면 승강장),Alight (2Line  합정 Bound for 승강장),(3F) 2호선 합정 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (4호선 이촌 방면 승강장),Alight (4Line  이촌 Bound for 승강장),(3F) 4호선 이촌 방면 승강장 하차
+Subway Activity,🚉,3F,하차 (4호선 총신대입구 방면 승강장),Alight (4Line  총신대입구 Bound for 승강장),(3F) 4호선 총신대입구 방면 승강장 하차
+Subway Activity,🚉,4F,하차 (3호선 금호 방면 승강장),Alight (3Line  금호 Bound for 승강장),(4F) 3호선 금호 방면 승강장 하차
+Subway Activity,🚉,4F,하차 (3호선 압구정 방면 승강장),Alight (3Line  압구정 Bound for 승강장),(4F) 3호선 압구정 방면 승강장 하차
+Gate,🎫,B1,게이트 통과 (환승주차장 연결된 지하통로 표 내는 곳),Pass Gate (환승주차장 연결된 지하통로 표 내는 곳),(B1) 환승주차장 연결된 지하통로 표 내는 곳 통과
+Subway Activity,🚉,B2,하차 (1호선 동묘앞 방면 승강장),Alight (1Line  동묘앞 Bound for 승강장),(B2) 1호선 동묘앞 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (1호선 제기동 방면 승강장),Alight (1Line  제기동 Bound for 승강장),(B2) 1호선 제기동 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (1호선 종각 방면 승강장),Alight (1Line  종각 Bound for 승강장),(B2) 1호선 종각 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (1호선 종로5가 방면 승강장),Alight (1Line  종로5가 Bound for 승강장),(B2) 1호선 종로5가 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 당산 방면 승강장),Alight (2Line  당산 Bound for 승강장),(B2) 2호선 당산 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 대림 방면 승강장),Alight (2Line  대림 Bound for 승강장),(B2) 2호선 대림 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 동대문사문화공원 방면 승강장),Alight (2Line  동대문사문화공원 Bound for 승강장),(B2) 2호선 동대문역사문화공원 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 문래 방면 승강장),Alight (2Line  문래 Bound for 승강장),(B2) 2호선 문래 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 상왕십리 방면 승강장),Alight (2Line  상왕십리 Bound for 승강장),(B2) 2호선 상왕십리 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 신당 방면 승강장),Alight (2Line  신당 Bound for 승강장),(B2) 2호선 신당 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 신대방 방면 승강장),Alight (2Line  신대방 Bound for 승강장),(B2) 2호선 신대방 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 을지로4가 방면 승강장),Alight (2Line  을지로4가 Bound for 승강장),(B2) 2호선 을지로4가 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 을지로입구 방면 승강장),Alight (2Line  을지로입구 Bound for 승강장),(B2) 2호선 을지로입구 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 잠실나루 방면 승강장),Alight (2Line  잠실나루 Bound for 승강장),(B2) 2호선 잠실나루 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 잠실새내 방면 승강장),Alight (2Line  잠실새내 Bound for 승강장),(B2) 2호선 잠실새내 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 지선 신도림 (종착) 승강장),Alight (2Line  지선 신도림 (종착) 승강장),(B2) 2호선 지선 신도림 (종착역) 승강장 하차
+Subway Activity,🚉,B2,하차 (2호선 한양대 방면 승강장),Alight (2Line  한양대 Bound for 승강장),(B2) 2호선 한양대 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 금호 방면 승강장),Alight (3Line  금호 Bound for 승강장),(B2) 3호선 금호 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 남부터미널 방면 승강장),Alight (3Line  남부터미널 Bound for 승강장),(B2) 3호선 남부터미널 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 녹번 방면 승강장),Alight (3Line  녹번 Bound for 승강장),(B2) 3호선 녹번 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 동대입구 방면 승강장),Alight (3Line  동대입구 Bound for 승강장),(B2) 3호선 동대입구 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 매봉 방면 승강장),Alight (3Line  매봉 Bound for 승강장),(B2) 3호선 매봉 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 압구정 방면 승강장),Alight (3Line  압구정 Bound for 승강장),(B2) 3호선 압구정 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 연신내 방면 승강장),Alight (3Line  연신내 Bound for 승강장),(B2) 3호선 연신내 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (3호선 잠원 방면 승강장),Alight (3Line  잠원 Bound for 승강장),(B2) 3호선 잠원 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 길음 방면 승강장),Alight (4Line  길음 Bound for 승강장),(B2) 4호선 길음 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 동작 방면 승강장),Alight (4Line  동작 Bound for 승강장),(B2) 4호선 동작 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 사당 방면 승강장),Alight (4Line  사당 Bound for 승강장),(B2) 4호선 사당 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 숙대입구 방면 승강장),Alight (4Line  숙대입구 Bound for 승강장),(B2) 4호선 숙대입구 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 신용산 방면 승강장),Alight (4Line  신용산 Bound for 승강장),(B2) 4호선 신용산 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 한성대입구 방면 승강장),Alight (4Line  한성대입구 Bound for 승강장),(B2) 4호선 한성대입구 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (4호선 회현 방면 승강장),Alight (4Line  회현 Bound for 승강장),(B2) 4호선 회현 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (5호선 개롱 방면 승강장),Alight (5Line  개롱 Bound for 승강장),(B2) 5호선 개롱 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (5호선 둔촌동 방면 승강장),Alight (5Line  둔촌동 Bound for 승강장),(B2) 5호선 둔촌동 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (5호선 방이 방면 승강장),Alight (5Line  방이 Bound for 승강장),(B2) 5호선 방이 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (5호선 아차산 방면 승강장),Alight (5Line  아차산 Bound for 승강장),(B2) 5호선 아차산 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (5호선 장한평 방면 승강장),Alight (5Line  장한평 Bound for 승강장),(B2) 5호선 장한평 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 대흥 방면 승강장),Alight (6Line  대흥 Bound for 승강장),(B2) 6호선 대흥 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 동묘앞 방면 승강장),Alight (6Line  동묘앞 Bound for 승강장),(B2) 6호선 동묘앞 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 석계 방면 승강장),Alight (6Line  석계 Bound for 승강장),(B2) 6호선 석계 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 신당 방면 승강장),Alight (6Line  신당 Bound for 승강장),(B2) 6호선 신당 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 약수 방면 승강장),Alight (6Line  약수 Bound for 승강장),(B2) 6호선 약수 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 월드컵경기장 방면 승강장),Alight (6Line  월드컵경기장 Bound for 승강장),(B2) 6호선 월드컵경기장 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 증산 방면 승강장),Alight (6Line  증산 Bound for 승강장),(B2) 6호선 증산 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 창신 방면 승강장),Alight (6Line  창신 Bound for 승강장),(B2) 6호선 창신 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 청구 방면 승강장),Alight (6Line  청구 Bound for 승강장),(B2) 6호선 청구 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 화랑대 방면 승강장),Alight (6Line  화랑대 Bound for 승강장),(B2) 6호선 화랑대 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 효창공원앞 방면 승강장),Alight (6Line  효창공원앞 Bound for 승강장),(B2) 6호선 효창공원앞 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (7호선 남구로 방면 승강장),Alight (7Line  남구로 Bound for 승강장),(B2) 7호선 남구로 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (7호선 신대방삼거리 방면 승강장),Alight (7Line  신대방삼거리 Bound for 승강장),(B2) 7호선 신대방삼거리 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (7호선 신풍 방면 승강장),Alight (7Line  신풍 Bound for 승강장),(B2) 7호선 신풍 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (7호선 어린이대공원 방면 승강장),Alight (7Line  어린이대공원 Bound for 승강장),(B2) 7호선 어린이대공원 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (7호선 자양 방면 승강장),Alight (7Line  자양 Bound for 승강장),(B2) 7호선 자양 방면 승강장 하차
+Subway Activity,🚉,B2,하차 (6호선 증산 방면 승강장),Alight (6Line  증산 Bound for 승강장),(B2)6호선 증산 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (3호선 고속터미널 방면 승강장),Alight (3Line  고속터미널 Bound for 승강장),(B3) 3호선 고속터미널 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (3호선 교대 방면 승강장),Alight (3Line  교대 Bound for 승강장),(B3) 3호선 교대 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (3호선 남부터미널 방면 승강장),Alight (3Line  남부터미널 Bound for 승강장),(B3) 3호선 남부터미널 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (3호선 잠원 방면 승강장),Alight (3Line  잠원 Bound for 승강장),(B3) 3호선 잠원 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (3호선 종로3가 방면 승강장),Alight (3Line  종로3가 Bound for 승강장),(B3) 3호선 종로3가 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (3호선 충무로 방면 승강장),Alight (3Line  충무로 Bound for 승강장),(B3) 3호선 충무로 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (4호선 남태령 방면 승강장),Alight (4Line  남태령 Bound for 승강장),(B3) 4호선 남태령 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (4호선 동대문 방면 승강장),Alight (4Line  동대문 Bound for 승강장),(B3) 4호선 동대문 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (4호선 동대문사문화공원 방면 승강장),Alight (4Line  동대문사문화공원 Bound for 승강장),(B3) 4호선 동대문역사문화공원 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (4호선 명동 방면 승강장),Alight (4Line  명동 Bound for 승강장),(B3) 4호선 명동 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (4호선 총신대입구 방면 승강장),Alight (4Line  총신대입구 Bound for 승강장),(B3) 4호선 총신대입구 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (4호선 충무로 방면 승강장),Alight (4Line  충무로 Bound for 승강장),(B3) 4호선 충무로 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (5호선 강동 방면 승강장),Alight (5Line  강동 Bound for 승강장),(B3) 5호선 강동 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (5호선 개화산 방면 승강장),Alight (5Line  개화산 Bound for 승강장),(B3) 5호선 개화산 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (5호선 광나루 방면 승강장),Alight (5Line  광나루 Bound for 승강장),(B3) 5호선 광나루 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (5호선 송정 방면 승강장),Alight (5Line  송정 Bound for 승강장),(B3) 5호선 송정 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (5호선 송정방면 승강장),Alight (5Line  송정Bound for 승강장),(B3) 5호선 송정방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 공덕 방면 승강장),Alight (6Line  공덕 Bound for 승강장),(B3) 6호선 공덕 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 돌곶이 방면 승강장),Alight (6Line  돌곶이 Bound for 승강장),(B3) 6호선 돌곶이 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 버티고개 방면 승강장),Alight (6Line  버티고개 Bound for 승강장),(B3) 6호선 버티고개 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 삼각지 방면 승강장),Alight (6Line  삼각지 Bound for 승강장),(B3) 6호선 삼각지 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 안암 방면 승강장),Alight (6Line  안암 Bound for 승강장),(B3) 6호선 안암 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 창신 방면 승강장),Alight (6Line  창신 Bound for 승강장),(B3) 6호선 창신 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 청구 방면 승강장),Alight (6Line  청구 Bound for 승강장),(B3) 6호선 청구 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (6호선 태릉입구 방면 승강장),Alight (6Line  태릉입구 Bound for 승강장),(B3) 6호선 태릉입구 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (7호선 내방 방면 승강장),Alight (7Line  내방 Bound for 승강장),(B3) 7호선 내방 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (7호선 반포 방면 승강장),Alight (7Line  반포 Bound for 승강장),(B3) 7호선 반포 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (7호선 청담 방면 승강장),Alight (7Line  청담 Bound for 승강장),(B3) 7호선 청담 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (7호선 학동 방면 승강장),Alight (7Line  학동 Bound for 승강장),(B3) 7호선 학동 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (7호선 학동방면 승강장),Alight (7Line  학동Bound for 승강장),(B3) 7호선 학동방면 승강장 하차
+Subway Activity,🚉,B3,하차 (8호선 모란(종착) 승강장),Alight (8Line  모란(종착) 승강장),(B3) 8호선 모란(종착역)  승강장 하차
+Subway Activity,🚉,B3,하차 (8호선 수진 방면 승강장),Alight (8Line  수진 Bound for 승강장),(B3) 8호선 수진 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (개화산방면 승강장),Alight (개화산Bound for 승강장),(B3) 개화산방면 승강장 하차
+Subway Activity,🚉,B3,하차 (공항철도 김포공항 방면 승강장),Alight (공항철도 김포공항 Bound for 승강장),(B3) 공항철도 김포공항 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (공항철도 디지털미디어시티 방면 승강장),Alight (공항철도 디지털미디어시티 Bound for 승강장),(B3) 공항철도 디지털미디어시티 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (공항철도 마곡나루 방면 승강장),Alight (공항철도 마곡나루 Bound for 승강장),(B3) 공항철도 마곡나루 방면 승강장 하차
+Subway Activity,🚉,B3,하차 (공항철도 홍대입구 방면 승강장),Alight (공항철도 홍대입구 Bound for 승강장),(B3) 공항철도 홍대입구 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (3호선 대치 방면 승강장),Alight (3Line  대치 Bound for 승강장),(B4) 3호선 대치 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (3호선 동대입구 방면 승강장),Alight (3Line  동대입구 Bound for 승강장),(B4) 3호선 동대입구 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (3호선 매봉 방면 승강장),Alight (3Line  매봉 Bound for 승강장),(B4) 3호선 매봉 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (3호선 안국 방면 승강장),Alight (3Line  안국 Bound for 승강장),(B4) 3호선 안국 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (3호선 을지로 3가 방면 승강장),Alight (3Line  을지로 3가 Bound for 승강장),(B4) 3호선 을지로 3가 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (3호선 을지로3가 방면 승강장),Alight (3Line  을지로3가 Bound for 승강장),(B4) 3호선 을지로3가 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (5호선 동대문사문화공원 방면 승강장),Alight (5Line  동대문사문화공원 Bound for 승강장),(B4) 5호선 동대문역사문화공원 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (5호선 신금호 방면 승강장),Alight (5Line  신금호 Bound for 승강장),(B4) 5호선 신금호 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 녹사평 방면 승강장),Alight (6Line  녹사평 Bound for 승강장),(B4) 6호선 녹사평 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 독바위 방면 승강장),Alight (6Line  독바위 Bound for 승강장),(B4) 6호선 독바위 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 망원 방면 승강장),Alight (6Line  망원 Bound for 승강장),(B4) 6호선 망원 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 상수 방면 승강장),Alight (6Line  상수 Bound for 승강장),(B4) 6호선 상수 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 효창공원앞 방면 승강장),Alight (6Line  효창공원앞 Bound for 승강장),(B4) 6호선 효창공원앞 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (7호선 남구로 방면 승강장),Alight (7Line  남구로 Bound for 승강장),(B4) 7호선 남구로 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (7호선 남성 방면 승강장),Alight (7Line  남성 Bound for 승강장),(B4) 7호선 남성 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (7호선 내방 방면 승강장),Alight (7Line  내방 Bound for 승강장),(B4) 7호선 내방 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (7호선 철산 방면 승강장),Alight (7Line  철산 Bound for 승강장),(B4) 7호선 철산 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (공항철도 계양 방면 승강장),Alight (공항철도 계양 Bound for 승강장),(B4) 공항철도 계양 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (공항철도 공덕 방면 승강장),Alight (공항철도 공덕 Bound for 승강장),(B4) 공항철도 공덕 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (공항철도 디지털미디어시티 방면 승강장),Alight (공항철도 디지털미디어시티 Bound for 승강장),(B4) 공항철도 디지털미디어시티 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (동대문사문화공원 방면 승강장),Alight (동대문사문화공원 Bound for 승강장),(B4) 동대문역사문화공원 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (혜화 방면 승강장),Alight (혜화 Bound for 승강장),(B4) 혜화 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 녹사평 방면 승강장),Alight (6Line  녹사평 Bound for 승강장),(B4)6호선 녹사평 방면 승강장 하차
+Subway Activity,🚉,B4,하차 (6호선 효창공원앞 방면 승강장),Alight (6Line  효창공원앞 Bound for 승강장),(B4)6호선 효창공원앞 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (5호선 마장 방면 승강장),Alight (5Line  마장 Bound for 승강장),(B5) 5호선 마장 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (5호선 신정 방면 승강장),Alight (5Line  신정 Bound for 승강장),(B5) 5호선 신정 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (5호선 청구 방면 승강장),Alight (5Line  청구 Bound for 승강장),(B5) 5호선 청구 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (5호선 행당 방면 승강장),Alight (5Line  행당 Bound for 승강장),(B5) 5호선 행당 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (6호선 구산 방면 승강장),Alight (6Line  구산 Bound for 승강장),(B5) 6호선 구산 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (공항철도 서울 방면 승강장),Alight (공항철도 서울 Bound for 승강장),(B5) 공항철도 서울역 방면 승강장 하차
+Subway Activity,🚉,B5,하차 (공항철도 홍대입구 방면 승강장),Alight (공항철도 홍대입구 Bound for 승강장),(B5) 공항철도 홍대입구 방면 승강장 하차
+Elevator Activity,🛗,B5,엘리베이터 탑승 (양평방면),Enter Elevator (양평Bound for),(B5) 양평방면 엘리베이터 탑승
+Elevator Activity,🛗,B5,엘리베이터 탑승 (영등포시장방면),Enter Elevator (영등포시장Bound for),(B5) 영등포시장방면 엘리베이터 탑승
+Subway Activity,🚉,B7,하차 (공항철도 서울(종착) 승강장),Alight (공항철도 서울(종착) 승강장),(B7) 공항철도 서울역(종착역) 승강장 하차
+Unknown,?,,10-4번 승강장 엘리베이터 이용,10-4번 승강장 엘리베이터 이용,10-4번 승강장 엘리베이터 이용
+Elevator Activity,🛗,,엘리베이터 탑승 (10번출구),Enter Elevator (10번Exit),10번출구 엘리베이터 탑승
+Subway Activity,🚉,,승차 (1F 지상EV->),Board (1F 지상EV->),1F 지상EV탑승->게이트 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (1번 출입구 3호기 지상),Enter Elevator (1번 Exit 3호기 지상),1번 출입구 E/L 3호기 지상 탑승
+Move,🚶,,이동 (1번 출입구 근처 이용 지상2층),Move (1번 Exit 근처 이용 지상2층),1번 출입구 근처 엘리베이터 이용 지상2층 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (1번 출입구 지상 1층),Enter Elevator (1번 Exit 지상 1층),1번 출입구 옆 지상 1층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1번 출입구 지상1층),Enter Elevator (1번 Exit 지상1층),1번 출입구 지상1층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1번 출입구 지상1층),Enter Elevator (1번 Exit 지상1층),1번 출입구옆 지상1층 엘리베이터 탑승
+Subway Activity,🚉,,하차 (1호선 동대문 방면 승강장),Alight (1Line  동대문 Bound for 승강장),1호선 동대문 방면 승강장 하차
+Subway Activity,🚉,,하차 (1호선 신설동 방면 승강장),Alight (1Line  신설동 Bound for 승강장),1호선 신설동 방면 승강장 하차
+Unknown,?,,2-2번 승강장 엘리베이터 이용,2-2번 승강장 엘리베이터 이용,2-2번 승강장 엘리베이터 이용
+Subway Activity,🚉,,하차 (3F 2호선 구로디지털단지 방면 승강장),Alight (3F 2Line  구로디지털단지 Bound for 승강장),3F 2호선 구로디지털단지 방면 승강장 하차
+Subway Activity,🚉,,하차 (3F 2호선 신도림 방면 승강장),Alight (3F 2Line  신도림 Bound for 승강장),3F 2호선 신도림 방면 승강장 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (3번 출입구 전방 지상 1층),Enter Elevator (3번 Exit 전방 지상 1층),3번 출입구 전방 지상 1층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (3번출입구 인근 지상 1층 5호기),Enter Elevator (3번Exit 인근 지상 1층 5호기),3번출입구 인근 지상 1층 엘리베이터 5호기 탑승
+Unknown,?,,5호선 화곡방면 승강장,5호선 화곡방면 승강장,5호선 화곡방면 승강장
+Unknown,?,,6번 출입구 근처 엘리베이터 이용,6번 출입구 근처 엘리베이터 이용,6번 출입구 근처 엘리베이터 이용
+Move,🚶,,이동 (6번 출입구 근처 이용 지상2층),Move (6번 Exit 근처 이용 지상2층),6번 출입구 근처 엘리베이터 이용 지상2층 이동
+Subway Activity,🚉,,하차 (6호선 새절 방면 승강장),Alight (6Line  새절 Bound for 승강장),6호선 새절 방면 승강장 하차
+Subway Activity,🚉,,하차 (6호선 촌 방면 승강장),Alight (6Line  촌 Bound for 승강장),6호선 역촌 방면 승강장 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (9번 출입구 하여 지하1층 대합실로),Enter Elevator (9번 Exit 하여 지하1층 대합실로),9번 출입구 엘리베이터 탑승하여 지하1층 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (광환승센터주차장),Enter Elevator (광환승센터주차장),광역환승센터주차장 옆 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (당산방면 지하2층),Enter Elevator (당산Bound for 지하2층),당산방면 지하2층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (문래방면 지하2층),Enter Elevator (문래Bound for 지하2층),문래방면 지하2층 엘리베이터 탑승
+Unknown,?,,방이방면 승강장,방이방면 승강장,방이방면 승강장
+Elevator Activity,🛗,,엘리베이터 탑승 (승강장 후 지상2층으로),Enter Elevator (승강장 후 지상2층으로),승강장 엘리베이터 탑승 후 지상2층으로 이동
+Move,🚶,,이동 (지하 2층 방향),Move (지하 2층 방향),지하 2층 방향 엘리베이터 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (지하2층 승강장),Enter Elevator (지하2층 승강장),지하2층 승강장에서 엘리베이터 탑승
+Unknown,?,,지하4층 마천 종착역 승강장,지하4층 마천 종착역 승강장,지하4층 마천 종착역 승강장
+Subway Activity,🚉,,하차 (천호로부터 들어오는 열차),Alight (천호로부터 들어오는 열차),천호로부터 들어오는 열차에서 하차
+Move,🚶,1F,이동 (경의중앙선 신촌 방면 승강장으로),Move (경의중앙선 신촌 Bound for 승강장으로),(1F) 경의중앙선 신촌 방면 승강장으로 이동
+Move,🚶,B2,이동 (경의중앙선 공덕 방면 승강장으로),Move (경의중앙선 공덕 Bound for 승강장으로),(B2) 경의중앙선 공덕 방면 승강장으로 이동
+Move,🚶,B7,이동 (공항철도 공덕 방면 승강장으로),Move (공항철도 공덕 Bound for 승강장으로),(B7) 공항철도 공덕 방면 승강장으로 이동
+Move,🚶,,이동 (2호선 6번 출입구),Move (2Line  6번 Exit),2호선 6번 출입구 옆 엘리베이터 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 청구 방면),Enter Elevator (6Line  청구 Bound for),6호선 청구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 자양 방면),Enter Elevator (7Line  자양 Bound for),7호선 자양 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (강남 방면),Enter Elevator (강남 Bound for),강남 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 환승통로 방향),Enter Elevator (경의중앙선 환승통로 방향),경의중앙선 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (녹번 방면 앞 표내는 곳 후),Enter Elevator (녹번 Bound for 앞 표내는 곳 후),녹번 방면 엘리베이터 앞 표내는 곳 통과 후 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (서초 방면),Enter Elevator (서초 Bound for),서초 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (승강장 방향),Enter Elevator (승강장 방향),승강장 방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 ((휠체어칸)),Board ((휠체어칸)),승차 (휠체어칸)
+Subway Activity,🚉,,승차 ((휠체어칸),Board ((휠체어칸),승차(휠체어칸
+Subway Activity,🚉,,승차 ((휠체어칸)),Board ((휠체어칸)),승차(휠체어칸)
+Subway Activity,🚉,,승차 ((휠체어칸)),Board ((휠체어칸)),탑승(휠체어칸)
+Gate,🎫,,게이트 통과 (휠체어 비상 이용해 내부로 들어옴),Pass Gate (휠체어 비상 이용해 내부로 들어옴),휠체어 비상게이트 이용해 내부로 들어옴
+Move,🚶,B1,이동 (경의중앙선 방향 환승통로로),Move (경의중앙선 방향 환승통로로),(B1) 경의중앙선 방향 환승통로로 이동
+Move,🚶,B2,이동 (3호선 금호 방면 승강장으로),Move (3Line  금호 Bound for 승강장으로),(B2) 3호선 금호 방면 승강장으로 이동
+Move,🚶,B2,이동 (3호선 동대입구 방면 승강장으로),Move (3Line  동대입구 Bound for 승강장으로),(B2) 3호선 동대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (7호선 자양 방면 승강장),Move (7Line  자양 Bound for 승강장),(B2) 7호선 자양 방면 승강장 이동
+Move,🚶,B2,이동 (강남 방면 승강장으로),Move (강남 Bound for 승강장으로),(B2) 강남 방면 승강장으로 이동
+Move,🚶,B2,이동 (녹번 방면 승강장으로),Move (녹번 Bound for 승강장으로),(B2) 녹번 방면 승강장으로 이동
+Move,🚶,B2,이동 (서초 방면 승강장으로),Move (서초 Bound for 승강장으로),(B2) 서초 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 청구 방면 승강장으로),Move (6Line  청구 Bound for 승강장으로),(B3) 6호선 청구 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 6번 출입구),Enter Elevator (2Line  6번 Exit),2호선 6번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 남구로방면),Enter Elevator (7Line  남구로Bound for),7호선 남구로방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 신풍방면),Enter Elevator (7Line  신풍Bound for),7호선 신풍방면 엘리베이터 탑승
+Move,🚶,3F,이동 (2호선 구의 방면 승강장으로),Move (2Line  구의 Bound for 승강장으로),(3F) 2호선 구의 방면 승강장으로 이동
+Gate,🎫,F2,게이트 통과 (표 내는 곳),Pass Gate (표 내는 곳),(F2) 표 내는 곳 통과
+Move,🚶,,이동 (B2 7호선 남구로방면 승강장으로),Move (B2 7Line  남구로Bound for 승강장으로),B2 7호선 남구로방면 승강장으로 이동
+Move,🚶,,이동 (B2 7호선 신풍방면 승강장으로),Move (B2 7Line  신풍Bound for 승강장으로),B2 7호선 신풍방면 승강장으로 이동
+Subway Activity,🚉,,승차 (경의중앙선 가좌 방면 장애인용리프트),Board (경의중앙선 가좌 Bound for 장애인용리프트),경의중앙선 가좌 방면 장애인용리프트 탑승
+Subway Activity,🚉,,승차 (경의중앙선 수색 방면 장애인용리프트),Board (경의중앙선 수색 Bound for 장애인용리프트),경의중앙선 수색 방면 장애인용리프트 탑승
+Move,🚶,1F,이동 (경의중앙선 가좌 방면 승강장으로),Move (경의중앙선 가좌 Bound for 승강장으로),(1F) 경의중앙선 가좌 방면 승강장으로 이동
+Move,🚶,1F,이동 (경의중앙선 수색 방면 승강장으로),Move (경의중앙선 수색 Bound for 승강장으로),(1F) 경의중앙선 수색 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (성수 방면),Enter Elevator (성수 Bound for),성수 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 ((휠체어칸)),Board ((휠체어칸)),승차(휠체어칸) 승차
+Move,🚶,3F,이동 (2호선 성수 방면 승강장으로),Move (2Line  성수 Bound for 승강장으로),(3F) 2호선 성수 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 하차 (지하1층 대합실 후 동대문사문화공원 방면 표 내는 곳 후),Exit Elevator (지하1층 대합실 후 동대문사문화공원 Bound for 표 내는 곳 후),지하1층 대합실 하차 후 동대문역사문화공원 방면 표 내는 곳 통과 후 엘리베이터 탑승
+Elevator Activity,🛗,1F,엘리베이터 하차 (7번 출입구),Exit Elevator (7번 Exit),(1F) 7번 출입구 엘리베이터 하차
+Move,🚶,2F,"이동 (2,3번 출입구와 대합실 사이 연결통로)","Move (2,3번 Exit와 대합실 사이 연결통로)","(2F) 2,3번 출입구와 대합실 사이 연결통로 이동"
+Move,🚶,2F,이동 (대합실로),Move (대합실로),(2F) 대합실로 이동
+Move,🚶,2F,이동 (통로로),Move (통로로),(2F) 이동통로로 이동
+Move,🚶,3F,이동 (건대입구 방면 승강장으로),Move (건대입구 Bound for 승강장으로),(3F) 건대입구 방면 승강장으로 이동
+Move,🚶,3F,이동 (대합실로),Move (대합실로),(3F) 대합실로 이동
+Move,🚶,3F,이동 (차량기지 횡단육교로),Move (차량기지 횡단육교로),(3F) 차량기지 횡단육교로 이동
+Move,🚶,3F,이동 (표 내는 곳 후 구의 방면 승강장),Move (표 내는 곳 후 구의 Bound for 승강장),(3F) 표 내는 곳 통과 후 구의 방면 승강장 이동
+Move,🚶,B1,이동 (2호선 대합실로),Move (2Line  대합실로),(B1) 2호선 대합실로 이동
+Move,🚶,B1,이동 (5호선 대합실로),Move (5Line  대합실로),(B1) 5호선 대합실로 이동
+Elevator Activity,🛗,B1,엘리베이터 탑승 (대합실 방향),Enter Elevator (대합실 방향),(B1) 대합실 방향 엘리베이터 탑승
+Move,🚶,B1,이동 (대합실),Move (대합실),(B1) 대합실 이동
+Move,🚶,B1,이동 (대합실로),Move (대합실로),(B1) 대합실로 이동
+Move,🚶,B1,이동 (동대문 방면 승강장으로),Move (동대문 Bound for 승강장으로),(B1) 동대문 방면 승강장으로 이동
+Move,🚶,B1,이동 (수인분당선 대합실로),Move (수인분당선 대합실로),(B1) 수인분당선 대합실로 이동
+Move,🚶,B1,이동 (승강장으로),Move (승강장으로),(B1) 승강장으로 이동
+Move,🚶,B1,이동 (지하1층 대합실로),Move (지하1층 대합실로),(B1) 지하1층 대합실로 이동
+Gate,🎫,B1,게이트 통과 (표 내는 곳),Pass Gate (표 내는 곳),(B1) 표 내는 곳 통과
+Move,🚶,B2,이동 (9호선 대합실로),Move (9Line  대합실로),(B2) 9호선 대합실로 이동
+Move,🚶,B2,"이동 (9호선, 공항철도 대합실로)","Move (9Line , 공항철도 대합실로)","(B2) 9호선, 공항철도 대합실로 이동"
+Move,🚶,B2,이동 (대합실),Move (대합실),(B2) 대합실 이동
+Move,🚶,B2,이동 (대합실로),Move (대합실로),(B2) 대합실로 이동
+Move,🚶,B2,이동 (합정 방면 승강장으로),Move (합정 Bound for 승강장으로),(B2) 합정 방면 승강장으로 이동
+Elevator Activity,🛗,B3,엘리베이터 탑승 (4호선 명동 방면 승강장 7-2 출입문 앞),Enter Elevator (4Line  명동 Bound for 승강장 7-2 출입문 앞),(B3) 4호선 명동역 방면 승강장 7-2 출입문 앞 엘리베이터 탑승
+Move,🚶,B3,이동 (6호선 방향 환승통로로),Move (6Line  방향 환승통로로),(B3) 6호선 방향 환승통로로 이동
+Move,🚶,B3,이동 (9호선 공항시장 방면 승강장으로),Move (9Line  공항시장 Bound for 승강장으로),(B3) 9호선 공항시장 방면 승강장으로 이동
+Move,🚶,B3,이동 (대합실로),Move (대합실로),(B3) 대합실로 이동
+Elevator Activity,🛗,B3,엘리베이터 하차 (지하3층),Exit Elevator (지하3층),(B3) 지하3층 엘리베이터 하차
+Move,🚶,B3,이동 (표 내는 곳 후 3호선 승강장 방향 로),Move (표 내는 곳 후 3Line  승강장 방향 로),(B3) 표 내는 곳 통과 후 3호선 승강장 방향 엘리베이터 로 이동
+Move,🚶,B4,이동 (9호선 개화 방면 승강장으로),Move (9Line  개화 Bound for 승강장으로),(B4) 9호선 개화 방면 승강장으로 이동
+Move,🚶,B4,이동 (대합실로),Move (대합실로),(B4) 대합실로 이동
+Elevator Activity,🛗,B4,엘리베이터 하차 (영등포시장방면),Exit Elevator (영등포시장Bound for),(B4) 영등포시장방면 엘리베이터 하차
+Elevator Activity,🛗,B4,엘리베이터 탑승 (지하1층 대합실 방면),Enter Elevator (지하1층 대합실 Bound for),(B4) 지하1층 대합실 방면 엘리베이터 탑승
+Move,🚶,B5,이동 (2호선 신정네거리 방면 승강장으로),Move (2Line  신정네거리 Bound for 승강장으로),(B5) 2호선 신정네거리 방면 승강장으로 이동
+Move,🚶,B5,이동 (양평 방면 승강장으로),Move (양평 Bound for 승강장으로),(B5) 양평 방면 승강장으로 이동
+Move,🚶,,이동 ((BM) 대합실 및 표 내는 곳),Move ((BM) 대합실 및 표 내는 곳),(BM) 대합실 이동 및 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 하차 (1번 출입구 3호기 B2층),Exit Elevator (1번 Exit 3호기 B2층),1번 출입구 E/L 3호기 B2층 하차
+Gate,🎫,,게이트 통과 (1번/4번 출입구 방향 표 내는 곳),Pass Gate (1번/4번 Exit 방향 표 내는 곳),1번/4번 출입구 방향 표 내는 곳 통과
+Subway Activity,🚉,,승차 (1번칸 휠체어리프트),Board (1번칸 휠체어리프트),1번칸 옆 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 대합실 방향),Enter Elevator (1Line  대합실 방향),1호선 대합실 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 동묘앞 방면 대합실 방향 내부),Enter Elevator (1Line  동묘앞 Bound for 대합실 방향 내부),1호선 동묘앞 방면 대합실 방향 내부 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 제기동 방면 대합실 방향 내부),Enter Elevator (1Line  제기동 Bound for 대합실 방향 내부),1호선 제기동 방면 대합실 방향 내부 엘리베이터 탑승
+Move,🚶,,이동 (1호선 환승 방향),Move (1Line  환승 방향),1호선 환승 엘리베이터 방향 이동
+Elevator Activity,🛗,,엘리베이터 하차 (2-1번 출입구 지하1층),Exit Elevator (2-1번 Exit 지하1층),2-1번 출입구 지하1층 엘리베이터 하차
+Subway Activity,🚉,,승차 (2번/3번 출입구 방향 휠체어리프트),Board (2번/3번 Exit 방향 휠체어리프트),2번/3번 출입구 방향 휠체어리프트 탑승
+Move,🚶,,이동 (2호선 뚝섬 방면 승강장으로),Move (2Line  뚝섬 Bound for 승강장으로),2호선 뚝섬 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 성수 방면),Enter Elevator (2Line  성수 Bound for),2호선 성수 방면 엘리베이터 탑승
+Move,🚶,,이동 (2호선 용답 방면 승강장으로),Move (2Line  용답 Bound for 승강장으로),2호선 용답 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 하차 (3번 출입구 전방 지하 2층),Exit Elevator (3번 Exit 전방 지하 2층),3번 출입구 전방 지하 2층 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 하차 (3번출입구 지하 1층),Exit Elevator (3번Exit 지하 1층),3번출입구 지하 1층 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (3번칸 근처),Enter Elevator (3번칸 근처),3번칸 근처 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 녹번 방면 환승통로 방향),Enter Elevator (3Line  녹번 Bound for 환승통로 방향),3호선 녹번 방면 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 대합실 방향),Enter Elevator (3Line  대합실 방향),3호선 대합실 방향 엘리베이터 탑승
+Move,🚶,,이동 (3호선 대합실 방향 환승통로로),Move (3Line  대합실 방향 환승통로로),3호선 대합실 방향 환승통로로 이동
+Move,🚶,,이동 (3호선 승강장 2번칸에 위치한 환승 대합실로 후 환승),Move (3Line  승강장 2번칸에 위치한 환승 대합실로 후 환승),3호선 승강장 2번칸에 위치한 환승 대합실로 이동 후 환승 게이트 통과
+Move,🚶,,이동 (3호선 승강장 9번칸에 위치한 환승 대합실로 후 환승),Move (3Line  승강장 9번칸에 위치한 환승 대합실로 후 환승),3호선 승강장 9번칸에 위치한 환승 대합실로 이동 후  환승게이트 통과
+Move,🚶,,이동 (3호선 연결통로로),Move (3Line  연결통로로),3호선 연결통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 연신내 방면 환승통로 방향),Enter Elevator (3Line  연신내 Bound for 환승통로 방향),3호선 연신내 방면 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 환승통로 방향),Enter Elevator (3Line  환승통로 방향),3호선 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (4호선 명동 방면),Enter Elevator (4Line  명동 Bound for),4호선 명동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (4호선 방향 환승),Enter Elevator (4Line  방향 환승),4호선 방향 환승 엘리베이터 탑승
+Move,🚶,,이동 (4호선 방향 환승통로로),Move (4Line  방향 환승통로로),4호선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (4호선 숙대입구 방면 환승통로 방향),Enter Elevator (4Line  숙대입구 Bound for 환승통로 방향),4호선 숙대입구 방면 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 대합실 방향),Enter Elevator (5Line  대합실 방향),5호선 대합실 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 방향 환승),Enter Elevator (5Line  방향 환승),5호선 방향 환승 엘리베이터 탑승
+Move,🚶,,이동 (5호선 방향 환승통로로),Move (5Line  방향 환승통로로),5호선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (6번칸 근처),Enter Elevator (6번칸 근처),6번칸 근처 엘리베이터 탑승
+Move,🚶,,이동 (6호선 방향 환승통로로),Move (6Line  방향 환승통로로),6호선 방향 환승통로로 이동
+Move,🚶,,이동 (6호선 새절 방면 승강장으로),Move (6Line  새절 Bound for 승강장으로),6호선 새절 방면 승강장으로 이동
+Move,🚶,,이동 (6호선 촌 방면 승강장으로),Move (6Line  촌 Bound for 승강장으로),6호선 역촌 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 어린이대공원 방면),Enter Elevator (7Line  어린이대공원 Bound for),7호선 어린이대공원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 장암 방면),Enter Elevator (7Line  장암 Bound for),7호선 장암 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 중곡 방면),Enter Elevator (7Line  중곡 Bound for),7호선 중곡 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (7호선 환승통로 방향 휠체어리프트),Board (7Line  환승통로 방향 휠체어리프트),7호선 환승통로 방향 휠체어리프트 탑승
+Subway Activity,🚉,,승차 (8번칸 휠체어리프트),Board (8번칸 휠체어리프트),8번칸 옆 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 방향 환승),Enter Elevator (9Line  방향 환승),9호선 방향 환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 승강장 방향),Enter Elevator (9Line  승강장 방향),9호선 승강장 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 환승),Enter Elevator (9Line  환승),9호선 환승 엘리베이터 탑승
+Elevator Activity,🛗,,"엘리베이터 탑승 (9호선, 공항철도 방향 환승)","Enter Elevator (9Line , 공항철도 방향 환승)","9호선, 공항철도 방향 환승 엘리베이터 탑승"
+Subway Activity,🚉,,승차 (B1 대합실 EV),Board (B1 대합실 EV),B1 대합실 EV탑승
+Subway Activity,🚉,,승차 (B5 상선 승강장(6-3) EV),Board (B5 상선 승강장(6-3) EV),B5 상선 승강장(6-3) EV 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (개집표기 후 1번출입구 앞),Enter Elevator (개집표기 후 1번Exit 앞),개집표기 통과 후 1번출입구 앞 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (개집표기 후 고객안내센터 맞은편 성수방면),Enter Elevator (개집표기 후 고객안내센터 맞은편 성수Bound for),개집표기 통과 후 고객안내센터 맞은편 성수방면 엘리베이터 탑승
+Elevator Activity,🛗,,"엘리베이터 탑승 (고객안전실 앞 (8번출구 방향) 후, 를)","Enter Elevator (고객안전실 앞 (8번Exit 방향) 후, 를)","고객안전실 앞 게이트(8번출구 방향) 통과 후, 엘리베이터를 탑승"
+Elevator Activity,🛗,,엘리베이터 탑승 (김포공항 방면),Enter Elevator (김포공항 Bound for),김포공항 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (녹사평 방면 8-4 근처),Enter Elevator (녹사평 Bound for 8-4 근처),녹사평 방면  8-4 근처 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 하차 (당산방면 지하1층),Exit Elevator (당산Bound for 지하1층),당산방면 지하1층 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (대합실 방향),Enter Elevator (대합실 방향),대합실 방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 (대합실 방향 휠체어리프트),Board (대합실 방향 휠체어리프트),대합실 방향 휠체어리프트 탑승
+Move,🚶,B2,이동 (대합실로 후),Move (대합실로 후),대합실(B2)로 이동 후 게이트 통과
+Elevator Activity,🛗,,엘리베이터 하차 (문래방면 지하1층),Exit Elevator (문래Bound for 지하1층),문래방면 지하1층 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (방화 방면),Enter Elevator (방화 Bound for),방화 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (수인분당선 방향 환승),Enter Elevator (수인분당선 방향 환승),수인분당선 방향 환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (숙대입구 방면 승강장 2-3 부근),Enter Elevator (숙대입구 Bound for 승강장 2-3 부근),숙대입구 방면 승강장 2-3 부근 엘리베이터 탑승
+Unknown,?,,승강장 연결된 계단 사이 위치한 환승통로 진입,승강장 연결된 계단 사이 위치한 환승통로 진입,승강장 연결된 계단 사이 위치한 환승통로 진입
+Elevator Activity,🛗,,엘리베이터 탑승 (신분당선 방향 환승),Enter Elevator (신분당선 방향 환승),신분당선 방향 환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승,Enter Elevator,엘리베이터 탑승
+Move,🚶,,이동 (우이신설선 대합실로),Move (우이신설선 대합실로),우이신설선 대합실로 이동
+Move,🚶,,이동 (지하 1층으로),Move (지하 1층으로),지하 1층으로 이동
+Move,🚶,,이동 (지하 2층 대합실로),Move (지하 2층 대합실로),지하 2층 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 하차 (지하 2층 대합실),Exit Elevator (지하 2층 대합실),지하 2층 대합실에서 엘리베이터 하차
+Move,🚶,,이동 (지하1층 대합실),Move (지하1층 대합실),지하1층 대합실 이동
+Elevator Activity,🛗,,엘리베이터 하차 (지하1층 대합실 후 을지로3가 방면 표 내는 곳 후),Exit Elevator (지하1층 대합실 후 을지로3가 Bound for 표 내는 곳 후),지하1층 대합실 하차 후 을지로3가 방면 표 내는 곳 통과 후 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 하차 (지하1층 대합실 후 을지로3가방면 표 내는 곳),Exit Elevator (지하1층 대합실 후 을지로3가Bound for 표 내는 곳),지하1층 대합실 하차 후 을지로3가방면 표 내는 곳 옆 엘리베이터 탑승
+Subway Activity,🚉,,하차 (지하1층 대합실 후 오른쪽으로 90M),Alight (지하1층 대합실 후 오른쪽으로 90M),지하1층 대합실 하차후 오른쪽으로 90M 이동
+Elevator Activity,🛗,,엘리베이터 하차 (지하1층),Exit Elevator (지하1층),지하1층 엘리베이터 하차
+Subway Activity,🚉,,하차 (지하5층 5호선 승강장),Alight (지하5층 5Line  승강장),지하5층 5호선 승강장 하차
+Gate,🎫,,게이트 통과 (표 내는 곳),Pass Gate (표 내는 곳),표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (표 내는 곳 후 2호선 대합실 방향),Enter Elevator (표 내는 곳 후 2Line  대합실 방향),표 내는 곳 통과 후 2호선 대합실 방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 (현 승강장 마천방면 둔촌동행 열차),Board (현 승강장 마천Bound for 둔촌동행 열차),현 승강장에서 마천방면 둔촌동행 열차 탑승
+Subway Activity,🚉,,승차 (현 승강장 상일동 방면 길동행 열차),Board (현 승강장 상일동 Bound for 길동행 열차),현 승강장에서 상일동 방면 길동행 열차 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (환승대합실 방향),Enter Elevator (환승대합실 방향),환승대합실 방향 엘리베이터 탑승
+Move,🚶,,이동 (환승대합실로),Move (환승대합실로),환승대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (환승통로 방향),Enter Elevator (환승통로 방향),환승통로 방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 (환승통로 방향 휠체어리프트),Board (환승통로 방향 휠체어리프트),환승통로 방향 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (환승통로 신분당선 승강장 방향),Enter Elevator (환승통로 신분당선 승강장 방향),환승통로 신분당선 승강장 방향 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (환승통로 표 내는 곳),Pass Gate (환승통로 표 내는 곳),환승통로 표 내는 곳 통과
+Move,🚶,,이동 (환승통로로),Move (환승통로로),환승통로로 이동
+Elevator Activity,🛗,,"엘리베이터 탑승 (환승통로로 , 9호선 B2)","Enter Elevator (환승통로로 , 9Line  B2)","환승통로로 이동, 9호선 B2 엘리베이터 탑승"
+Elevator Activity,🛗,,엘리베이터 탑승 (회현방면 승강장 9-1 부근),Enter Elevator (회현Bound for 승강장 9-1 부근),회현방면 승강장 9-1 부근 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (효창공원앞 방면 1-1 근처),Enter Elevator (효창공원앞 Bound for 1-1 근처),효창공원앞 방면  1-1 근처 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 대합실 방향 앞 표 내는 곳 후),Enter Elevator (6Line  대합실 방향 앞 표 내는 곳 후),6호선 대합실 방향 엘리베이터 앞 표 내는 곳 통과 후 엘리베이터 탑승
+Move,🚶,1F,이동 (1호선 영등포 방면 승강장으로),Move (1Line  영등포 Bound for 승강장으로),(1F) 1호선 영등포 방면 승강장으로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (2번 출입구),Enter Elevator (2번 Exit),(1F) 2번 출입구 엘리베이터 탑승
+Move,🚶,1F,이동 (3번 출입구 로),Move (3번 Exit 로),(1F) 3번 출입구 옆 엘리베이터 로 이동
+Move,🚶,1F,이동 (대합실로),Move (대합실로),(1F) 대합실로 이동
+Elevator Activity,🛗,1F,엘리베이터 탑승 (환승통로 가장 안쪽 (4호기)),Enter Elevator (환승통로 가장 안쪽 (4호기)),(1F) 환승통로 가장 안쪽 엘리베이터(4호기) 탑승
+Elevator Activity,🛗,1F,엘리베이터 탑승 (환승통로 중간에 위치한 경사로를 올라가 (3호기)),Enter Elevator (환승통로 중간에 위치한 경사로를 올라가 (3호기)),(1F) 환승통로 중간에 위치한 경사로를 올라가 엘리베이터(3호기) 탑승
+Move,🚶,2F,이동 (표 내는 곳 후 1번 출입구 앞),Move (표 내는 곳 후 1번 Exit 앞),(2F) 표 내는 곳 통과 후 1번 출입구 앞 엘리베이터 이동
+Move,🚶,B1,이동 (1호선 동묘앞 방면 대합실로),Move (1Line  동묘앞 Bound for 대합실로),(B1) 1호선 동묘앞 방면 대합실로 이동
+Move,🚶,B1,이동 (1호선 제기동 방면 대합실로),Move (1Line  제기동 Bound for 대합실로),(B1) 1호선 제기동 방면 대합실로 이동
+Move,🚶,B1,이동 (1호선 종로3가 대합실로),Move (1Line  종로3가 대합실로),(B1) 1호선 종로3가(1)역 대합실로 이동
+Move,🚶,B1,이동 (6호선 방향 환승통로로),Move (6Line  방향 환승통로로),(B1) 6호선 방향 환승통로로 이동
+Gate,🎫,B1,게이트 통과 (대합실 방향 앞 표 내는 곳),Pass Gate (대합실 방향 앞 표 내는 곳),(B1) 대합실 방향 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,B1,이동 (지하1층 대합실로 후 전용 (개집표기) 교통카드),Move (지하1층 대합실로 후 전용 (개집표기) 교통카드),(B1) 지하1층 대합실로 이동 후 E/L 전용 게이트(개집표기) 교통카드 태그
+Move,🚶,B1,이동 (환승대합실로),Move (환승대합실로),(B1) 환승대합실로 이동
+Move,🚶,B1,이동 (환승통로로),Move (환승통로로),(B1) 환승통로로 이동
+Move,🚶,B2,이동 (표 내는 곳 후 대합실 로),Move (표 내는 곳 후 대합실 로),(B2)  표 내는 곳 통과 후 대합실 엘리베이터로 이동
+Move,🚶,B2,이동 (2호선 낙성대 방면 승강장으로),Move (2Line  낙성대 Bound for 승강장으로),(B2) 2호선 낙성대 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 을지로4가 방면 승강장으로),Move (2Line  을지로4가 Bound for 승강장으로),(B2) 2호선 을지로4가 방면 승강장으로 이동
+Move,🚶,B2,이동 (김포공항 방면 승강장으로),Move (김포공항 Bound for 승강장으로),(B2) 김포공항 방면 승강장으로 이동
+Move,🚶,B2,이동 (방화 방면 승강장으로),Move (방화 Bound for 승강장으로),(B2) 방화 방면 승강장으로 이동
+Move,🚶,B2,이동 (을지로3가 방면 승강장으로),Move (을지로3가 Bound for 승강장으로),(B2) 을지로3가 방면 승강장으로 이동
+Move,🚶,B2,이동 (표 내는 곳 후 대합실 로),Move (표 내는 곳 후 대합실 로),(B2) 표 내는 곳 통과 후 대합실 엘리베이터로 이동
+Move,🚶,B2,이동 (환승 대합실로),Move (환승 대합실로),(B2) 환승 대합실로 이동
+Move,🚶,B2,이동 (환승통로),Move (환승통로),(B2) 환승통로 이동
+Move,🚶,B2,이동 (환승통로 이용하여 1호선 종로5가 방면 승강장으로),Move (환승통로 이용하여 1Line  종로5가 Bound for 승강장으로),(B2) 환승통로 이용하여 1호선 종로5가 방면 승강장으로 이동
+Move,🚶,B2,이동 (환승통로로),Move (환승통로로),(B2) 환승통로로 이동
+Move,🚶,B3,이동 (3호선 환승통로로),Move (3Line  환승통로로),(B3) 3호선 환승통로로 이동
+Move,🚶,B3,이동 (4호선 동대문 방면 승강장으로),Move (4Line  동대문 Bound for 승강장으로),(B3) 4호선 동대문 방면 승강장으로 이동
+Move,🚶,B3,이동 (4호선 명동 방면 승강장으로),Move (4Line  명동 Bound for 승강장으로),(B3) 4호선 명동 방면 승강장으로 이동
+Move,🚶,B3,이동 (4호선 승강장으로),Move (4Line  승강장으로),(B3) 4호선 승강장으로 이동
+Move,🚶,B3,이동 (4호선 충무로 방면 승강장으로),Move (4Line  충무로 Bound for 승강장으로),(B3) 4호선 충무로 방면 승강장으로 이동
+Move,🚶,B3,이동 (5호선 대합실로),Move (5Line  대합실로),(B3) 5호선 대합실로 이동
+Move,🚶,B3,이동 (7호선 어린이대공원 방면 승강장으로),Move (7Line  어린이대공원 Bound for 승강장으로),(B3) 7호선 어린이대공원 방면 승강장으로 이동
+Move,🚶,B3,이동 (7호선 중곡 방면 승강장으로),Move (7Line  중곡 Bound for 승강장으로),(B3) 7호선 중곡 방면 승강장으로 이동
+Move,🚶,B3,"이동 (9호선, 공항철도 방향 환승 통로로)","Move (9Line , 공항철도 방향 환승 통로로)","(B3) 9호선, 공항철도 방향 환승 통로로 이동"
+Move,🚶,B3,"이동 (9호선, 공항철도 방향 환승통로로)","Move (9Line , 공항철도 방향 환승통로로)","(B3) 9호선, 공항철도 방향 환승통로로 이동"
+Move,🚶,B3,이동 (승강장 으로),Move (승강장 으로),(B3) 승강장 으로 이동
+Elevator Activity,🛗,B3,엘리베이터 하차,Exit Elevator,(B3) 엘리베이터 하차
+Move,🚶,B3,이동 (일반열차 대합실로),Move (일반열차 대합실로),(B3) 일반열차 대합실로 이동
+Elevator Activity,🛗,B3,엘리베이터 탑승 (지하3층 대합실 방향),Enter Elevator (지하3층 대합실 방향),(B3) 지하3층 대합실 방향 엘리베이터 탑승
+Move,🚶,B4,이동 (3호선 동대입구 방면 승강장으로),Move (3Line  동대입구 Bound for 승강장으로),(B4) 3호선 동대입구 방면 승강장으로 이동
+Move,🚶,B4,이동 (3호선 을지로3가 방면 승강장으로),Move (3Line  을지로3가 Bound for 승강장으로),(B4) 3호선 을지로3가 방면 승강장으로 이동
+Move,🚶,B4,이동 (신분당선 신논현 방면 승강장으로),Move (신분당선 신논현 Bound for 승강장으로),(B4) 신분당선 신논현 방면 승강장으로 이동
+Move,🚶,B4,이동 (신분당선 신사 방면 승강장으로),Move (신분당선 신사 Bound for 승강장으로),(B4) 신분당선 신사 방면 승강장으로 이동
+Elevator Activity,🛗,B4,엘리베이터 탑승 (표 내는 곳 후 5호선 양평 방향),Enter Elevator (표 내는 곳 후 5Line  양평 방향),(B4) 표 내는 곳 통과 후 5호선 양평 방향 엘리베이터 탑승
+Move,🚶,B4,이동 (환승통로로),Move (환승통로로),(B4) 환승통로로 이동
+Move,🚶,B5,이동 (5호선 을지로4가 방면 승강장으로),Move (5Line  을지로4가 Bound for 승강장으로),(B5) 5호선 을지로4가 방면 승강장으로 이동
+Move,🚶,B5,이동 (5호선 청구 방면 승강장으로),Move (5Line  청구 Bound for 승강장으로),(B5) 5호선 청구 방면 승강장으로 이동
+Move,🚶,B5,이동 (수인분당선 선정릉 방면 승강장으로),Move (수인분당선 선정릉 Bound for 승강장으로),(B5) 수인분당선 선정릉 방면 승강장으로 이동
+Move,🚶,B5,이동 (수인분당선 압구정로데오 방면 승강장으로),Move (수인분당선 압구정로데오 Bound for 승강장으로),(B5) 수인분당선 압구정로데오 방면 승강장으로 이동
+Move,🚶,B6,이동 (수인분당선 구룡 방면 승강장으로),Move (수인분당선 구룡 Bound for 승강장으로),(B6) 수인분당선 구룡 방면 승강장으로 이동
+Move,🚶,B6,이동 (수인분당선 한티 방면 승강장으로),Move (수인분당선 한티 Bound for 승강장으로),(B6) 수인분당선 한티 방면 승강장으로 이동
+Move,🚶,F1,이동 (7호선 수락산 방면),Move (7Line  수락산 Bound for),(F1) 7호선 수락산 방면 엘리베이터 이동
+Move,🚶,,이동 (1번/6번 근처 개집표기로),Move (1번/6번 근처 개집표기로),1번/6번 근처 개집표기로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 환승),Enter Elevator (1Line  환승),1호선 환승 엘리베이터 탑승
+Move,🚶,,이동 (2F 대합실로),Move (2F 대합실로),2F 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (2번출입구 지하1층),Enter Elevator (2번Exit 지하1층),2번출입구 지하1층 엘리베이터 탑승
+Move,🚶,,이동 (2호선 대합실로),Move (2Line  대합실로),2호선 대합실로 이동
+Subway Activity,🚉,,승차 (3) 종로3가 방면 (휠체어칸)),Board (3) 종로3가 Bound for (휠체어칸)),3) 종로3가 방면 승차 (휠체어칸)
+Gate,🎫,,게이트 통과 (3번/4번 출입구 방향 표 내는 곳),Pass Gate (3번/4번 Exit 방향 표 내는 곳),3번/4번 출입구 방향 표 내는 곳 통과
+Subway Activity,🚉,,승차 (3호선 대합실 방향 휠체어리프트),Board (3Line  대합실 방향 휠체어리프트),3호선 대합실 방향 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 승강장 방향),Enter Elevator (3Line  승강장 방향),3호선 승강장 방향 엘리베이터 탑승
+Move,🚶,,이동 (4번 출입구),Move (4번 Exit),4번 출입구 방면으로 이동
+Subway Activity,🚉,,승차 (4호선 동작 방면 휠체어리프트),Board (4Line  동작 Bound for 휠체어리프트),4호선 동작 방면 휠체어리프트 탑승
+Subway Activity,🚉,,승차 (4호선 사당 방면 휠체어리프트),Board (4Line  사당 Bound for 휠체어리프트),4호선 사당 방면 휠체어리프트 탑승
+Gate,🎫,,게이트 통과 (5호선 대합실 표 내는 곳),Pass Gate (5Line  대합실 표 내는 곳),5호선 대합실 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 방향),Enter Elevator (5Line  방향),5호선 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 송정 방면),Enter Elevator (5Line  송정 Bound for),5호선 송정 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 승강장 방향),Enter Elevator (5Line  승강장 방향),5호선 승강장 방향 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (6번 출입구 방향 표 내는 곳),Pass Gate (6번 Exit 방향 표 내는 곳),6번 출입구 방향 표 내는 곳 통과
+Subway Activity,🚉,,승차 (6호선 대합실 방향 휠체어리프트),Board (6Line  대합실 방향 휠체어리프트),6호선 대합실 방향 휠체어리프트 탑승
+Move,🚶,,이동 (6호선 대합실로),Move (6Line  대합실로),6호선 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 방향 환승),Enter Elevator (6Line  방향 환승),6호선 방향 환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 승강장 방향),Enter Elevator (6Line  승강장 방향),6호선 승강장 방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 (6호선 승강장 방향 휠체어리프트),Board (6Line  승강장 방향 휠체어리프트),6호선 승강장 방향 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 3번 출입구),Enter Elevator (7Line  3번 Exit),7호선 3번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 대합실 방향),Enter Elevator (7Line  대합실 방향),7호선 대합실 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 개화 방면),Enter Elevator (9Line  개화 Bound for),9호선 개화 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 공항시장 방면),Enter Elevator (9Line  공항시장 Bound for),9호선 공항시장 방면 엘리베이터 탑승
+Subway Activity,🚉,,하차 (B1 대합실 EV),Alight (B1 대합실 EV),B1 대합실 EV 하차
+Move,🚶,,이동 (B1 대합실로),Move (B1 대합실로),B1 대합실로 이동
+Unknown,?,,B5 상선 승강장(6-3),B5 상선 승강장(6-3),B5 상선 승강장(6-3)
+Unknown,?,,B5 하선 승강장(3-2),B5 하선 승강장(3-2),B5 하선 승강장(3-2)
+Elevator Activity,🛗,,엘리베이터 탑승 (전용 (개집표기) 교통카드 후 거여 방면),Enter Elevator (전용 (개집표기) 교통카드 후 거여 Bound for),E/L 전용 게이트(개집표기) 교통카드 태그 후 거여 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (가산디지털단지 방면 앞 표 내는 곳),Pass Gate (가산디지털단지 Bound for 앞 표 내는 곳),가산디지털단지 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (강남구청 방면 앞 표 내는 곳),Pass Gate (강남구청 Bound for 앞 표 내는 곳),강남구청 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (강변 방면),Enter Elevator (강변 Bound for),강변 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (개롱 방면 앞 표 내는 곳),Pass Gate (개롱 Bound for 앞 표 내는 곳),개롱 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (개집표기),Pass Gate (개집표기),개집표기 통과
+Gate,🎫,,게이트 통과 (건대입구 방면 앞 표 내는 곳),Pass Gate (건대입구 Bound for 앞 표 내는 곳),건대입구 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과,Pass Gate,게이트 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 검암 방면),Enter Elevator (공항철도 검암 Bound for),공항철도 검암 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 계양 방면),Enter Elevator (공항철도 계양 Bound for),공항철도 계양 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 공항화물청사 방면),Enter Elevator (공항철도 공항화물청사 Bound for),공항철도 공항화물청사 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 김포공항 방면),Enter Elevator (공항철도 김포공항 Bound for),공항철도 김포공항 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 마곡나루 방면),Enter Elevator (공항철도 마곡나루 Bound for),공항철도 마곡나루 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 영종 방면),Enter Elevator (공항철도 영종 Bound for),공항철도 영종 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 청라국제도시 방면),Enter Elevator (공항철도 청라국제도시 Bound for),공항철도 청라국제도시 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (광명사거리 방면 앞 표 내는 곳),Pass Gate (광명사거리 Bound for 앞 표 내는 곳),광명사거리 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (구의 방면),Enter Elevator (구의 Bound for),구의 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (길동 방면 앞 표 내는 곳),Pass Gate (길동 Bound for 앞 표 내는 곳),길동 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (길음 방면 앞 표 내는 곳),Pass Gate (길음 Bound for 앞 표 내는 곳),길음 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (김포골드라인 대합실로),Move (김포골드라인 대합실로),김포골드라인 대합실로 이동
+Gate,🎫,,게이트 통과 (논현 방면 앞 표 내는 곳),Pass Gate (논현 Bound for 앞 표 내는 곳),논현 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (당산 방면 앞 표 내는 곳),Pass Gate (당산 Bound for 앞 표 내는 곳),당산 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (대합실 연결통로),Move (대합실 연결통로),대합실 연결통로 이동
+Gate,🎫,,게이트 통과 (동대문 방면 앞 표 내는 곳),Pass Gate (동대문 Bound for 앞 표 내는 곳),동대문 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (동대문 방면),Enter Elevator (동대문 Bound for),동대문 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (동대문사문화공원 방면 (휠체어칸)),Board (동대문사문화공원 Bound for (휠체어칸)),동대문역사문화공원 방면 승차 (휠체어칸)
+Gate,🎫,,게이트 통과 (동대문사문화공원 방면 앞 표 내는 곳),Pass Gate (동대문사문화공원 Bound for 앞 표 내는 곳),동대문역사문화공원 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (둔촌동 방면 앞 표 내는 곳),Pass Gate (둔촌동 Bound for 앞 표 내는 곳),둔촌동 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (뚝섬 방면 앞 표 내는 곳),Pass Gate (뚝섬 Bound for 앞 표 내는 곳),뚝섬 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (마곡 방면 앞 표 내는 곳),Pass Gate (마곡 Bound for 앞 표 내는 곳),마곡 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (마천 방면 앞 표 내는 곳),Pass Gate (마천 Bound for 앞 표 내는 곳),마천 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (명일 방면 앞),Move (명일 Bound for 앞),명일 방면 엘리베이터 앞 이동
+Gate,🎫,,게이트 통과 (명일 방면 앞 표 내는 곳),Pass Gate (명일 Bound for 앞 표 내는 곳),명일 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (미아 방면 앞 표 내는 곳),Pass Gate (미아 Bound for 앞 표 내는 곳),미아 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (미아사거리 방면 앞 표 내는 곳),Pass Gate (미아사거리 Bound for 앞 표 내는 곳),미아사거리 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (발산 방면 앞 표 내는 곳),Pass Gate (발산 Bound for 앞 표 내는 곳),발산 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (방이 방면 앞 표 내는 곳),Pass Gate (방이 Bound for 앞 표 내는 곳),방이 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (삼각지 방면 앞 표 내는 곳),Pass Gate (삼각지 Bound for 앞 표 내는 곳),삼각지 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (상도 방면 앞 표 내는 곳),Pass Gate (상도 Bound for 앞 표 내는 곳),상도 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (상왕십리 방면 앞 표 내는 곳),Pass Gate (상왕십리 Bound for 앞 표 내는 곳),상왕십리 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (상일동 방면 앞),Move (상일동 Bound for 앞),상일동 방면 엘리베이터 앞 이동
+Gate,🎫,,게이트 통과 (서울 방면 앞 표 내는 곳),Pass Gate (서울 Bound for 앞 표 내는 곳),서울역 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (서해선 대합실로),Move (서해선 대합실로),서해선 대합실로 이동
+Gate,🎫,,게이트 통과 (성수 방면 앞 표 내는 곳),Pass Gate (성수 Bound for 앞 표 내는 곳),성수 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (수락산 방면),Enter Elevator (수락산 Bound for),수락산 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (수유 방면 앞 표 내는 곳),Pass Gate (수유 Bound for 앞 표 내는 곳),수유 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (신당 방면 앞 표 내는 곳),Pass Gate (신당 Bound for 앞 표 내는 곳),신당 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (신대방삼거리 방면 앞 표 내는 곳),Pass Gate (신대방삼거리 Bound for 앞 표 내는 곳),신대방삼거리 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (신도림 방면 앞 표 내는 곳),Pass Gate (신도림 Bound for 앞 표 내는 곳),신도림 방면 엘리베이터 앞 표 내는 곳 통과
+Unknown,?,,신분당선 논현방면 엘리베이터 탑,신분당선 논현방면 엘리베이터 탑,신분당선 논현방면 엘리베이터 탑
+Elevator Activity,🛗,,엘리베이터 탑승 (신분당선 논현방면),Enter Elevator (신분당선 논현Bound for),신분당선 논현방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신분당선 승강장 방향),Enter Elevator (신분당선 승강장 방향),신분당선 승강장 방향 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (신사 방면 앞 표 내는 곳),Pass Gate (신사 Bound for 앞 표 내는 곳),신사 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (신설동 방면),Enter Elevator (신설동 Bound for),신설동 방면 엘리베이터 탑승
+Unknown,?,,신흥 방면 엘리베이터 이용,신흥 방면 엘리베이터 이용,신흥 방면 엘리베이터 이용
+Gate,🎫,,게이트 통과 (쌍문 방면 앞 표 내는 곳),Pass Gate (쌍문 Bound for 앞 표 내는 곳),쌍문 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (앞 표 내는 곳),Pass Gate (앞 표 내는 곳),엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (표 내는 곳 (카드 방향 주의)),Pass Gate (표 내는 곳 (카드 방향 주의)),엘리베이터 옆 표 내는 곳 통과(카드태그 방향 주의)
+Elevator Activity,🛗,,엘리베이터 하차,Exit Elevator,엘리베이터 하차
+Gate,🎫,,게이트 통과 (용 표 내는 곳),Pass Gate (용 표 내는 곳),엘리베이터용 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (영등포구청 방면 앞 표 내는 곳),Pass Gate (영등포구청 Bound for 앞 표 내는 곳),영등포구청 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (옥수 방면 앞 표 내는 곳),Pass Gate (옥수 Bound for 앞 표 내는 곳),옥수 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (왕십리 방면 앞 표 내는 곳),Pass Gate (왕십리 Bound for 앞 표 내는 곳),왕십리 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (우이신설선 방향 환승),Enter Elevator (우이신설선 방향 환승),우이신설선 방향 환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (우이신설선 보문 방면),Enter Elevator (우이신설선 보문 Bound for),우이신설선 보문 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (우이신설선 정릉 방면),Enter Elevator (우이신설선 정릉 Bound for),우이신설선 정릉 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (우장산 방면 앞 표 내는 곳),Pass Gate (우장산 Bound for 앞 표 내는 곳),우장산 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (을지로3가방면 표 내는 곳 의),Enter Elevator (을지로3가Bound for 표 내는 곳 의),을지로3가방면 표 내는 곳 옆의 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (을지로4가 방면 앞 표 내는 곳),Pass Gate (을지로4가 Bound for 앞 표 내는 곳),을지로4가 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (을지로입구 방면 앞 표 내는 곳),Pass Gate (을지로입구 Bound for 앞 표 내는 곳),을지로입구 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (이촌 방면 앞 표 내는 곳),Pass Gate (이촌 Bound for 앞 표 내는 곳),이촌 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (잠실 방면 앞 표 내는 곳),Pass Gate (잠실 Bound for 앞 표 내는 곳),잠실 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (잠실 방면),Enter Elevator (잠실 Bound for),잠실 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (잠실나루 방면 앞 표 내는 곳),Pass Gate (잠실나루 Bound for 앞 표 내는 곳),잠실나루 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (잠실나루 방면),Enter Elevator (잠실나루 Bound for),잠실나루 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (잠실새내 방면 앞 표 내는 곳),Pass Gate (잠실새내 Bound for 앞 표 내는 곳),잠실새내 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (장암 방면),Enter Elevator (장암 Bound for),장암 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (종로3가 방면 (휠체어칸)),Board (종로3가 Bound for (휠체어칸)),종로3가 방면 승차 (휠체어칸)
+Gate,🎫,,게이트 통과 (종합운동장 방면 앞 표 내는 곳),Pass Gate (종합운동장 Bound for 앞 표 내는 곳),종합운동장 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (지상1층으로),Move (지상1층으로),지상1층으로 이동
+Move,🚶,,이동 (지상3층으로),Move (지상3층으로),지상3층으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (지하 2층 승강장 방향),Enter Elevator (지하 2층 승강장 방향),지하 2층 승강장 방향 엘리베이터 탑승
+Move,🚶,,"이동 (지하1층 9번,10번 출구 표내는곳 후 좌측 20M)","Move (지하1층 9번,10번 Exit 표내는곳 후 좌측 20M)","지하1층 9번,10번 출구 옆 표내는곳 통과 후 좌측 20M이동"
+Subway Activity,🚉,,하차 (지하2층 승강장),Alight (지하2층 승강장),지하2층 승강장 하차
+Subway Activity,🚉,,하차 (지하4층 하여 동대문사문화공원 방면 승강장),Alight (지하4층 하여 동대문사문화공원 Bound for 승강장),지하4층에서 하차하여  동대문역사문화공원 방면 승강장 이동
+Subway Activity,🚉,,하차 (지하4층 하여 혜화 방면 승강장),Alight (지하4층 하여 혜화 Bound for 승강장),지하4층에서 하차하여 혜화 방면 승강장 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (철산 방면),Enter Elevator (철산 Bound for),철산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (총신대입구 방면),Enter Elevator (총신대입구 Bound for),총신대입구 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (표내는 곳),Pass Gate (표내는 곳),표내는 곳 통과
+Gate,🎫,,게이트 통과 (한성대입구 방면 앞 표 내는 곳),Pass Gate (한성대입구 Bound for 앞 표 내는 곳),한성대입구 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (한양대 방면 앞 표 내는 곳),Pass Gate (한양대 Bound for 앞 표 내는 곳),한양대 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (홍대입구 방면 앞 표 내는 곳),Pass Gate (홍대입구 Bound for 앞 표 내는 곳),홍대입구 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (화곡 방면 앞 표 내는 곳),Pass Gate (화곡 Bound for 앞 표 내는 곳),화곡 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (환승),Pass Gate (환승),환승게이트 통과
+Move,🚶,,이동 (환승통로),Move (환승통로),환승통로 이동
+Unknown,?,,환승통로 이용,환승통로 이용,환승통로 이용
+Move,🚶,2F,이동 (1호선 망월사 방면),Move (1Line  망월사 Bound for),(2F) 1호선 망월사 방면 엘리베이터 이동
+Move,🚶,2F,이동 (강변 방면 승강장으로),Move (강변 Bound for 승강장으로),(2F) 강변 방면 승강장으로 이동
+Move,🚶,2F,이동 (공항철도 검암 방면 승강장으로),Move (공항철도 검암 Bound for 승강장으로),(2F) 공항철도 검암 방면 승강장으로 이동
+Move,🚶,2F,이동 (공항철도 계양 방면 승강장으로),Move (공항철도 계양 Bound for 승강장으로),(2F) 공항철도 계양 방면 승강장으로 이동
+Move,🚶,2F,이동 (공항철도 공항화물청사 방면 승강장으로),Move (공항철도 공항화물청사 Bound for 승강장으로),(2F) 공항철도 공항화물청사 방면 승강장으로 이동
+Move,🚶,2F,이동 (공항철도 김포공항 방면 승강장으로),Move (공항철도 김포공항 Bound for 승강장으로),(2F) 공항철도 김포공항 방면 승강장으로 이동
+Move,🚶,2F,이동 (공항철도 영종 방면 승강장으로),Move (공항철도 영종 Bound for 승강장으로),(2F) 공항철도 영종 방면 승강장으로 이동
+Move,🚶,2F,이동 (공항철도 청라국제도시 방면 승강장으로),Move (공항철도 청라국제도시 Bound for 승강장으로),(2F) 공항철도 청라국제도시 방면 승강장으로 이동
+Move,🚶,2F,이동 (구의 방면 승강장으로),Move (구의 Bound for 승강장으로),(2F) 구의 방면 승강장으로 이동
+Elevator Activity,🛗,2F,엘리베이터 탑승 (대림 방면 내부),Enter Elevator (대림 Bound for 내부),(2F) 대림 방면 내부 엘리베이터 탑승
+Unknown,?,2F,(2F) 수락산 방면 승강장 도착,(2F) 수락산 방면 승강장 도착,(2F) 수락산 방면 승강장 도착
+Move,🚶,2F,이동 (수락산 방면 승강장으로),Move (수락산 Bound for 승강장으로),(2F) 수락산 방면 승강장으로 이동
+Elevator Activity,🛗,2F,엘리베이터 탑승 (신대방 방면 내부),Enter Elevator (신대방 Bound for 내부),(2F) 신대방 방면 내부 엘리베이터 탑승
+Move,🚶,2F,이동 (잠실 방면 승강장으로),Move (잠실 Bound for 승강장으로),(2F) 잠실 방면 승강장으로 이동
+Move,🚶,2F,이동 (잠실나루 방면 승강장으로),Move (잠실나루 Bound for 승강장으로),(2F) 잠실나루 방면 승강장으로 이동
+Unknown,?,2F,(2F) 장암 방면 승강장 도착,(2F) 장암 방면 승강장 도착,(2F) 장암 방면 승강장 도착
+Move,🚶,2F,이동 (장암 방면 승강장으로),Move (장암 Bound for 승강장으로),(2F) 장암 방면 승강장으로 이동
+Move,🚶,3F,이동 (총신대입구 방면 승강장으로),Move (총신대입구 Bound for 승강장으로),(3F) 총신대입구 방면 승강장으로 이동
+Move,🚶,3F,이동 (표 내는 곳 후 구의 방면 승강장으로),Move (표 내는 곳 후 구의 Bound for 승강장으로),(3F) 표 내는 곳 통과 후 구의 방면 승강장으로 이동
+Elevator Activity,🛗,B1,엘리베이터 하차 (2번 출입구),Exit Elevator (2번 Exit),(B1) 2번 출입구 엘리베이터 하차
+Move,🚶,B1,이동 (6호선 대합실로),Move (6Line  대합실로),(B1) 6호선 대합실로 이동
+Move,🚶,B1,이동 (신설동 방면 승강장으로),Move (신설동 Bound for 승강장으로),(B1) 신설동 방면 승강장으로 이동
+Move,🚶,B2,이동 (4호선 동작 방면 승강장으로),Move (4Line  동작 Bound for 승강장으로),(B2) 4호선 동작 방면 승강장으로 이동
+Move,🚶,B2,이동 (4호선 사당 방면 승강장으로),Move (4Line  사당 Bound for 승강장으로),(B2) 4호선 사당 방면 승강장으로 이동
+Move,🚶,B2,이동 (4호선 숙대입구 방면 승강장으로),Move (4Line  숙대입구 Bound for 승강장으로),(B2) 4호선 숙대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 대합실로),Move (6Line  대합실로),(B2) 6호선 대합실로 이동
+Move,🚶,B2,이동 (7호선 대합실로),Move (7Line  대합실로),(B2) 7호선 대합실로 이동
+Elevator Activity,🛗,B2,엘리베이터 탑승 (대합실 방향),Enter Elevator (대합실 방향),(B2) 대합실 방향 엘리베이터 탑승
+Elevator Activity,🛗,B2,엘리베이터 탑승 (서해선),Enter Elevator (서해선),(B2) 서해선 엘리베이터 탑승
+Move,🚶,B2,이동 (어린이대공원 방면 승강장으로),Move (어린이대공원 Bound for 승강장으로),(B2) 어린이대공원 방면 승강장으로 이동
+Move,🚶,B3,이동 (3호선 종로3가 방면 승강장으로),Move (3Line  종로3가 Bound for 승강장으로),(B3) 3호선 종로3가 방면 승강장으로 이동
+Move,🚶,B3,이동 (3호선 충무로 방면 승강장으로),Move (3Line  충무로 Bound for 승강장으로),(B3) 3호선 충무로 방면 승강장으로 이동
+Move,🚶,B3,이동 (5호선 마포 방면 승강장으로),Move (5Line  마포 Bound for 승강장으로),(B3) 5호선 마포 방면 승강장으로 이동
+Move,🚶,B3,이동 (5호선 애오개 방면 승강장으로),Move (5Line  애오개 Bound for 승강장으로),(B3) 5호선 애오개 방면 승강장으로 이동
+Move,🚶,B3,이동 (공항철도 마곡나루 방면 승강장으로),Move (공항철도 마곡나루 Bound for 승강장으로),(B3) 공항철도 마곡나루 방면 승강장으로 이동
+Elevator Activity,🛗,B3,엘리베이터 탑승 (대합실 맞은편),Enter Elevator (대합실 맞은편),(B3) 대합실 맞은편 엘리베이터 탑승
+Move,🚶,B3,이동 (수진 방면 승강장으로),Move (수진 Bound for 승강장으로),(B3) 수진 방면 승강장으로 이동
+Move,🚶,B3,이동 (지하3층 대합실로),Move (지하3층 대합실로),(B3) 지하3층 대합실로 이동
+Move,🚶,B3,이동 (철산 방면 승강장으로),Move (철산 Bound for 승강장으로),(B3) 철산 방면 승강장으로 이동
+Move,🚶,B3,이동 (환승통로로),Move (환승통로로),(B3) 환승통로로 이동
+Move,🚶,B4,이동 (3호선 안국 방면 승강장으로),Move (3Line  안국 Bound for 승강장으로),(B4) 3호선 안국 방면 승강장으로 이동
+Move,🚶,B4,이동 (5호선 대합실로),Move (5Line  대합실로),(B4) 5호선 대합실로 이동
+Move,🚶,B4,이동 (6호선 녹사평 방면 승강장으로),Move (6Line  녹사평 Bound for 승강장으로),(B4) 6호선 녹사평 방면 승강장으로 이동
+Move,🚶,B4,이동 (6호선 효창공원앞 방면 승강장으로),Move (6Line  효창공원앞 Bound for 승강장으로),(B4) 6호선 효창공원앞 방면 승강장으로 이동
+Move,🚶,B4,이동 (거여 방면 승강장으로),Move (거여 Bound for 승강장으로),(B4) 거여 방면 승강장으로 이동
+Move,🚶,B4,이동 (공항철도 계양 방면 승강장으로),Move (공항철도 계양 Bound for 승강장으로),(B4) 공항철도 계양 방면 승강장으로 이동
+Move,🚶,B4,이동 (신분당선 논현 방면 승강장으로),Move (신분당선 논현 Bound for 승강장으로),(B4) 신분당선 논현 방면 승강장으로 이동
+Move,🚶,B4,이동 (안국 방면 승강장으로),Move (안국 Bound for 승강장으로),(B4) 안국 방면 승강장으로 이동
+Move,🚶,B4,이동 (우이신설선 보문 방면 승강장으로),Move (우이신설선 보문 Bound for 승강장으로),(B4) 우이신설선 보문 방면 승강장으로 이동
+Move,🚶,B4,이동 (우이신설선 정릉 방면 승강장으로),Move (우이신설선 정릉 Bound for 승강장으로),(B4) 우이신설선 정릉 방면 승강장으로 이동
+Move,🚶,B4,이동 (을지로 3가 방면 승강장으로),Move (을지로 3가 Bound for 승강장으로),(B4) 을지로 3가 방면 승강장으로 이동
+Move,🚶,B4,이동 (충무로 방면 승강장으로),Move (충무로 Bound for 승강장으로),(B4) 충무로 방면 승강장으로 이동
+Move,🚶,B4,이동 (회현 방면 승강장으로),Move (회현 Bound for 승강장으로),(B4) 회현 방면 승강장으로 이동
+Elevator Activity,🛗,F1,엘리베이터 하차 (7번 출입구),Exit Elevator (7번 Exit),(F1) 7번 출입구 엘리베이터 하차
+Move,🚶,F1,이동 (횡단보도 건넌 후 2호선 5번 출입구로),Move (횡단보도 건넌 후 2Line  5번 Exit로),(F1) 횡단보도 건넌 후 2호선 5번 출입구로 이동
+Move,🚶,,"이동 (1, 4호선 방향 환승통로로)","Move (1, 4Line  방향 환승통로로)","1, 4호선 방향 환승통로로 이동"
+Unknown,?,,1번 출입구 근처 엘리베이터 이용,1번 출입구 근처 엘리베이터 이용,1번 출입구 근처 엘리베이터 이용
+Move,🚶,,"이동 (1번 출입구 방향, 1호선 환승 방향으로)","Move (1번 Exit 방향, 1Line  환승 방향으로)","1번 출입구 방향, 1호선 환승 방향으로 이동"
+Elevator Activity,🛗,,엘리베이터 탑승 (1번 출입구),Enter Elevator (1번 Exit),1번 출입구 옆 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 구로 방면),Enter Elevator (1Line  구로 Bound for),1호선 구로 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 동대문 방면),Enter Elevator (1Line  동대문 Bound for),1호선 동대문 방면 엘리베이터 탑승
+Move,🚶,,이동 (1호선 방향 환승통로로),Move (1Line  방향 환승통로로),1호선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 신설동 방면),Enter Elevator (1Line  신설동 Bound for),1호선 신설동 방면 엘리베이터 탑승
+Elevator Activity,🛗,1,엘리베이터 탑승 (1호선 종로3가 청량리방면 지하1층),Enter Elevator (1Line  종로3가 청량리Bound for 지하1층),1호선 종로3가(1)역 청량리방면 지하1층 엘리베이터 탑승
+Move,🚶,,이동 (1호선 종로5가 방면 승강장으로),Move (1Line  종로5가 Bound for 승강장으로),1호선 종로5가 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 환승통로 방향),Enter Elevator (1Line  환승통로 방향),1호선 환승통로 방향 엘리베이터 탑승
+Move,🚶,,이동 (2번/3번 출입구 방향으로),Move (2번/3번 Exit 방향으로),2번/3번 출입구 방향으로 이동
+Elevator Activity,🛗,,엘리베이터 하차 (2번출입구 지상1층),Exit Elevator (2번Exit 지상1층),2번출입구 지상1층 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 건대입구 방면),Enter Elevator (2Line  건대입구 Bound for),2호선 건대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 당산 방면),Enter Elevator (2Line  당산 Bound for),2호선 당산 방면 엘리베이터 탑승
+Move,🚶,,이동 (2호선 방향 환승통로로),Move (2Line  방향 환승통로로),2호선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 상왕십리 방면),Enter Elevator (2Line  상왕십리 Bound for),2호선 상왕십리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 용답 방면),Enter Elevator (2Line  용답 Bound for),2호선 용답 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 홍대입구 방면),Enter Elevator (2Line  홍대입구 Bound for),2호선 홍대입구 방면 엘리베이터 탑승
+Move,🚶,,이동 (2호선 환승통로로),Move (2Line  환승통로로),2호선 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (3번 출입구),Enter Elevator (3번 Exit),3번 출입구 옆 엘리베이터 탑승
+Unknown,?,,3번출입구 옆 엘리베이터 이용,3번출입구 옆 엘리베이터 이용,3번출입구 옆 엘리베이터 이용
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 경찰병원 방면),Enter Elevator (3Line  경찰병원 Bound for),3호선 경찰병원 방면 엘리베이터 탑승
+Move,🚶,,이동 (3호선 대합실로),Move (3Line  대합실로),3호선 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (3호선 방향 환승),Enter Elevator (3Line  방향 환승),3호선 방향 환승 엘리베이터 탑승
+Subway Activity,🚉,,승차 (3호선 방향 휠체어리프트),Board (3Line  방향 휠체어리프트),3호선 방향 휠체어리프트 탑승
+Move,🚶,,이동 (4호선 대합실로),Move (4Line  대합실로),4호선 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (4호선 동대문사문화공원 방면),Enter Elevator (4Line  동대문사문화공원 Bound for),4호선 동대문역사문화공원 방면 엘리베이터 탑승
+Move,🚶,,이동 (4호선 지하 1층으로),Move (4Line  지하 1층으로),4호선 지하 1층으로 이동
+Move,🚶,,"이동 (5, 6호선 방향 환승통로로)","Move (5, 6Line  방향 환승통로로)","5, 6호선 방향 환승통로로 이동"
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 신당 방면),Enter Elevator (6Line  신당 Bound for),6호선 신당 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 약수 방면),Enter Elevator (6Line  약수 Bound for),6호선 약수 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 환승통로 방향),Enter Elevator (6Line  환승통로 방향),6호선 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 효창공원앞 방면),Enter Elevator (6Line  효창공원앞 Bound for),6호선 효창공원앞 방면 엘리베이터 탑승
+Move,🚶,,이동 (7호선 남성 방면 승강장으로),Move (7Line  남성 Bound for 승강장으로),7호선 남성 방면 승강장으로 이동
+Move,🚶,,이동 (7호선 대합실로),Move (7Line  대합실로),7호선 대합실로 이동
+Move,🚶,,이동 (7호선 방향 승강장으로),Move (7Line  방향 승강장으로),7호선 방향 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 수락산 방면),Enter Elevator (7Line  수락산 Bound for),7호선 수락산 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (7호선 환승통로 휠체어리프트),Board (7Line  환승통로 휠체어리프트),7호선 환승통로 휠체어리프트 탑승
+Move,🚶,,이동 (8호선 대합실로),Move (8Line  대합실로),8호선 대합실로 이동
+Gate,🎫,,게이트 통과 (9번 출입구 방향 표 내는 곳),Pass Gate (9번 Exit 방향 표 내는 곳),9번 출입구 방향 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (9번/5번 출입구 가운데),Enter Elevator (9번/5번 Exit 가운데),9번/5번 출입구 가운데 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 환승),Enter Elevator (9Line  환승),9호선  환승 엘리베이터 탑승
+Move,🚶,,이동 (9호선 공항시장 방면 승강장으로),Move (9Line  공항시장 Bound for 승강장으로),9호선 공항시장 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 사평 방면 환승),Enter Elevator (9Line  사평 Bound for 환승),9호선 사평 방면 환승 엘리베이터 탑승
+Move,🚶,,"이동 (9호선, 공항철도 승강장으로)","Move (9Line , 공항철도 승강장으로)","9호선, 공항철도 승강장으로 이동"
+Subway Activity,🚉,,승차 (B1 대합실 신정 방면 EV),Board (B1 대합실 신정 Bound for EV),B1 대합실 신정역 방면 EV 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (B1) 1번 출입구 방향 경사),Enter Elevator (B1) 1번 Exit 방향 경사),B1) 1번 출입구 방향 경사엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (가산디지털단지 방면 2호기),Enter Elevator (가산디지털단지 Bound for 2호기),가산디지털단지 방면 엘리베이터 2호기 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (가산디지털단지 방면),Enter Elevator (가산디지털단지 Bound for),가산디지털단지 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (강남구청 방면),Enter Elevator (강남구청 Bound for),강남구청 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (강동 방면),Enter Elevator (강동 Bound for),강동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (강일 방면),Enter Elevator (강일 Bound for),강일 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (개롱 방면),Enter Elevator (개롱 Bound for),개롱 방면 엘리베이터 탑승
+Move,🚶,,이동 (개집표기 후 경의중앙선 방향으로),Move (개집표기 후 경의중앙선 방향으로),개집표기 통과 후 경의중앙선 방향으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (개화산 방면),Enter Elevator (개화산 Bound for),개화산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (거여 방면),Enter Elevator (거여 Bound for),거여 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (건대입구 방면),Enter Elevator (건대입구 Bound for),건대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 가좌 방면),Enter Elevator (경의중앙선 가좌 Bound for),경의중앙선 가좌 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 방향 서빙고 방면),Enter Elevator (경의중앙선 방향 서빙고 Bound for),경의중앙선 방향 서빙고 방면 엘리베이터  탑승
+Move,🚶,,이동 (경의중앙선 방향 환승통로로),Move (경의중앙선 방향 환승통로로),경의중앙선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 서강대 방면),Enter Elevator (경의중앙선 서강대 Bound for),경의중앙선 서강대 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 수색 방면),Enter Elevator (경의중앙선 수색 Bound for),경의중앙선 수색 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 승강장 방향),Enter Elevator (경의중앙선 승강장 방향),경의중앙선 승강장 방향 엘리베이터 탑승
+Move,🚶,,이동 (경의중앙선 환승통로로),Move (경의중앙선 환승통로로),경의중앙선 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 효창공원앞 방면),Enter Elevator (경의중앙선 효창공원앞 Bound for),경의중앙선 효창공원앞 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경춘선 갈매 방면),Enter Elevator (경춘선 갈매 Bound for),경춘선 갈매 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경춘선 망우 방면),Enter Elevator (경춘선 망우 Bound for),경춘선 망우 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (계양 방면),Enter Elevator (계양 Bound for),계양 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (고덕 방면),Enter Elevator (고덕 Bound for),고덕 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (고려대 방면),Enter Elevator (고려대 Bound for),고려대 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (고속터미널 방면),Enter Elevator (고속터미널 Bound for),고속터미널 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공덕 방면),Enter Elevator (공덕 Bound for),공덕 방면 엘리베이터 탑승
+Move,🚶,,이동 (공항철도 대합실로),Move (공항철도 대합실로),공항철도 대합실로 이동
+Move,🚶,,이동 (공항철도 마곡나루 방면 승강장으로),Move (공항철도 마곡나루 Bound for 승강장으로),공항철도 마곡나루 방면 승강장으로 이동
+Move,🚶,,이동 (공항철도 방향 대합실로),Move (공항철도 방향 대합실로),공항철도 방향 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 환승통로 방향),Enter Elevator (공항철도 환승통로 방향),공항철도 환승통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (광나루 방면),Enter Elevator (광나루 Bound for),광나루 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (광명사거리 방면),Enter Elevator (광명사거리 Bound for),광명사거리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (구로디지털단지 방면),Enter Elevator (구로디지털단지 Bound for),구로디지털단지 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (군자 방면),Enter Elevator (군자 Bound for),군자 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (굽은다리 방면),Enter Elevator (굽은다리 Bound for),굽은다리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (금호 방면),Enter Elevator (금호 Bound for),금호 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (길동 방면),Enter Elevator (길동 Bound for),길동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,"엘리베이터 탑승 (길동, 둔촌동 방면)","Enter Elevator (길동, 둔촌동 Bound for)","길동, 둔촌동 방면 엘리베이터 탑승"
+Elevator Activity,🛗,,엘리베이터 탑승 (길음 방면),Enter Elevator (길음 Bound for),길음 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (김포골드라인 고촌 방면),Enter Elevator (김포골드라인 고촌 Bound for),김포골드라인 고촌 방면 엘리베이터 탑승
+Move,🚶,,이동 (김포골드라인 방향 환승통로로),Move (김포골드라인 방향 환승통로로),김포골드라인 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (까치울 방면),Enter Elevator (까치울 Bound for),까치울 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (남구로 방면),Enter Elevator (남구로 Bound for),남구로 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (남부터미널 방면),Enter Elevator (남부터미널 Bound for),남부터미널 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (남성 방면),Enter Elevator (남성 Bound for),남성 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (내방 방면),Enter Elevator (내방 Bound for),내방 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (내부),Enter Elevator (내부),내부 엘리베이터 탑승
+Subway Activity,🚉,,승차 (녹번 방면 승강장 방향 휠체어리프트),Board (녹번 Bound for 승강장 방향 휠체어리프트),녹번 방면 승강장 방향 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (논현 방면),Enter Elevator (논현 Bound for),논현 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (단대오거리 방면),Enter Elevator (단대오거리 Bound for),단대오거리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (답십리 방면),Enter Elevator (답십리 Bound for),답십리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (당산 방면),Enter Elevator (당산 Bound for),당산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (대림 방면 1호기),Enter Elevator (대림 Bound for 1호기),대림 방면 엘리베이터 1호기 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (대림 방면),Enter Elevator (대림 Bound for),대림 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (대청 방면),Enter Elevator (대청 Bound for),대청 방면 엘리베이터 탑승
+Move,🚶,,이동 (대치 방면 승강장으로),Move (대치 Bound for 승강장으로),대치 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (대치 방면),Enter Elevator (대치 Bound for),대치 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (대흥 방면 앞 표 내는 곳),Pass Gate (대흥 Bound for 앞 표 내는 곳),대흥 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (도곡 방면),Enter Elevator (도곡 Bound for),도곡 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (독립문 방면),Enter Elevator (독립문 Bound for),독립문 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (돌곶이 방면),Enter Elevator (돌곶이 Bound for),돌곶이 방면 엘리베이터 탑승
+Move,🚶,,이동 (동대문 방면 승강장으로),Move (동대문 Bound for 승강장으로),동대문 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (동대문사문화공원 방면),Enter Elevator (동대문사문화공원 Bound for),동대문역사문화공원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (동묘앞 방면),Enter Elevator (동묘앞 Bound for),동묘앞 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (동작 방면),Enter Elevator (동작 Bound for),동작 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (둔촌동 방면),Enter Elevator (둔촌동 Bound for),둔촌동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (디지털미디어시티 방면),Enter Elevator (디지털미디어시티 Bound for),디지털미디어시티 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (뚝섬 방면),Enter Elevator (뚝섬 Bound for),뚝섬 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (마곡 방면),Enter Elevator (마곡 Bound for),마곡 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (마곡나루 방면),Enter Elevator (마곡나루 Bound for),마곡나루 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (마장 방면),Enter Elevator (마장 Bound for),마장 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (마천 방면),Enter Elevator (마천 Bound for),마천 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (마포구청 방면),Enter Elevator (마포구청 Bound for),마포구청 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (망원 방면),Enter Elevator (망원 Bound for),망원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (매봉 방면),Enter Elevator (매봉 Bound for),매봉 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (명동 방면),Enter Elevator (명동 Bound for),명동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (명일 방면),Enter Elevator (명일 Bound for),명일 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (모란 방면),Enter Elevator (모란 Bound for),모란 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (목동 방면),Enter Elevator (목동 Bound for),목동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (문래 방면),Enter Elevator (문래 Bound for),문래 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (미사 방면),Enter Elevator (미사 Bound for),미사 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (미아 방면),Enter Elevator (미아 Bound for),미아 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (미아사거리 방면),Enter Elevator (미아사거리 Bound for),미아사거리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (반포 방면),Enter Elevator (반포 Bound for),반포 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (발산 방면),Enter Elevator (발산 Bound for),발산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (방이 방면),Enter Elevator (방이 Bound for),방이 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (보라매 방면),Enter Elevator (보라매 Bound for),보라매 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (보문 방면),Enter Elevator (보문 Bound for),보문 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (봉화산 방면),Enter Elevator (봉화산 Bound for),봉화산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (삼각지 방면),Enter Elevator (삼각지 Bound for),삼각지 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (상도 방면),Enter Elevator (상도 Bound for),상도 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (상왕십리 방면),Enter Elevator (상왕십리 Bound for),상왕십리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (상월곡 방면),Enter Elevator (상월곡 Bound for),상월곡 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (상일동 방면),Enter Elevator (상일동 Bound for),상일동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (새절 방면),Enter Elevator (새절 Bound for),새절 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (서울 방면),Enter Elevator (서울 Bound for),서울역 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (석계 방면),Enter Elevator (석계 Bound for),석계 방면 엘리베이터 탑승
+Move,🚶,,이동 (성수방면 승강장),Move (성수Bound for 승강장),성수방면 승강장 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (송정 방면),Enter Elevator (송정 Bound for),송정 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (수유 방면),Enter Elevator (수유 Bound for),수유 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (수인분당선 승강장 방향),Enter Elevator (수인분당선 승강장 방향),수인분당선 승강장 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (수진 방면),Enter Elevator (수진 Bound for),수진 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (숙대입구 방면),Enter Elevator (숙대입구 Bound for),숙대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (숭실대입구 방면),Enter Elevator (숭실대입구 Bound for),숭실대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (숭실대입구 방면),Enter Elevator (숭실대입구 Bound for),숭실대입구역 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (승강장 방향 내부),Enter Elevator (승강장 방향 내부),승강장 방향 내부엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (승강장 방향 중앙),Enter Elevator (승강장 방향 중앙),승강장 방향 중앙 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (승강장방향),Enter Elevator (승강장방향),승강장방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 ((휠체어 칸)),Board ((휠체어 칸)),승차(휠체어 칸)
+Elevator Activity,🛗,,엘리베이터 탑승 (신금호 방면),Enter Elevator (신금호 Bound for),신금호 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신길 방면),Enter Elevator (신길 Bound for),신길 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신내 방면),Enter Elevator (신내 Bound for),신내 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신당 방면),Enter Elevator (신당 Bound for),신당 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신대방삼거리 방면),Enter Elevator (신대방삼거리 Bound for),신대방삼거리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신도림 방면),Enter Elevator (신도림 Bound for),신도림 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신림 방면),Enter Elevator (신림 Bound for),신림 방면 엘리베이터 탑승
+Move,🚶,,이동 (신림선 대합실로),Move (신림선 대합실로),신림선 대합실로 이동
+Gate,🎫,,게이트 통과 (신분당선 대합실 표 내는 곳),Pass Gate (신분당선 대합실 표 내는 곳),신분당선 대합실 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (신사 방면),Enter Elevator (신사 Bound for),신사 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신용산 방면),Enter Elevator (신용산 Bound for),신용산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신정 방면),Enter Elevator (신정 Bound for),신정 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신풍 방면),Enter Elevator (신풍 Bound for),신풍 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신흥 방면),Enter Elevator (신흥 Bound for),신흥 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (아차산 방면),Enter Elevator (아차산 Bound for),아차산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (안암 방면),Enter Elevator (안암 Bound for),안암 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (압구정 방면),Enter Elevator (압구정 Bound for),압구정 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (약수 방면),Enter Elevator (약수 Bound for),약수 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (양재 방면),Enter Elevator (양재 Bound for),양재 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (양평 방면),Enter Elevator (양평 Bound for),양평 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (어린이대공원 방면 승강장),Enter Elevator (어린이대공원 Bound for 승강장),어린이대공원 방면 승강장 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (여의도 방면),Enter Elevator (여의도 Bound for),여의도 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (연신내 방면 승강장 방향 휠체어리프트),Board (연신내 Bound for 승강장 방향 휠체어리프트),연신내 방면 승강장 방향 휠체어리프트 탑승
+Subway Activity,🚉,,승차 (열차),Board (열차),열차승차
+Elevator Activity,🛗,,엘리베이터 탑승 (영등포구청 방면),Enter Elevator (영등포구청 Bound for),영등포구청 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (영등포시장 방면),Enter Elevator (영등포시장 Bound for),영등포시장 방면 엘리베이터 탑승
+Unknown,?,,오른쪽 무빙워크통로 이용 후 왼쪽으로 유턴,오른쪽 무빙워크통로 이용 후 왼쪽으로 유턴,오른쪽 무빙워크통로 이용 후 왼쪽으로 유턴
+Elevator Activity,🛗,,엘리베이터 탑승 (오목교 방면),Enter Elevator (오목교 Bound for),오목교 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (옥수 방면),Enter Elevator (옥수 Bound for),옥수 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (온수 방면),Enter Elevator (온수 Bound for),온수 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (올림픽공원 방면),Enter Elevator (올림픽공원 Bound for),올림픽공원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (왕십리 방면),Enter Elevator (왕십리 Bound for),왕십리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (용산 방향),Enter Elevator (용산 방향),용산역 방향 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (우대자용 개집표기 호출버튼 눌러 요청(비운임구 진입)),Pass Gate (우대자용 개집표기 호출버튼 눌러 요청(비운임구 진입)),우대자용 개집표기에서 호출버튼 눌러 통과 요청(비운임구역 진입)
+Move,🚶,,이동 (우이신설선 방향 환승통로로),Move (우이신설선 방향 환승통로로),우이신설선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (우장산 방면),Enter Elevator (우장산 Bound for),우장산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (운서 방면),Enter Elevator (운서 Bound for),운서 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (월곡 방면),Enter Elevator (월곡 Bound for),월곡 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (월드컵경기장 방면),Enter Elevator (월드컵경기장 Bound for),월드컵경기장 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (을지로4가 방면),Enter Elevator (을지로4가 Bound for),을지로4가 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (을지로입구 방면),Enter Elevator (을지로입구 Bound for),을지로입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (응암 방면),Enter Elevator (응암 Bound for),응암 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (통로 방향),Enter Elevator (통로 방향),이동통로 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (이수 방면),Enter Elevator (이수 Bound for),이수 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (이수 방면),Enter Elevator (이수 Bound for),이수역 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (이촌 방면),Enter Elevator (이촌 Bound for),이촌 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (인천1호선 귤현 방면),Enter Elevator (인천1Line  귤현 Bound for),인천1호선 귤현 방면 엘리베이터 탑승
+Move,🚶,,이동 (인천2호선 방향 환승통로로),Move (인천2Line  방향 환승통로로),인천2호선 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (인천공항1터미널 방면),Enter Elevator (인천공항1터미널 Bound for),인천공항1터미널 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (잠실새내 방면),Enter Elevator (잠실새내 Bound for),잠실새내 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (잠원 방면),Enter Elevator (잠원 Bound for),잠원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (장승배기 방면),Enter Elevator (장승배기 Bound for),장승배기 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (제기동 방면),Enter Elevator (제기동 Bound for),제기동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (종각 방면),Enter Elevator (종각 Bound for),종각 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (종로3가 방면),Enter Elevator (종로3가 Bound for),종로3가 방면 엘리베이터 탑승
+Unknown,?,,종로5가 방면 엘리베이터 이용,종로5가 방면 엘리베이터 이용,종로5가 방면 엘리베이터 이용
+Elevator Activity,🛗,,엘리베이터 탑승 (종로5가 방면),Enter Elevator (종로5가 Bound for),종로5가 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (종합운동장 방면),Enter Elevator (종합운동장 Bound for),종합운동장 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (증산 방면),Enter Elevator (증산 Bound for),증산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (지상 1층 경의중앙선 서빙고 방면),Enter Elevator (지상 1층 경의중앙선 서빙고 Bound for),지상 1층 경의중앙선 서빙고 방면 엘리베이터 탑승
+Subway Activity,🚉,,하차 (지하 3층 승강장),Alight (지하 3층 승강장),지하 3층 승강장 에서 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (지하1층),Enter Elevator (지하1층),지하1층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (지하3층),Enter Elevator (지하3층),지하3층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (창동 방면),Enter Elevator (창동 Bound for),창동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (천왕 방면),Enter Elevator (천왕 Bound for),천왕 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (천호 방면),Enter Elevator (천호 Bound for),천호 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (청담 방면),Enter Elevator (청담 Bound for),청담 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (청라국제도시 방면),Enter Elevator (청라국제도시 Bound for),청라국제도시 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (청량리 방면),Enter Elevator (청량리 Bound for),청량리 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (태릉입구 방면),Enter Elevator (태릉입구 Bound for),태릉입구 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (표 내는 곳),Board (표 내는 곳),표 내는 곳 통과탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (표 내는 곳을 하여 강일 방면),Enter Elevator (표 내는 곳을 하여 강일 Bound for),표 내는 곳을 통과하여 강일 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (표 내는 곳을 하여 고덕 방면),Enter Elevator (표 내는 곳을 하여 고덕 Bound for),표 내는 곳을 통과하여 고덕 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (표내는곳),Pass Gate (표내는곳),표내는곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (하남검단산 방면),Enter Elevator (하남검단산 Bound for),하남검단산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (하남시청 방면),Enter Elevator (하남시청 Bound for),하남시청 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (하남풍산 방면),Enter Elevator (하남풍산 Bound for),하남풍산 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (학동 방면),Enter Elevator (학동 Bound for),학동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (한성대입구 방면),Enter Elevator (한성대입구 Bound for),한성대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (한양대 방면),Enter Elevator (한양대 Bound for),한양대 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (합정 방면),Enter Elevator (합정 Bound for),합정 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (행당 방면),Enter Elevator (행당 Bound for),행당 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (홍대입구 방면),Enter Elevator (홍대입구 Bound for),홍대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (홍제 방면),Enter Elevator (홍제 Bound for),홍제 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (화곡 방면),Enter Elevator (화곡 Bound for),화곡 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (화랑대 방면),Enter Elevator (화랑대 Bound for),화랑대 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (효창공원앞 방면 앞 표 내는 곳),Pass Gate (효창공원앞 Bound for 앞 표 내는 곳),효창공원앞 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (휠체어 비상 이용해 외부로 나감),Pass Gate (휠체어 비상 이용해 외부로 나감),휠체어 비상게이트 이용해 외부로 나감
+Subway Activity,🚉,,승차 (휠체어리프트),Board (휠체어리프트),휠체어리프트 탑승
+Move,🚶,1F,이동 (1호선 구로 방면 승강장으로),Move (1Line  구로 Bound for 승강장으로),(1F) 1호선 구로 방면 승강장으로 이동
+Move,🚶,1F,이동 (경의중앙선 서빙고 방면 승강장으로),Move (경의중앙선 서빙고 Bound for 승강장으로),(1F) 경의중앙선 서빙고 방면 승강장으로 이동
+Move,🚶,1F,이동 (경의중앙선 응봉 방면 승강장으로),Move (경의중앙선 응봉 Bound for 승강장으로),(1F) 경의중앙선 응봉 방면 승강장으로 이동
+Move,🚶,1F,이동 (경의중앙선 청량리 방면 승강장으로),Move (경의중앙선 청량리 Bound for 승강장으로),(1F) 경의중앙선 청량리 방면 승강장으로 이동
+Move,🚶,1F,이동 (뚝섬 방면 승강장으로),Move (뚝섬 Bound for 승강장으로),(1F) 뚝섬 방면 승강장으로 이동
+Move,🚶,1F,이동 (봉화산 방면 승강장으로),Move (봉화산 Bound for 승강장으로),(1F) 봉화산 방면 승강장으로 이동
+Move,🚶,1F,이동 (수인분당선 서울숲 방면 승강장으로),Move (수인분당선 서울숲 Bound for 승강장으로),(1F) 수인분당선 서울숲 방면 승강장으로 이동
+Move,🚶,1F,이동 (수인분당선 청량리 방면 승강장으로),Move (수인분당선 청량리 Bound for 승강장으로),(1F) 수인분당선 청량리 방면 승강장으로 이동
+Move,🚶,1F,이동 (왕십리 방면 승강장으로),Move (왕십리 Bound for 승강장으로),(1F) 왕십리 방면 승강장으로 이동
+Move,🚶,2F,이동 (운서 방면 승강장으로),Move (운서 Bound for 승강장으로),(2F) 운서 방면 승강장으로 이동
+Move,🚶,2F,이동 (인천1호선 귤현 방면 승강장으로),Move (인천1Line  귤현 Bound for 승강장으로),(2F) 인천1호선 귤현 방면 승강장으로 이동
+Move,🚶,2F,이동 (청라국제도시 방면 승강장으로),Move (청라국제도시 Bound for 승강장으로),(2F) 청라국제도시 방면 승강장으로 이동
+Move,🚶,3F,이동 (2호선 건대입구 방면 승강장으로),Move (2Line  건대입구 Bound for 승강장으로),(3F) 2호선 건대입구 방면 승강장으로 이동
+Move,🚶,3F,이동 (2호선 용답 방면 승강장으로),Move (2Line  용답 Bound for 승강장으로),(3F) 2호선 용답 방면 승강장으로 이동
+Move,🚶,3F,이동 (강변 방면 승강장으로),Move (강변 Bound for 승강장으로),(3F) 강변 방면 승강장으로 이동
+Move,🚶,3F,이동 (경춘선 갈매 방면 승강장으로),Move (경춘선 갈매 Bound for 승강장으로),(3F) 경춘선 갈매 방면 승강장으로 이동
+Move,🚶,3F,이동 (경춘선 망우 방면 승강장으로),Move (경춘선 망우 Bound for 승강장으로),(3F) 경춘선 망우 방면 승강장으로 이동
+Move,🚶,3F,이동 (구로디지털단지 방면 승강장으로),Move (구로디지털단지 Bound for 승강장으로),(3F) 구로디지털단지 방면 승강장으로 이동
+Move,🚶,3F,이동 (대림 방면 승강장으로),Move (대림 Bound for 승강장으로),(3F) 대림 방면 승강장으로 이동
+Move,🚶,3F,이동 (뚝섬 방면 승강장으로),Move (뚝섬 Bound for 승강장으로),(3F) 뚝섬 방면 승강장으로 이동
+Move,🚶,3F,이동 (성수 방면 승강장으로),Move (성수 Bound for 승강장으로),(3F) 성수 방면 승강장으로 이동
+Move,🚶,3F,이동 (신대방 방면 승강장으로),Move (신대방 Bound for 승강장으로),(3F) 신대방 방면 승강장으로 이동
+Move,🚶,3F,이동 (신도림 방면 승강장으로),Move (신도림 Bound for 승강장으로),(3F) 신도림 방면 승강장으로 이동
+Move,🚶,3F,이동 (신림 방면 승강장으로),Move (신림 Bound for 승강장으로),(3F) 신림 방면 승강장으로 이동
+Move,🚶,3F,이동 (영등포구청 방면 승강장으로),Move (영등포구청 Bound for 승강장으로),(3F) 영등포구청 방면 승강장으로 이동
+Move,🚶,3F,이동 (청담 방면 승강장으로),Move (청담 Bound for 승강장으로),(3F) 청담 방면 승강장으로 이동
+Move,🚶,3F,이동 (한양대 방면 승강장으로),Move (한양대 Bound for 승강장으로),(3F) 한양대 방면 승강장으로 이동
+Move,🚶,3F,이동 (합정 방면 승강장으로),Move (합정 Bound for 승강장으로),(3F) 합정 방면 승강장으로 이동
+Move,🚶,4F,이동 (금호 방면 승강장으로),Move (금호 Bound for 승강장으로),(4F) 금호 방면 승강장으로 이동
+Move,🚶,4F,이동 (압구정 방면 승강장으로),Move (압구정 Bound for 승강장으로),(4F) 압구정 방면 승강장으로 이동
+Move,🚶,B1,이동 (13번 출구로),Move (13번 Exit로),(B1) 13번 출구로 이동
+Move,🚶,B1,이동 (1호선 대합실로),Move (1Line  대합실로),(B1) 1호선 대합실로 이동
+Move,🚶,B1,이동 (1호선 동대문 방면 승강장으로),Move (1Line  동대문 Bound for 승강장으로),(B1) 1호선 동대문 방면 승강장으로 이동
+Move,🚶,B1,이동 (1호선 신설동 방면 승강장으로),Move (1Line  신설동 Bound for 승강장으로),(B1) 1호선 신설동 방면 승강장으로 이동
+Elevator Activity,🛗,B1,엘리베이터 탑승 (2호선 당산방면),Enter Elevator (2Line  당산Bound for),(B1) 2호선 당산방면 엘리베이터 탑승
+Elevator Activity,🛗,B1,엘리베이터 탑승 (2호선 문래방면),Enter Elevator (2Line  문래Bound for),(B1) 2호선 문래방면 엘리베이터 탑승
+Move,🚶,B1,이동 (경의중앙선 가좌 방면 승강장으로),Move (경의중앙선 가좌 Bound for 승강장으로),(B1) 경의중앙선 가좌 방면 승강장으로 이동
+Move,🚶,B1,이동 (경의중앙선 서강대 방면 승강장으로),Move (경의중앙선 서강대 Bound for 승강장으로),(B1) 경의중앙선 서강대 방면 승강장으로 이동
+Move,🚶,B1,이동 (공항철도 환승통로로),Move (공항철도 환승통로로),(B1) 공항철도 환승통로로 이동
+Move,🚶,B2,이동 (표 내는 곳 후 7호선 어린이 대공원 방면 승강장),Move (표 내는 곳 후 7Line  어린이 대공원 Bound for 승강장),(B2)  표 내는 곳 통과 후 7호선 어린이 대공원 방면 승강장 이동
+Move,🚶,B2,이동 (표 내는 곳 후 7호선 어린이대공원 방면 로),Move (표 내는 곳 후 7Line  어린이대공원 Bound for 로),(B2)  표 내는 곳 통과 후 7호선 어린이대공원 방면 엘리베이터 로 이동
+Move,🚶,B2,이동 (2호선 당산 방면 승강장으로),Move (2Line  당산 Bound for 승강장으로),(B2) 2호선 당산 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 홍대입구 방면 승강장으로),Move (2Line  홍대입구 Bound for 승강장으로),(B2) 2호선 홍대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (3호선 구파발 방면 승강장으로),Move (3Line  구파발 Bound for 승강장으로),(B2) 3호선 구파발 방면 승강장으로 이동
+Move,🚶,B2,이동 (3호선 녹번 방면 승강장으로),Move (3Line  녹번 Bound for 승강장으로),(B2) 3호선 녹번 방면 승강장으로 이동
+Move,🚶,B2,이동 (3호선 대합실로),Move (3Line  대합실로),(B2) 3호선 대합실로 이동
+Move,🚶,B2,이동 (3호선 불광 방면 승강장으로),Move (3Line  불광 Bound for 승강장으로),(B2) 3호선 불광 방면 승강장으로 이동
+Move,🚶,B2,이동 (3호선 연신내 방면 승강장으로),Move (3Line  연신내 Bound for 승강장으로),(B2) 3호선 연신내 방면 승강장으로 이동
+Move,🚶,B2,이동 (4호선 신용산 방면 승강장으로),Move (4Line  신용산 Bound for 승강장으로),(B2) 4호선 신용산 방면 승강장으로 이동
+Move,🚶,B2,이동 (5호선 개화산 방면 승강장으로),Move (5Line  개화산 Bound for 승강장으로),(B2) 5호선 개화산 방면 승강장으로 이동
+Move,🚶,B2,이동 (5호선 송정 방면 승강장으로),Move (5Line  송정 Bound for 승강장으로),(B2) 5호선 송정 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 신당 방면 승강장으로),Move (6Line  신당 Bound for 승강장으로),(B2) 6호선 신당 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 약수 방면 승강장으로),Move (6Line  약수 Bound for 승강장으로),(B2) 6호선 약수 방면 승강장으로 이동
+Move,🚶,B2,이동 (가산디지털단지 방면 승강장으로),Move (가산디지털단지 Bound for 승강장으로),(B2) 가산디지털단지 방면 승강장으로 이동
+Move,🚶,B2,이동 (강동 방면 승강장으로),Move (강동 Bound for 승강장으로),(B2) 강동 방면 승강장으로 이동
+Move,🚶,B2,이동 (강일 방면 승강장으로),Move (강일 Bound for 승강장으로),(B2) 강일 방면 승강장으로 이동
+Move,🚶,B2,이동 (개롱 방면 승강장으로),Move (개롱 Bound for 승강장으로),(B2) 개롱 방면 승강장으로 이동
+Move,🚶,B2,이동 (개화산 방면 승강장으로),Move (개화산 Bound for 승강장으로),(B2) 개화산 방면 승강장으로 이동
+Move,🚶,B2,이동 (거여 방면 승강장으로),Move (거여 Bound for 승강장으로),(B2) 거여 방면 승강장으로 이동
+Move,🚶,B2,이동 (경의중앙선 서강대 방면 승강장으로),Move (경의중앙선 서강대 Bound for 승강장으로),(B2) 경의중앙선 서강대 방면 승강장으로 이동
+Move,🚶,B2,이동 (경의중앙선 효창공원앞 방면 승강장으로),Move (경의중앙선 효창공원앞 Bound for 승강장으로),(B2) 경의중앙선 효창공원앞 방면 승강장으로 이동
+Move,🚶,B2,이동 (고덕 방면 승강장으로),Move (고덕 Bound for 승강장으로),(B2) 고덕 방면 승강장으로 이동
+Move,🚶,B2,이동 (고속터미널 방면 승강장으로),Move (고속터미널 Bound for 승강장으로),(B2) 고속터미널 방면 승강장으로 이동
+Move,🚶,B2,이동 (광명사거리 방면 승강장으로),Move (광명사거리 Bound for 승강장으로),(B2) 광명사거리 방면 승강장으로 이동
+Move,🚶,B2,이동 (굽은다리 방면 승강장으로),Move (굽은다리 Bound for 승강장으로),(B2) 굽은다리 방면 승강장으로 이동
+Move,🚶,B2,이동 (금호 방면 승강장으로),Move (금호 Bound for 승강장으로),(B2) 금호 방면 승강장으로 이동
+Move,🚶,B2,이동 (길동 방면 승강장으로),Move (길동 Bound for 승강장으로),(B2) 길동 방면 승강장으로 이동
+Move,🚶,B2,이동 (길음 방면 승강장으로),Move (길음 Bound for 승강장으로),(B2) 길음 방면 승강장으로 이동
+Move,🚶,B2,이동 (까치산 방면 승강장으로),Move (까치산 Bound for 승강장으로),(B2) 까치산 방면 승강장으로 이동
+Move,🚶,B2,이동 (까치울 방면 승강장으로),Move (까치울 Bound for 승강장으로),(B2) 까치울 방면 승강장으로 이동
+Move,🚶,B2,이동 (남구로 방면 승강장으로),Move (남구로 Bound for 승강장으로),(B2) 남구로 방면 승강장으로 이동
+Move,🚶,B2,이동 (남부터미널 방면 승강장으로),Move (남부터미널 Bound for 승강장으로),(B2) 남부터미널 방면 승강장으로 이동
+Move,🚶,B2,이동 (단대오거리 방면 승강장으로),Move (단대오거리 Bound for 승강장으로),(B2) 단대오거리 방면 승강장으로 이동
+Move,🚶,B2,이동 (당산 방면 승강장으로),Move (당산 Bound for 승강장으로),(B2) 당산 방면 승강장으로 이동
+Move,🚶,B2,이동 (대림 방면 승강장으로),Move (대림 Bound for 승강장으로),(B2) 대림 방면 승강장으로 이동
+Move,🚶,B2,이동 (도곡 방면 승강장으로),Move (도곡 Bound for 승강장으로),(B2) 도곡 방면 승강장으로 이동
+Move,🚶,B2,이동 (동대문 방면 승강장으로),Move (동대문 Bound for 승강장으로),(B2) 동대문 방면 승강장으로 이동
+Move,🚶,B2,이동 (동대문사문화공원 방면 승강장으로),Move (동대문사문화공원 Bound for 승강장으로),(B2) 동대문역사문화공원 방면 승강장으로 이동
+Move,🚶,B2,이동 (동대입구 방면 승강장으로),Move (동대입구 Bound for 승강장으로),(B2) 동대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (동묘앞 방면 승강장으로),Move (동묘앞 Bound for 승강장으로),(B2) 동묘앞 방면 승강장으로 이동
+Move,🚶,B2,이동 (동작 방면 승강장으로),Move (동작 Bound for 승강장으로),(B2) 동작 방면 승강장으로 이동
+Move,🚶,B2,이동 (둔촌동 방면 승강장으로),Move (둔촌동 Bound for 승강장으로),(B2) 둔촌동 방면 승강장으로 이동
+Move,🚶,B2,이동 (디지털미디어시티 방면 승강장으로),Move (디지털미디어시티 Bound for 승강장으로),(B2) 디지털미디어시티 방면 승강장으로 이동
+Move,🚶,B2,이동 (마곡 방면 승강장으로),Move (마곡 Bound for 승강장으로),(B2) 마곡 방면 승강장으로 이동
+Move,🚶,B2,이동 (마천 방면 승강장으로),Move (마천 Bound for 승강장으로),(B2) 마천 방면 승강장으로 이동
+Move,🚶,B2,이동 (마포구청 방면 승강장으로),Move (마포구청 Bound for 승강장으로),(B2) 마포구청 방면 승강장으로 이동
+Move,🚶,B2,이동 (매봉 방면 승강장으로),Move (매봉 Bound for 승강장으로),(B2) 매봉 방면 승강장으로 이동
+Move,🚶,B2,이동 (명일 방면 승강장으로),Move (명일 Bound for 승강장으로),(B2) 명일 방면 승강장으로 이동
+Move,🚶,B2,이동 (모란 방면 승강장으로),Move (모란 Bound for 승강장으로),(B2) 모란 방면 승강장으로 이동
+Move,🚶,B2,이동 (무악재 방면 승강장으로),Move (무악재 Bound for 승강장으로),(B2) 무악재 방면 승강장으로 이동
+Move,🚶,B2,이동 (문래 방면 승강장으로),Move (문래 Bound for 승강장으로),(B2) 문래 방면 승강장으로 이동
+Move,🚶,B2,이동 (미사 방면 승강장으로),Move (미사 Bound for 승강장으로),(B2) 미사 방면 승강장으로 이동
+Move,🚶,B2,이동 (미아 방면 승강장으로),Move (미아 Bound for 승강장으로),(B2) 미아 방면 승강장으로 이동
+Move,🚶,B2,이동 (미아사거리 방면 승강장으로),Move (미아사거리 Bound for 승강장으로),(B2) 미아사거리 방면 승강장으로 이동
+Move,🚶,B2,이동 (발산 방면 승강장으로),Move (발산 Bound for 승강장으로),(B2) 발산 방면 승강장으로 이동
+Move,🚶,B2,이동 (방이 방면 승강장으로),Move (방이 Bound for 승강장으로),(B2) 방이 방면 승강장으로 이동
+Move,🚶,B2,이동 (보라매 방면 승강장으로),Move (보라매 Bound for 승강장으로),(B2) 보라매 방면 승강장으로 이동
+Elevator Activity,🛗,B2,엘리베이터 탑승 (봉화산 방면),Enter Elevator (봉화산 Bound for),(B2) 봉화산 방면  엘리베이터 탑승
+Move,🚶,B2,이동 (봉화산 방면 승강장으로),Move (봉화산 Bound for 승강장으로),(B2) 봉화산 방면 승강장으로 이동
+Move,🚶,B2,이동 (삼각지 방면 승강장으로),Move (삼각지 Bound for 승강장으로),(B2) 삼각지 방면 승강장으로 이동
+Move,🚶,B2,이동 (상왕십리 방면 승강장으로),Move (상왕십리 Bound for 승강장으로),(B2) 상왕십리 방면 승강장으로 이동
+Move,🚶,B2,이동 (상월곡 방면 승강장으로),Move (상월곡 Bound for 승강장으로),(B2) 상월곡 방면 승강장으로 이동
+Move,🚶,B2,이동 (상일동 방면 승강장으로),Move (상일동 Bound for 승강장으로),(B2) 상일동 방면 승강장으로 이동
+Move,🚶,B2,이동 (새절 방면 승강장으로),Move (새절 Bound for 승강장으로),(B2) 새절 방면 승강장으로 이동
+Move,🚶,B2,이동 (서울 방면 승강장으로),Move (서울 Bound for 승강장으로),(B2) 서울역 방면 승강장으로 이동
+Move,🚶,B2,이동 (석계 방면 승강장으로),Move (석계 Bound for 승강장으로),(B2) 석계 방면 승강장으로 이동
+Move,🚶,B2,이동 (성신여대입구 방면 승강장으로),Move (성신여대입구 Bound for 승강장으로),(B2) 성신여대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (송정 방면 승강장으로),Move (송정 Bound for 승강장으로),(B2) 송정 방면 승강장으로 이동
+Move,🚶,B2,이동 (수유 방면 승강장으로),Move (수유 Bound for 승강장으로),(B2) 수유 방면 승강장으로 이동
+Move,🚶,B2,이동 (수진 방면 승강장으로),Move (수진 Bound for 승강장으로),(B2) 수진 방면 승강장으로 이동
+Move,🚶,B2,이동 (숙대입구 방면 승강장으로),Move (숙대입구 Bound for 승강장으로),(B2) 숙대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (신내 방면 승강장으로),Move (신내 Bound for 승강장으로),(B2) 신내 방면 승강장으로 이동
+Move,🚶,B2,이동 (신당 방면 승강장으로),Move (신당 Bound for 승강장으로),(B2) 신당 방면 승강장으로 이동
+Move,🚶,B2,이동 (신대방삼거리 방면 승강장으로),Move (신대방삼거리 Bound for 승강장으로),(B2) 신대방삼거리 방면 승강장으로 이동
+Move,🚶,B2,이동 (신도림 방면 승강장으로),Move (신도림 Bound for 승강장으로),(B2) 신도림 방면 승강장으로 이동
+Move,🚶,B2,이동 (신사 방면 승강장으로),Move (신사 Bound for 승강장으로),(B2) 신사 방면 승강장으로 이동
+Move,🚶,B2,이동 (신설동 방면 승강장으로),Move (신설동 Bound for 승강장으로),(B2) 신설동 방면 승강장으로 이동
+Move,🚶,B2,이동 (신용산 방면 승강장으로),Move (신용산 Bound for 승강장으로),(B2) 신용산 방면 승강장으로 이동
+Move,🚶,B2,이동 (신정 방면 승강장으로),Move (신정 Bound for 승강장으로),(B2) 신정 방면 승강장으로 이동
+Move,🚶,B2,이동 (신풍 방면 승강장으로),Move (신풍 Bound for 승강장으로),(B2) 신풍 방면 승강장으로 이동
+Move,🚶,B2,이동 (신흥 방면 승강장으로),Move (신흥 Bound for 승강장으로),(B2) 신흥 방면 승강장으로 이동
+Move,🚶,B2,이동 (쌍문 방면 승강장으로),Move (쌍문 Bound for 승강장으로),(B2) 쌍문 방면 승강장으로 이동
+Move,🚶,B2,이동 (아차산 방면 승강장으로),Move (아차산 Bound for 승강장으로),(B2) 아차산 방면 승강장으로 이동
+Move,🚶,B2,이동 (압구정 방면 승강장으로),Move (압구정 Bound for 승강장으로),(B2) 압구정 방면 승강장으로 이동
+Move,🚶,B2,이동 (약수 방면 승강장으로),Move (약수 Bound for 승강장으로),(B2) 약수 방면 승강장으로 이동
+Move,🚶,B2,이동 (양재 방면 승강장으로),Move (양재 Bound for 승강장으로),(B2) 양재 방면 승강장으로 이동
+Move,🚶,B2,이동 (촌 방면 승강장으로),Move (촌 Bound for 승강장으로),(B2) 역촌 방면 승강장으로 이동
+Move,🚶,B2,이동 (영등포구청 방면 승강장으로),Move (영등포구청 Bound for 승강장으로),(B2) 영등포구청 방면 승강장으로 이동
+Move,🚶,B2,이동 (오금 방면 승강장으로),Move (오금 Bound for 승강장으로),(B2) 오금 방면 승강장으로 이동
+Move,🚶,B2,이동 (오목교 방면 승강장으로),Move (오목교 Bound for 승강장으로),(B2) 오목교 방면 승강장으로 이동
+Move,🚶,B2,이동 (옥수 방면 승강장으로),Move (옥수 Bound for 승강장으로),(B2) 옥수 방면 승강장으로 이동
+Move,🚶,B2,이동 (온수 방면 승강장으로),Move (온수 Bound for 승강장으로),(B2) 온수 방면 승강장으로 이동
+Move,🚶,B2,이동 (올림픽공원 방면 승강장으로),Move (올림픽공원 Bound for 승강장으로),(B2) 올림픽공원 방면 승강장으로 이동
+Move,🚶,B2,이동 (왕십리 방면 승강장으로),Move (왕십리 Bound for 승강장으로),(B2) 왕십리 방면 승강장으로 이동
+Move,🚶,B2,이동 (용산 방면 승강장으로),Move (용산 Bound for 승강장으로),(B2) 용산 방면 승강장으로 이동
+Move,🚶,B2,이동 (우장산 방면 승강장으로),Move (우장산 Bound for 승강장으로),(B2) 우장산 방면 승강장으로 이동
+Move,🚶,B2,이동 (운서 방면 승강장으로),Move (운서 Bound for 승강장으로),(B2) 운서 방면 승강장으로 이동
+Move,🚶,B2,이동 (을지로4가 방면 승강장으로),Move (을지로4가 Bound for 승강장으로),(B2) 을지로4가 방면 승강장으로 이동
+Move,🚶,B2,이동 (을지로입구 방면 승강장으로),Move (을지로입구 Bound for 승강장으로),(B2) 을지로입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (응암 방면 승강장으로),Move (응암 Bound for 승강장으로),(B2) 응암 방면 승강장으로 이동
+Move,🚶,B2,이동 (통로로),Move (통로로),(B2) 이동통로로 이동
+Move,🚶,B2,이동 (이촌 방면 승강장으로),Move (이촌 Bound for 승강장으로),(B2) 이촌 방면 승강장으로 이동
+Move,🚶,B2,이동 (인천공항1터미널 방면 승강장으로),Move (인천공항1터미널 Bound for 승강장으로),(B2) 인천공항1터미널 방면 승강장으로 이동
+Move,🚶,B2,이동 (잠실 방면 승강장으로),Move (잠실 Bound for 승강장으로),(B2) 잠실 방면 승강장으로 이동
+Move,🚶,B2,이동 (잠실나루 방면 승강장으로),Move (잠실나루 Bound for 승강장으로),(B2) 잠실나루 방면 승강장으로 이동
+Move,🚶,B2,이동 (잠실새내 방면 승강장으로),Move (잠실새내 Bound for 승강장으로),(B2) 잠실새내 방면 승강장으로 이동
+Move,🚶,B2,이동 (잠원 방면 승강장으로),Move (잠원 Bound for 승강장으로),(B2) 잠원 방면 승강장으로 이동
+Move,🚶,B2,이동 (장한평 방면 승강장으로),Move (장한평 Bound for 승강장으로),(B2) 장한평 방면 승강장으로 이동
+Move,🚶,B2,이동 (제기동 방면 승강장으로),Move (제기동 Bound for 승강장으로),(B2) 제기동 방면 승강장으로 이동
+Move,🚶,B2,이동 (종각 방면 승강장으로),Move (종각 Bound for 승강장으로),(B2) 종각 방면 승강장으로 이동
+Move,🚶,B2,이동 (종로3가 방면 승강장으로),Move (종로3가 Bound for 승강장으로),(B2) 종로3가 방면 승강장으로 이동
+Move,🚶,B2,이동 (종로5가 방면 승강장으로),Move (종로5가 Bound for 승강장으로),(B2) 종로5가 방면 승강장으로 이동
+Move,🚶,B2,이동 (종합운동장 방면 승강장으로),Move (종합운동장 Bound for 승강장으로),(B2) 종합운동장 방면 승강장으로 이동
+Move,🚶,B2,이동 (증산 방면 승강장으로),Move (증산 Bound for 승강장으로),(B2) 증산 방면 승강장으로 이동
+Move,🚶,B2,이동 (창동 방면 승강장으로),Move (창동 Bound for 승강장으로),(B2) 창동 방면 승강장으로 이동
+Move,🚶,B2,이동 (천왕 방면 승강장으로),Move (천왕 Bound for 승강장으로),(B2) 천왕 방면 승강장으로 이동
+Move,🚶,B2,이동 (청량리 방면 승강장으로),Move (청량리 Bound for 승강장으로),(B2) 청량리 방면 승강장으로 이동
+Move,🚶,B2,이동 (태릉입구 방면 승강장으로),Move (태릉입구 Bound for 승강장으로),(B2) 태릉입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (하남검단산 방면 승강장으로),Move (하남검단산 Bound for 승강장으로),(B2) 하남검단산 방면 승강장으로 이동
+Move,🚶,B2,이동 (하남시청 방면 승강장으로),Move (하남시청 Bound for 승강장으로),(B2) 하남시청 방면 승강장으로 이동
+Move,🚶,B2,이동 (하남풍산 방면 승강장으로),Move (하남풍산 Bound for 승강장으로),(B2) 하남풍산 방면 승강장으로 이동
+Move,🚶,B2,이동 (한성대입구 방면 승강장으로),Move (한성대입구 Bound for 승강장으로),(B2) 한성대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (한양대 방면 승강장으로),Move (한양대 Bound for 승강장으로),(B2) 한양대 방면 승강장으로 이동
+Move,🚶,B2,이동 (혜화 방면 승강장으로),Move (혜화 Bound for 승강장으로),(B2) 혜화 방면 승강장으로 이동
+Move,🚶,B2,이동 (홍대입구 방면 승강장으로),Move (홍대입구 Bound for 승강장으로),(B2) 홍대입구 방면 승강장으로 이동
+Move,🚶,B2,이동 (홍제 방면 승강장으로),Move (홍제 Bound for 승강장으로),(B2) 홍제 방면 승강장으로 이동
+Move,🚶,B2,이동 (화곡 방면 승강장으로),Move (화곡 Bound for 승강장으로),(B2) 화곡 방면 승강장으로 이동
+Move,🚶,B2,이동 (화랑대 방면 승강장으로),Move (화랑대 Bound for 승강장으로),(B2) 화랑대 방면 승강장으로 이동
+Move,🚶,B2,이동 (환승대합실로),Move (환승대합실로),(B2) 환승대합실로 이동
+Move,🚶,B2,이동 (회현 방면 승강장으로),Move (회현 Bound for 승강장으로),(B2) 회현 방면 승강장으로 이동
+Move,🚶,B2,이동 (효창공원앞 방면 승강장으로),Move (효창공원앞 Bound for 승강장으로),(B2) 효창공원앞 방면 승강장으로 이동
+Move,🚶,B3,이동 (4호선 동대문사문화공원 방면 승강장으로),Move (4Line  동대문사문화공원 Bound for 승강장으로),(B3) 4호선 동대문역사문화공원 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 신당 방면 승강장으로),Move (6Line  신당 Bound for 승강장으로),(B3) 6호선 신당 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 창신 방면 승강장으로),Move (6Line  창신 Bound for 승강장으로),(B3) 6호선 창신 방면 승강장으로 이동
+Move,🚶,B3,이동 (9호선 국회의사당 방면 승강장으로),Move (9Line  국회의사당 Bound for 승강장으로),(B3) 9호선 국회의사당 방면 승강장으로 이동
+Move,🚶,B3,이동 (9호선 선유도 방면 승강장으로),Move (9Line  선유도 Bound for 승강장으로),(B3) 9호선 선유도 방면 승강장으로 이동
+Move,🚶,B3,이동 (강남구청 방면 승강장으로),Move (강남구청 Bound for 승강장으로),(B3) 강남구청 방면 승강장으로 이동
+Move,🚶,B3,이동 (개화산 방면 승강장으로),Move (개화산 Bound for 승강장으로),(B3) 개화산 방면 승강장으로 이동
+Move,🚶,B3,이동 (경복궁 방면 승강장으로),Move (경복궁 Bound for 승강장으로),(B3) 경복궁 방면 승강장으로 이동
+Move,🚶,B3,이동 (고려대 방면 승강장으로),Move (고려대 Bound for 승강장으로),(B3) 고려대 방면 승강장으로 이동
+Move,🚶,B3,이동 (고속터미널 방면 승강장으로),Move (고속터미널 Bound for 승강장으로),(B3) 고속터미널 방면 승강장으로 이동
+Move,🚶,B3,이동 (광나루 방면 승강장으로),Move (광나루 Bound for 승강장으로),(B3) 광나루 방면 승강장으로 이동
+Move,🚶,B3,이동 (교대 방면 승강장으로),Move (교대 Bound for 승강장으로),(B3) 교대 방면 승강장으로 이동
+Move,🚶,B3,이동 (군자 방면 승강장으로),Move (군자 Bound for 승강장으로),(B3) 군자 방면 승강장으로 이동
+Move,🚶,B3,이동 (김포공항 방면 승강장으로),Move (김포공항 Bound for 승강장으로),(B3) 김포공항 방면 승강장으로 이동
+Move,🚶,B3,이동 (남부터미널 방면 승강장으로),Move (남부터미널 Bound for 승강장으로),(B3) 남부터미널 방면 승강장으로 이동
+Move,🚶,B3,이동 (남태령 방면 승강장으로),Move (남태령 Bound for 승강장으로),(B3) 남태령 방면 승강장으로 이동
+Move,🚶,B3,이동 (논현 방면 승강장으로),Move (논현 Bound for 승강장으로),(B3) 논현 방면 승강장으로 이동
+Move,🚶,B3,이동 (답십리 방면 승강장으로),Move (답십리 Bound for 승강장으로),(B3) 답십리 방면 승강장으로 이동
+Move,🚶,B3,이동 (대흥 방면 승강장으로),Move (대흥 Bound for 승강장으로),(B3) 대흥 방면 승강장으로 이동
+Move,🚶,B3,이동 (도곡 방면 승강장으로),Move (도곡 Bound for 승강장으로),(B3) 도곡 방면 승강장으로 이동
+Move,🚶,B3,이동 (독립문 방면 승강장으로),Move (독립문 Bound for 승강장으로),(B3) 독립문 방면 승강장으로 이동
+Move,🚶,B3,이동 (돌곶이 방면 승강장으로),Move (돌곶이 Bound for 승강장으로),(B3) 돌곶이 방면 승강장으로 이동
+Move,🚶,B3,이동 (동대문사문화공원 방면 승강장으로),Move (동대문사문화공원 Bound for 승강장으로),(B3) 동대문역사문화공원 방면 승강장으로 이동
+Move,🚶,B3,이동 (동묘앞 방면 승강장으로),Move (동묘앞 Bound for 승강장으로),(B3) 동묘앞 방면 승강장으로 이동
+Move,🚶,B3,이동 (디지털미디어시티 방면 승강장으로),Move (디지털미디어시티 Bound for 승강장으로),(B3) 디지털미디어시티 방면 승강장으로 이동
+Move,🚶,B3,이동 (마곡 방면 승강장으로),Move (마곡 Bound for 승강장으로),(B3) 마곡 방면 승강장으로 이동
+Move,🚶,B3,이동 (마곡나루 방면 승강장으로),Move (마곡나루 Bound for 승강장으로),(B3) 마곡나루 방면 승강장으로 이동
+Move,🚶,B3,이동 (마장 방면 승강장으로),Move (마장 Bound for 승강장으로),(B3) 마장 방면 승강장으로 이동
+Move,🚶,B3,이동 (망원 방면 승강장으로),Move (망원 Bound for 승강장으로),(B3) 망원 방면 승강장으로 이동
+Move,🚶,B3,이동 (명동 방면 승강장으로),Move (명동 Bound for 승강장으로),(B3) 명동 방면 승강장으로 이동
+Move,🚶,B3,이동 (목동 방면 승강장으로),Move (목동 Bound for 승강장으로),(B3) 목동 방면 승강장으로 이동
+Move,🚶,B3,이동 (무악재 방면 승강장으로),Move (무악재 Bound for 승강장으로),(B3) 무악재 방면 승강장으로 이동
+Move,🚶,B3,이동 (미사 방면 승강장으로),Move (미사 Bound for 승강장으로),(B3) 미사 방면 승강장으로 이동
+Move,🚶,B3,이동 (반포 방면 승강장으로),Move (반포 Bound for 승강장으로),(B3) 반포 방면 승강장으로 이동
+Move,🚶,B3,이동 (보문 방면 승강장으로),Move (보문 Bound for 승강장으로),(B3) 보문 방면 승강장으로 이동
+Move,🚶,B3,이동 (상도 방면 승강장으로),Move (상도 Bound for 승강장으로),(B3) 상도 방면 승강장으로 이동
+Move,🚶,B3,이동 (상수 방면 승강장으로),Move (상수 Bound for 승강장으로),(B3) 상수 방면 승강장으로 이동
+Move,🚶,B3,이동 (상월곡 방면 승강장으로),Move (상월곡 Bound for 승강장으로),(B3) 상월곡 방면 승강장으로 이동
+Move,🚶,B3,이동 (상일동 방면 승강장으로),Move (상일동 Bound for 승강장으로),(B3) 상일동 방면 승강장으로 이동
+Move,🚶,B3,이동 (송정 방면 승강장으로),Move (송정 Bound for 승강장으로),(B3) 송정 방면 승강장으로 이동
+Move,🚶,B3,이동 (숭실대입구 방면 승강장으로),Move (숭실대입구 Bound for 승강장으로),(B3) 숭실대입구 방면 승강장으로 이동
+Move,🚶,B3,이동 (숭실대입구 방면 승강장으로),Move (숭실대입구 Bound for 승강장으로),(B3) 숭실대입구역 방면 승강장으로 이동
+Move,🚶,B3,이동 (신대방삼거리 방면 승강장으로),Move (신대방삼거리 Bound for 승강장으로),(B3) 신대방삼거리 방면 승강장으로 이동
+Move,🚶,B3,이동 (아차산 방면 승강장으로),Move (아차산 Bound for 승강장으로),(B3) 아차산 방면 승강장으로 이동
+Move,🚶,B3,이동 (안국 방면 승강장으로),Move (안국 Bound for 승강장으로),(B3) 안국 방면 승강장으로 이동
+Move,🚶,B3,이동 (안암 방면 승강장으로),Move (안암 Bound for 승강장으로),(B3) 안암 방면 승강장으로 이동
+Move,🚶,B3,이동 (약수 방면 승강장으로),Move (약수 Bound for 승강장으로),(B3) 약수 방면 승강장으로 이동
+Move,🚶,B3,이동 (양재 방면 승강장으로),Move (양재 Bound for 승강장으로),(B3) 양재 방면 승강장으로 이동
+Move,🚶,B3,이동 (양평 방면 승강장으로),Move (양평 Bound for 승강장으로),(B3) 양평 방면 승강장으로 이동
+Move,🚶,B3,이동 (왕십리 방면 승강장으로),Move (왕십리 Bound for 승강장으로),(B3) 왕십리 방면 승강장으로 이동
+Move,🚶,B3,이동 (월곡 방면 승강장으로),Move (월곡 Bound for 승강장으로),(B3) 월곡 방면 승강장으로 이동
+Move,🚶,B3,이동 (월드컵경기장 방면 승강장으로),Move (월드컵경기장 Bound for 승강장으로),(B3) 월드컵경기장 방면 승강장으로 이동
+Move,🚶,B3,이동 (통로로),Move (통로로),(B3) 이동통로로 이동
+Move,🚶,B3,이동 (이수 방면 승강장으로),Move (이수 Bound for 승강장으로),(B3) 이수 방면 승강장으로 이동
+Move,🚶,B3,이동 (이수 방면 승강장으로),Move (이수 Bound for 승강장으로),(B3) 이수역 방면 승강장으로 이동
+Move,🚶,B3,이동 (장승배기 방면 승강장으로),Move (장승배기 Bound for 승강장으로),(B3) 장승배기 방면 승강장으로 이동
+Move,🚶,B3,이동 (장한평 방면 승강장으로),Move (장한평 Bound for 승강장으로),(B3) 장한평 방면 승강장으로 이동
+Move,🚶,B3,이동 (종로3가 방면 승강장으로),Move (종로3가 Bound for 승강장으로),(B3) 종로3가 방면 승강장으로 이동
+Move,🚶,B3,이동 (창신 방면 승강장으로),Move (창신 Bound for 승강장으로),(B3) 창신 방면 승강장으로 이동
+Move,🚶,B3,이동 (천왕 방면 승강장으로),Move (천왕 Bound for 승강장으로),(B3) 천왕 방면 승강장으로 이동
+Move,🚶,B3,이동 (천호 방면 승강장으로),Move (천호 Bound for 승강장으로),(B3) 천호 방면 승강장으로 이동
+Move,🚶,B3,이동 (청구 방면 승강장으로),Move (청구 Bound for 승강장으로),(B3) 청구 방면 승강장으로 이동
+Move,🚶,B3,이동 (청담 방면 승강장으로),Move (청담 Bound for 승강장으로),(B3) 청담 방면 승강장으로 이동
+Move,🚶,B3,이동 (총신대입구 방면 승강장으로),Move (총신대입구 Bound for 승강장으로),(B3) 총신대입구 방면 승강장으로 이동
+Move,🚶,B3,이동 (충무로 방면 승강장으로),Move (충무로 Bound for 승강장으로),(B3) 충무로 방면 승강장으로 이동
+Move,🚶,B3,이동 (태릉입구 방면 승강장으로),Move (태릉입구 Bound for 승강장으로),(B3) 태릉입구 방면 승강장으로 이동
+Move,🚶,B3,이동 (학동 방면 승강장으로),Move (학동 Bound for 승강장으로),(B3) 학동 방면 승강장으로 이동
+Move,🚶,B3,이동 (학여울 방면 승강장으로),Move (학여울 Bound for 승강장으로),(B3) 학여울 방면 승강장으로 이동
+Move,🚶,B3,이동 (홍대입구 방면 승강장으로),Move (홍대입구 Bound for 승강장으로),(B3) 홍대입구 방면 승강장으로 이동
+Move,🚶,B3,이동 (홍제 방면 승강장으로),Move (홍제 Bound for 승강장으로),(B3) 홍제 방면 승강장으로 이동
+Move,🚶,B4,이동 (3호선 경찰병원 방면 승강장으로),Move (3Line  경찰병원 Bound for 승강장으로),(B4) 3호선 경찰병원 방면 승강장으로 이동
+Move,🚶,B4,이동 (5호선 동대문사문화공원 방면 승강장으로),Move (5Line  동대문사문화공원 Bound for 승강장으로),(B4) 5호선 동대문역사문화공원 방면 승강장으로 이동
+Move,🚶,B4,이동 (5호선 신금호 방면 승강장으로),Move (5Line  신금호 Bound for 승강장으로),(B4) 5호선 신금호 방면 승강장으로 이동
+Move,🚶,B4,이동 (경복궁 방면 승강장으로),Move (경복궁 Bound for 승강장으로),(B4) 경복궁 방면 승강장으로 이동
+Move,🚶,B4,이동 (계양 방면 승강장으로),Move (계양 Bound for 승강장으로),(B4) 계양 방면 승강장으로 이동
+Move,🚶,B4,이동 (공덕 방면 승강장으로),Move (공덕 Bound for 승강장으로),(B4) 공덕 방면 승강장으로 이동
+Move,🚶,B4,"이동 (길동, 둔촌동 방면 승강장으로)","Move (길동, 둔촌동 Bound for 승강장으로)","(B4) 길동, 둔촌동 방면 승강장으로 이동"
+Move,🚶,B4,이동 (김포골드라인 고촌 방면 승강장으로),Move (김포골드라인 고촌 Bound for 승강장으로),(B4) 김포골드라인 고촌 방면 승강장으로 이동
+Move,🚶,B4,이동 (남성 방면 승강장으로),Move (남성 Bound for 승강장으로),(B4) 남성 방면 승강장으로 이동
+Move,🚶,B4,이동 (내방 방면 승강장으로),Move (내방 Bound for 승강장으로),(B4) 내방 방면 승강장으로 이동
+Move,🚶,B4,이동 (녹사평 방면 승강장으로),Move (녹사평 Bound for 승강장으로),(B4) 녹사평 방면 승강장으로 이동
+Move,🚶,B4,이동 (대합실),Move (대합실),(B4) 대합실 이동
+Move,🚶,B4,이동 (독바위 방면 승강장으로),Move (독바위 Bound for 승강장으로),(B4) 독바위 방면 승강장으로 이동
+Move,🚶,B4,이동 (동묘앞 방면 승강장으로),Move (동묘앞 Bound for 승강장으로),(B4) 동묘앞 방면 승강장으로 이동
+Move,🚶,B4,이동 (디지털미디어시티 방면 승강장으로),Move (디지털미디어시티 Bound for 승강장으로),(B4) 디지털미디어시티 방면 승강장으로 이동
+Move,🚶,B4,이동 (망원 방면 승강장으로),Move (망원 Bound for 승강장으로),(B4) 망원 방면 승강장으로 이동
+Move,🚶,B4,이동 (명동 방면 승강장으로),Move (명동 Bound for 승강장으로),(B4) 명동 방면 승강장으로 이동
+Move,🚶,B4,이동 (버티고개 방면 승강장으로),Move (버티고개 Bound for 승강장으로),(B4) 버티고개 방면 승강장으로 이동
+Move,🚶,B4,이동 (보문 방면 승강장으로),Move (보문 Bound for 승강장으로),(B4) 보문 방면 승강장으로 이동
+Move,🚶,B4,이동 (서울 방면 승강장으로),Move (서울 Bound for 승강장으로),(B4) 서울역 방면 승강장으로 이동
+Elevator Activity,🛗,B4,엘리베이터 탑승 (서해선 능곡방면),Enter Elevator (서해선 능곡Bound for),(B4) 서해선 능곡방면 엘리베이터 탑승
+Elevator Activity,🛗,B4,엘리베이터 탑승 (서해선 원종방면),Enter Elevator (서해선 원종Bound for),(B4) 서해선 원종방면 엘리베이터 탑승
+Move,🚶,B4,이동 (승강장으로),Move (승강장으로),(B4) 승강장으로 이동
+Move,🚶,B4,이동 (안암 방면 승강장으로),Move (안암 Bound for 승강장으로),(B4) 안암 방면 승강장으로 이동
+Move,🚶,B4,이동 (여의도 방면 승강장으로),Move (여의도 Bound for 승강장으로),(B4) 여의도 방면 승강장으로 이동
+Move,🚶,B4,이동 (영등포시장 방면 승강장으로),Move (영등포시장 Bound for 승강장으로),(B4) 영등포시장 방면 승강장으로 이동
+Move,🚶,B4,이동 (월곡 방면 승강장으로),Move (월곡 Bound for 승강장으로),(B4) 월곡 방면 승강장으로 이동
+Elevator Activity,🛗,B4,엘리베이터 하차 (자양 방면 지하4층),Exit Elevator (자양 Bound for 지하4층),(B4) 자양 방면 지하4층 엘리베이터 하차
+Move,🚶,B4,이동 (종로3가 방면 승강장으로),Move (종로3가 Bound for 승강장으로),(B4) 종로3가 방면 승강장으로 이동
+Move,🚶,B4,이동 (천호 방면 승강장으로),Move (천호 Bound for 승강장으로),(B4) 천호 방면 승강장으로 이동
+Move,🚶,B4,이동 (효창공원앞 방면 승강장으로),Move (효창공원앞 Bound for 승강장으로),(B4) 효창공원앞 방면 승강장으로 이동
+Elevator Activity,🛗,B4,엘리베이터 하차 (강남구청 방면 지하4층),Exit Elevator (강남구청 Bound for 지하4층),(B4)강남구청 방면 지하4층 엘리베이터 하차
+Move,🚶,B5,이동 (9호선 사평 방면 승강장으로),Move (9Line  사평 Bound for 승강장으로),(B5) 9호선 사평 방면 승강장으로 이동
+Move,🚶,B5,이동 (가산디지털단지 방면 승강장으로),Move (가산디지털단지 Bound for 승강장으로),(B5) 가산디지털단지 방면 승강장으로 이동
+Move,🚶,B5,이동 (녹사평 방면 승강장으로),Move (녹사평 Bound for 승강장으로),(B5) 녹사평 방면 승강장으로 이동
+Move,🚶,B5,이동 (대림 방면 승강장으로),Move (대림 Bound for 승강장으로),(B5) 대림 방면 승강장으로 이동
+Move,🚶,B5,이동 (대치 방면 승강장으로),Move (대치 Bound for 승강장으로),(B5) 대치 방면 승강장으로 이동
+Move,🚶,B5,이동 (대합실로),Move (대합실로),(B5) 대합실로 이동
+Move,🚶,B5,이동 (마장 방면 승강장으로),Move (마장 Bound for 승강장으로),(B5) 마장 방면 승강장으로 이동
+Move,🚶,B5,이동 (서울 방면 승강장으로),Move (서울 Bound for 승강장으로),(B5) 서울역 방면 승강장으로 이동
+Move,🚶,B5,이동 (승강장으로),Move (승강장으로),(B5) 승강장으로 이동
+Move,🚶,B5,이동 (신금호 방면 승강장으로),Move (신금호 Bound for 승강장으로),(B5) 신금호 방면 승강장으로 이동
+Move,🚶,B5,이동 (영등포시장 방면 승강장으로),Move (영등포시장 Bound for 승강장으로),(B5) 영등포시장 방면 승강장으로 이동
+Move,🚶,B5,이동 (오목교 방면 승강장으로),Move (오목교 Bound for 승강장으로),(B5) 오목교 방면 승강장으로 이동
+Move,🚶,B5,이동 (한강진 방면 승강장으로),Move (한강진 Bound for 승강장으로),(B5) 한강진 방면 승강장으로 이동
+Move,🚶,B5,이동 (행당 방면 승강장으로),Move (행당 Bound for 승강장으로),(B5) 행당 방면 승강장으로 이동
+Move,🚶,B5,이동 (홍대입구 방면 승강장으로),Move (홍대입구 Bound for 승강장으로),(B5) 홍대입구 방면 승강장으로 이동
+Move,🚶,B6,이동 (남성 방면 승강장으로),Move (남성 Bound for 승강장으로),(B6) 남성 방면 승강장으로 이동
+Move,🚶,B6,이동 (상도 방면 승강장으로),Move (상도 Bound for 승강장으로),(B6) 상도 방면 승강장으로 이동
+Move,🚶,B6,이동 (신길 방면 승강장으로),Move (신길 Bound for 승강장으로),(B6) 신길 방면 승강장으로 이동
+Move,🚶,B8,이동 (청구 방면 승강장으로),Move (청구 Bound for 승강장으로),(B8) 청구 방면 승강장으로 이동
+Move,🚶,B8,이동 (행당 방면 승강장으로),Move (행당 Bound for 승강장으로),(B8) 행당 방면 승강장으로 이동
+Elevator Activity,🛗,F1,엘리베이터 탑승 (2번 출입구),Enter Elevator (2번 Exit),(F1) 2번 출입구 엘리베이터 탑승
+Move,🚶,,이동 (1호선 대합실로),Move (1Line  대합실로),1호선 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 망월사 방면),Enter Elevator (1Line  망월사 Bound for),1호선 망월사 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 방향),Enter Elevator (1Line  방향),1호선 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 영등포 방면),Enter Elevator (1Line  영등포 Bound for),1호선 영등포 방면 엘리베이터 탑승
+Elevator Activity,🛗,1,엘리베이터 하차 (1호선 종로3가 청량리방면 지하2층),Exit Elevator (1Line  종로3가 청량리Bound for 지하2층),1호선 종로3가(1)역 청량리방면 지하2층 엘리베이터 하차
+Move,🚶,,이동 (1호선 환승),Move (1Line  환승),1호선 환승 엘리베이터 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (2F 8번출구),Enter Elevator (2F 8번Exit),2F 8번출구 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2번/3번 출입구 사이 외부),Enter Elevator (2번/3번 Exit 사이 외부),2번/3번 출입구 사이 외부 엘리베이터 탑승
+Move,🚶,,이동 (2번출구 외부 1호기 로),Move (2번Exit 외부 1호기 로),2번출구 외부 1호기 엘리베이터로 이동
+Elevator Activity,🛗,,"엘리베이터 탑승 (2호선 대림, 문래 방면)","Enter Elevator (2Line  대림, 문래 Bound for)","2호선 대림, 문래 방면 엘리베이터 탑승"
+Subway Activity,🚉,,승차 (2호선 대합실 방향 휠체어리프트),Board (2Line  대합실 방향 휠체어리프트),2호선 대합실 방향 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 도림천 방면),Enter Elevator (2Line  도림천 Bound for),2호선 도림천 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 방배 방면),Enter Elevator (2Line  방배 Bound for),2호선 방배 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 방향 환승),Enter Elevator (2Line  방향 환승),2호선 방향 환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 신당 방면),Enter Elevator (2Line  신당 Bound for),2호선 신당 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 을지로4가 방면),Enter Elevator (2Line  을지로4가 Bound for),2호선 을지로4가 방면 엘리베이터 탑승
+Move,🚶,,이동 (2호선 을지로입구 방면 승강장으로),Move (2Line  을지로입구 Bound for 승강장으로),2호선 을지로입구 방면 승강장으로 이동
+Move,🚶,,이동 (3번 출입구),Move (3번 Exit),3번 출입구 옆 엘리베이터 이동
+Subway Activity,🚉,,승차 (3호선 환승통로 방향 휠체어리프트),Board (3Line  환승통로 방향 휠체어리프트),3호선 환승통로 방향 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (4번/5번 출입구 사이 외부),Enter Elevator (4번/5번 Exit 사이 외부),4번/5번 출입구 사이 외부 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (4호선 방향),Enter Elevator (4Line  방향),4호선 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (4호선 승강장 방향),Enter Elevator (4Line  승강장 방향),4호선 승강장 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 마장 방면),Enter Elevator (5Line  마장 Bound for),5호선 마장 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선 행당 방면),Enter Elevator (5Line  행당 Bound for),5호선 행당 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (5호선방면 지상1층),Enter Elevator (5Line Bound for 지상1층),5호선방면 지상1층 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 대흥 방면),Enter Elevator (6Line  대흥 Bound for),6호선 대흥 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 승강장 방면),Enter Elevator (6Line  승강장 Bound for),6호선 승강장 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 환승),Enter Elevator (6Line  환승),6호선 환승 엘리베이터 탑승
+Move,🚶,,이동 (7호선 대합실로),Move (7Line  대합실로),7호선 대합실로  이동
+Move,🚶,,이동 (7호선 어린이대공원 방면 승강장),Move (7Line  어린이대공원 Bound for 승강장),7호선 어린이대공원 방면 승강장 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (8호선 몽촌토성 방면),Enter Elevator (8Line  몽촌토성 Bound for),8호선 몽촌토성 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (8호선 석촌 방면),Enter Elevator (8Line  석촌 Bound for),8호선 석촌 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9/10번 출입구방향 환승),Enter Elevator (9/10번 Exit방향 환승),9/10번 출입구방향 환승 엘리베이터 탑승
+Move,🚶,,이동 (9호선 대합실로),Move (9Line  대합실로),9호선 대합실로 이동
+Subway Activity,🚉,,하차 (B5 하선 승강장(3-2)),Alight (B5 하선 승강장(3-2)),B5 하선 승강장(3-2) 하차
+Elevator Activity,🛗,,엘리베이터 하차 (B6층 승강장),Exit Elevator (B6층 승강장),B6층 승강장 엘리베이터 하차
+Unknown,?,,F1) 지상1층 1번 출입구,F1) 지상1층 1번 출입구,F1) 지상1층 1번 출입구
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 응봉 방면),Enter Elevator (경의중앙선 응봉 Bound for),경의중앙선 응봉 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 한남 방면),Enter Elevator (경의중앙선 한남 Bound for),경의중앙선 한남 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 환승),Enter Elevator (경의중앙선 환승),경의중앙선 환승 엘리베이터 탑승
+Subway Activity,🚉,,승차 (공덕 방면),Board (공덕 Bound for),공덕 방면 승차
+Elevator Activity,🛗,,엘리베이터 탑승 (공릉 방면),Enter Elevator (공릉 Bound for),공릉 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 방향),Enter Elevator (공항철도 방향),공항철도 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 서울 방면),Enter Elevator (공항철도 서울 Bound for),공항철도 서울역 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 홍대입구 방면),Enter Elevator (공항철도 홍대입구 Bound for),공항철도 홍대입구 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (광흥창 방면),Board (광흥창 Bound for),광흥창 방면 승차
+Elevator Activity,🛗,,엘리베이터 탑승 (교대방면),Enter Elevator (교대Bound for),교대방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (김포골드라인 대합실 고촌 방면),Enter Elevator (김포골드라인 대합실 고촌 Bound for),김포골드라인 대합실 고촌 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (대흥 방면),Enter Elevator (대흥 Bound for),대흥 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (도림천 방면),Enter Elevator (도림천 Bound for),도림천 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (먹골 방면),Enter Elevator (먹골 Bound for),먹골 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (보라매 방면 앞 표 내는 곳),Pass Gate (보라매 Bound for 앞 표 내는 곳),보라매 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (승강장 방향 통로로),Move (승강장 방향 통로로),승강장 방향 이동통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (신림선 보라매공원 방면),Enter Elevator (신림선 보라매공원 Bound for),신림선 보라매공원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신림선 서울지방병무청 방면),Enter Elevator (신림선 서울지방병무청 Bound for),신림선 서울지방병무청 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (신림선 승강장 방향),Enter Elevator (신림선 승강장 방향),신림선 승강장 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (양재시민의숲 방면),Enter Elevator (양재시민의숲 Bound for),양재시민의숲 방면 엘리베이터 탑승
+Unknown,?,,엘리베이터 이용,엘리베이터 이용,엘리베이터 이용
+Move,🚶,,이동 (우이신설선 보문 방면 승강장으로),Move (우이신설선 보문 Bound for 승강장으로),우이신설선 보문 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (우이신설선 성신여대입구 방면),Enter Elevator (우이신설선 성신여대입구 Bound for),우이신설선 성신여대입구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (우이신설선 신설동 방면),Enter Elevator (우이신설선 신설동 Bound for),우이신설선 신설동 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (인천2호선 검바위 방면),Enter Elevator (인천2Line  검바위 Bound for),인천2호선 검바위 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (인천2호선 대합실 방향),Enter Elevator (인천2Line  대합실 방향),인천2호선 대합실 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (일반열차 승강장 방향),Enter Elevator (일반열차 승강장 방향),일반열차 승강장 방향 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (자동개집표기 구),Pass Gate (자동개집표기 구),자동개집표기 구역 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (잠원방면),Enter Elevator (잠원Bound for),잠원방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (장승배기 방면 앞 표 내는 곳),Pass Gate (장승배기 Bound for 앞 표 내는 곳),장승배기 방면 엘리베이터 앞 표 내는 곳 통과
+Move,🚶,,이동 (지하 1층 제기동 방면 승강장으로),Move (지하 1층 제기동 Bound for 승강장으로),지하 1층 제기동 방면 승강장으로 이동
+Move,🚶,,이동 (지하 1층 회기 방면 승강장으로),Move (지하 1층 회기 Bound for 승강장으로),지하 1층 회기 방면 승강장으로 이동
+Move,🚶,,이동 (지하 2층 승강장으로),Move (지하 2층 승강장으로),지하 2층 승강장으로 이동
+Move,🚶,,이동 (지하2층으로),Move (지하2층으로),지하2층으로 이동
+Elevator Activity,🛗,,엘리베이터 하차 (지하3층 승강장),Exit Elevator (지하3층 승강장),지하3층 승강장 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (태릉입구 방면),Enter Elevator (태릉입구 Bound for),태릉입구 방면  엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (환승),Enter Elevator (환승),환승 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (효창공원앞 방면),Enter Elevator (효창공원앞 Bound for),효창공원앞 방면 엘리베이터 탑승
+Move,🚶,1F,이동 (경의중앙선 한남 방면 승강장으로),Move (경의중앙선 한남 Bound for 승강장으로),(1F) 경의중앙선 한남 방면 승강장으로 이동
+Move,🚶,1F,이동 (사 바깥으로),Move (사 바깥으로),(1F) 역사 바깥으로 이동
+Move,🚶,2F,이동 (2호선 환승통로로),Move (2Line  환승통로로),(2F) 2호선 환승통로로 이동
+Move,🚶,3F,이동 (이촌 방면 승강장으로),Move (이촌 Bound for 승강장으로),(3F) 이촌 방면 승강장으로 이동
+Move,🚶,3F,이동 (인천2호선 검바위 방면 승강장으로),Move (인천2Line  검바위 Bound for 승강장으로),(3F) 인천2호선 검바위 방면 승강장으로 이동
+Move,🚶,B1,이동 (2호선 방향 환승통로로),Move (2Line  방향 환승통로로),(B1) 2호선 방향 환승통로로 이동
+Move,🚶,B1,이동 (9호선 대합실로),Move (9Line  대합실로),(B1) 9호선 대합실로 이동
+Move,🚶,B1,이동 (우이신설선 대합실로),Move (우이신설선 대합실로),(B1) 우이신설선 대합실로 이동
+Elevator Activity,🛗,B2,엘리베이터 하차 (2호선 당산방면),Exit Elevator (2Line  당산Bound for),(B2) 2호선 당산방면 엘리베이터 하차
+Move,🚶,B2,이동 (2호선 대림 방면 승강장으로),Move (2Line  대림 Bound for 승강장으로),(B2) 2호선 대림 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 도림천 방면 승강장으로),Move (2Line  도림천 Bound for 승강장으로),(B2) 2호선 도림천 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 문래 방면 승강장으로),Move (2Line  문래 Bound for 승강장으로),(B2) 2호선 문래 방면 승강장으로 이동
+Elevator Activity,🛗,B2,엘리베이터 하차 (2호선 문래방면),Exit Elevator (2Line  문래Bound for),(B2) 2호선 문래방면 엘리베이터 하차
+Move,🚶,B2,이동 (2호선 방배 방면 승강장으로),Move (2Line  방배 Bound for 승강장으로),(B2) 2호선 방배 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 상왕십리 방면 승강장으로),Move (2Line  상왕십리 Bound for 승강장으로),(B2) 2호선 상왕십리 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 신당 방면 승강장으로),Move (2Line  신당 Bound for 승강장으로),(B2) 2호선 신당 방면 승강장으로 이동
+Move,🚶,B2,이동 (3호선 환승통로),Move (3Line  환승통로),(B2) 3호선 환승통로 이동
+Move,🚶,B2,이동 (6호선 대흥 방면 승강장으로),Move (6Line  대흥 Bound for 승강장으로),(B2) 6호선 대흥 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 효창공원앞 방면 승강장으로),Move (6Line  효창공원앞 Bound for 승강장으로),(B2) 6호선 효창공원앞 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 효창공원앞 승강장으로),Move (6Line  효창공원앞 승강장으로),(B2) 6호선 효창공원앞 승강장으로 이동
+Move,🚶,B2,이동 (경의중앙선 용산 방면 승강장으로),Move (경의중앙선 용산 Bound for 승강장으로),(B2) 경의중앙선 용산 방면 승강장으로 이동
+Move,🚶,B2,이동 (대흥 방면 승강장으로),Move (대흥 Bound for 승강장으로),(B2) 대흥 방면 승강장으로 이동
+Move,🚶,B2,이동 (도림천 방면 승강장으로),Move (도림천 Bound for 승강장으로),(B2) 도림천 방면 승강장으로 이동
+Move,🚶,B2,이동 (월드컵경기장 방면 승강장으로),Move (월드컵경기장 Bound for 승강장으로),(B2) 월드컵경기장 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 대합실로),Move (6Line  대합실로),(B3) 6호선 대합실로 이동
+Move,🚶,B3,이동 (7호선 대합실로),Move (7Line  대합실로),(B3) 7호선 대합실로 이동
+Move,🚶,B3,이동 (8호선 몽촌토성 방면 승강장으로),Move (8Line  몽촌토성 Bound for 승강장으로),(B3) 8호선 몽촌토성 방면 승강장으로 이동
+Move,🚶,B3,이동 (8호선 석촌 방면 승강장으로),Move (8Line  석촌 Bound for 승강장으로),(B3) 8호선 석촌 방면 승강장으로 이동
+Move,🚶,B3,이동 (버티고개 방면 승강장으로),Move (버티고개 Bound for 승강장으로),(B3) 버티고개 방면 승강장으로 이동
+Move,🚶,B3,이동 (신당 방면 승강장으로),Move (신당 Bound for 승강장으로),(B3) 신당 방면 승강장으로 이동
+Move,🚶,B3,이동 (신림선 당곡 방면 승강장으로),Move (신림선 당곡 Bound for 승강장으로),(B3) 신림선 당곡 방면 승강장으로 이동
+Move,🚶,B3,이동 (신림선 보라매공원 방면 승강장으로),Move (신림선 보라매공원 Bound for 승강장으로),(B3) 신림선 보라매공원 방면 승강장으로 이동
+Move,🚶,B3,이동 (신림선 서울지방병무청 방면 승강장으로),Move (신림선 서울지방병무청 Bound for 승강장으로),(B3) 신림선 서울지방병무청 방면 승강장으로 이동
+Move,🚶,B3,이동 (신림선 서원 방면 승강장으로),Move (신림선 서원 Bound for 승강장으로),(B3) 신림선 서원 방면 승강장으로 이동
+Move,🚶,B3,이동 (환승 대합실로),Move (환승 대합실로),(B3) 환승 대합실로 이동
+Move,🚶,B4,이동 (6호선 독바위 방면 승강장으로),Move (6Line  독바위 Bound for 승강장으로),(B4) 6호선 독바위 방면 승강장으로 이동
+Move,🚶,B4,이동 (6호선 망원 방면 승강장으로),Move (6Line  망원 Bound for 승강장으로),(B4) 6호선 망원 방면 승강장으로 이동
+Move,🚶,B4,이동 (7호선 공릉 방면 승강장으로),Move (7Line  공릉 Bound for 승강장으로),(B4) 7호선 공릉 방면 승강장으로 이동
+Move,🚶,B4,이동 (7호선 먹골 방면 승강장으로),Move (7Line  먹골 Bound for 승강장으로),(B4) 7호선 먹골 방면 승강장으로 이동
+Move,🚶,B4,이동 (공항철도 서울 방면 승강장으로),Move (공항철도 서울 Bound for 승강장으로),(B4) 공항철도 서울역 방면 승강장으로 이동
+Move,🚶,B4,이동 (공항철도 홍대입구 방면 승강장으로),Move (공항철도 홍대입구 Bound for 승강장으로),(B4) 공항철도 홍대입구 방면 승강장으로 이동
+Move,🚶,B4,이동 (불광 방면 승강장으로),Move (불광 Bound for 승강장으로),(B4) 불광 방면 승강장으로 이동
+Move,🚶,B4,이동 (신분당선 강남 방면 승강장으로),Move (신분당선 강남 Bound for 승강장으로),(B4) 신분당선 강남 방면 승강장으로 이동
+Move,🚶,B4,이동 (신분당선 양재시민의숲 방면 승강장으로),Move (신분당선 양재시민의숲 Bound for 승강장으로),(B4) 신분당선 양재시민의숲 방면 승강장으로 이동
+Move,🚶,B4,이동 (우이신설선 성신여대입구 방면 승강장으로),Move (우이신설선 성신여대입구 Bound for 승강장으로),(B4) 우이신설선 성신여대입구 방면 승강장으로 이동
+Move,🚶,B4,이동 (우이신설선 신설동 방면 승강장으로),Move (우이신설선 신설동 Bound for 승강장으로),(B4) 우이신설선 신설동 방면 승강장으로 이동
+Move,🚶,B5,이동 (5호선 마장 방면 승강장으로),Move (5Line  마장 Bound for 승강장으로),(B5) 5호선 마장 방면 승강장으로 이동
+Move,🚶,B5,이동 (5호선 행당 방면 승강장으로),Move (5Line  행당 Bound for 승강장으로),(B5) 5호선 행당 방면 승강장으로 이동
+Subway Activity,🚉,B5,승차 (능곡방면 승강장),Board (능곡Bound for 승강장),(B5) 능곡방면 승강장 승차
+Subway Activity,🚉,B5,승차 (원종방면 승강장),Board (원종Bound for 승강장),(B5) 원종방면 승강장 승차
+Move,🚶,B7,이동 (공덕 방면 승강장으로),Move (공덕 Bound for 승강장으로),(B7) 공덕 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (13번 출입구 후 지상으로),Enter Elevator (13번 Exit 후 지상으로),13번 출입구 옆 엘리베이터 탑승 후 지상으로 이동
+Move,🚶,,이동 (1F 외부로),Move (1F 외부로),1F 외부로 이동
+Subway Activity,🚉,,승차 (1호선 구로 방면 휠체어리프트),Board (1Line  구로 Bound for 휠체어리프트),1호선 구로 방면 휠체어리프트 탑승
+Subway Activity,🚉,,승차 (1호선 독산 방면 휠체어리프트),Board (1Line  독산 Bound for 휠체어리프트),1호선 독산 방면 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 승강장 방향),Enter Elevator (1Line  승강장 방향),1호선 승강장 방향 엘리베이터 탑승
+Subway Activity,🚉,,승차 (2호선 동대문사문화공원 방면 휠체어리프트),Board (2Line  동대문사문화공원 Bound for 휠체어리프트),2호선 동대문역사문화공원 방면 휠체어리프트 탑승
+Subway Activity,🚉,,승차 (2호선 상왕십리 방면 휠체어리프트),Board (2Line  상왕십리 Bound for 휠체어리프트),2호선 상왕십리 방면 휠체어리프트 탑승
+Subway Activity,🚉,,승차 (3번 출입구 엘레이터),Board (3번 Exit 엘레이터),3번 출입구 옆 엘레이터 탑승
+Elevator Activity,🛗,,엘리베이터 하차 (5호선방면 지하4층 대합실),Exit Elevator (5Line Bound for 지하4층 대합실),5호선방면 지하4층 대합실 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 내방 방면),Enter Elevator (7Line  내방 Bound for),7호선 내방 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (7호선 반포 방면),Enter Elevator (7Line  반포 Bound for),7호선 반포 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (8호선 강동구청 방면),Enter Elevator (8Line  강동구청 Bound for),8호선 강동구청 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (8호선 암사 방면),Enter Elevator (8Line  암사 Bound for),8호선 암사 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 신반포 방면),Enter Elevator (9Line  신반포 Bound for),9호선  신반포 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 사평 방면),Enter Elevator (9Line  사평 Bound for),9호선 사평 방면 엘리베이터 탑승
+Move,🚶,,이동 (B2 태릉입구 방면 승강장),Move (B2 태릉입구 Bound for 승강장),B2 태릉입구 방면 승강장 이동
+Move,🚶,,이동 (B5 2호선 신정네거리 방면 승강장으로),Move (B5 2Line  신정네거리 Bound for 승강장으로),B5 2호선 신정네거리역 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (경사),Enter Elevator (경사),경사 엘리베이터 탑승
+Unknown,?,,경의중앙선 승강장 엘리베이터 이용,경의중앙선 승강장 엘리베이터 이용,경의중앙선 승강장 엘리베이터 이용
+Gate,🎫,,게이트 통과 (공항철도 대합실 중앙 표 내는 곳),Pass Gate (공항철도 대합실 중앙 표 내는 곳),공항철도 대합실 중앙 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (교대 방면),Enter Elevator (교대 Bound for),교대 방면 엘리베이터 탑승
+Move,🚶,B3,이동 (교대방면 승강장으로),Move (교대Bound for 승강장으로),교대방면 승강장(B3)으로 이동
+Move,🚶,,이동 (구산 방면 승강장으로),Move (구산 Bound for 승강장으로),구산 방면 승강장으로 이동
+Move,🚶,,이동 (도봉산 방면 승강장으로),Move (도봉산 Bound for 승강장으로),도봉산 방면 승강장으로 이동
+Move,🚶,,이동 (동대문방면 승강장),Move (동대문Bound for 승강장),동대문방면 승강장 이동
+Move,🚶,,이동 (매봉 방면 승강장으로),Move (매봉 Bound for 승강장으로),매봉 방면 승강장으로 이동
+Move,🚶,,이동 (봉화산 방면 승강장),Move (봉화산 Bound for 승강장),봉화산 방면 승강장 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (상수 방면),Enter Elevator (상수 Bound for),상수 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (수인분당선 야탑 방면),Enter Elevator (수인분당선 야탑 Bound for),수인분당선 야탑 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (수인분당선 태평 방면),Enter Elevator (수인분당선 태평 Bound for),수인분당선 태평 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 ((휠체어칸),Board ((휠체어칸),승차 (휠체어칸
+Elevator Activity,🛗,,엘리베이터 하차 (양평방면 지하5층),Exit Elevator (양평Bound for 지하5층),양평방면 지하5층 엘리베이터 하차
+Move,🚶,,이동 (어린이대공원 방면 승강장 방향으로),Move (어린이대공원 Bound for 승강장 방향으로),어린이대공원 방면 승강장 방향으로 이동
+Subway Activity,🚉,,승차 (연신내 방면 승강장 (휠체어칸)),Board (연신내 Bound for 승강장 (휠체어칸)),연신내 방면 승강장 이동 승차 (휠체어칸)
+Move,🚶,1F,이동 (외부 1호기 로 지상),Move (외부 1호기 로 지상),외부 1호기 엘리베이터로 (1F) 지상 이동
+Move,🚶,,이동 (응암 방면 승강장으로),Move (응암 Bound for 승강장으로),응암 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (이태원 방면),Enter Elevator (이태원 Bound for),이태원 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (자양 방면),Enter Elevator (자양 Bound for),자양 방면 엘리베이터 탑승
+Move,🚶,B3,이동 (잠원방면 승강장으로),Move (잠원Bound for 승강장으로),잠원방면 승강장(B3)으로 이동
+Move,🚶,,이동 (지하 4층 4호선 혜화/동대문사문화공원 방면 승강장),Move (지하 4층 4Line  혜화/동대문사문화공원 Bound for 승강장),지하 4층 4호선 혜화/동대문역사문화공원 방면 승강장 이동
+Move,🚶,,이동 (충무로방면 승강장),Move (충무로Bound for 승강장),충무로방면 승강장 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (환승 대합실 방향),Enter Elevator (환승 대합실 방향),환승 대합실 방향 엘리베이터 탑승
+Elevator Activity,🛗,3,엘리베이터 탑승 (환승통로 3호선 종로3가 지하2층),Enter Elevator (환승통로 3Line  종로3가 지하2층),환승통로 이동 3호선 종로3가(3)역 지하2층 엘리베이터 탑승
+Move,🚶,1F,이동 (1호선 독산 방면 승강장으로),Move (1Line  독산 Bound for 승강장으로),(1F) 1호선 독산 방면 승강장으로 이동
+Move,🚶,1F,이동 (검암 방면 승강장으로),Move (검암 Bound for 승강장으로),(1F) 검암 방면 승강장으로 이동
+Move,🚶,1F,이동 (영종 방면 승강장으로),Move (영종 Bound for 승강장으로),(1F) 영종 방면 승강장으로 이동
+Move,🚶,1F,"이동 (지상 경의중앙선 사로 (경의중앙선는 지상 대합실을 2층, 승강장을 1층으로 구분))","Move (지상 경의중앙선 사로 (경의중앙선는 지상 대합실을 2층, 승강장을 1층으로 구분))","(1F) 지상에서 (2F) 경의중앙선 역사로 이동 (경의중앙선에서는 지상 대합실을 2층, 승강장을 1층으로 구분)"
+Move,🚶,2F,이동 (1호선 도봉 방면),Move (1Line  도봉 Bound for),(2F) 1호선 도봉 방면 엘리베이터 이동
+Elevator Activity,🛗,B1,엘리베이터 탑승 (당산방면),Enter Elevator (당산Bound for),(B1) 당산방면 엘리베이터 탑승
+Elevator Activity,🛗,B1,엘리베이터 탑승 (문래방면),Enter Elevator (문래Bound for),(B1) 문래방면 엘리베이터 탑승
+Move,🚶,B2,이동 (1호선 남영 방면 승강장으로),Move (1Line  남영 Bound for 승강장으로),(B2) 1호선 남영 방면 승강장으로 이동
+Move,🚶,B2,이동 (1호선 시청 방면 승강장으로),Move (1Line  시청 Bound for 승강장으로),(B2) 1호선 시청 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 동대문사문화공원 방면 승강장으로),Move (2Line  동대문사문화공원 Bound for 승강장으로),(B2) 2호선 동대문역사문화공원 방면 승강장으로 이동
+Move,🚶,B2,이동 (8호선 강동구청 방면 승강장으로),Move (8Line  강동구청 Bound for 승강장으로),(B2) 8호선 강동구청 방면 승강장으로 이동
+Move,🚶,B2,이동 (8호선 암사 방면 승강장으로),Move (8Line  암사 Bound for 승강장으로),(B2) 8호선 암사 방면 승강장으로 이동
+Move,🚶,B2,이동 (수인분당선 야탑 방면 승강장으로),Move (수인분당선 야탑 Bound for 승강장으로),(B2) 수인분당선 야탑 방면 승강장으로 이동
+Move,🚶,B2,이동 (수인분당선 태평 방면 승강장으로),Move (수인분당선 태평 Bound for 승강장으로),(B2) 수인분당선 태평 방면 승강장으로 이동
+Move,🚶,B2,이동 (자양 방면 승강장으로),Move (자양 Bound for 승강장으로),(B2) 자양 방면 승강장으로 이동
+Move,🚶,B3,이동 (3호선 교대 방면 승강장으로),Move (3Line  교대 Bound for 승강장으로),(B3) 3호선 교대 방면 승강장으로 이동
+Move,🚶,B3,이동 (3호선 잠원 방면 승강장으로),Move (3Line  잠원 Bound for 승강장으로),(B3) 3호선 잠원 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 동묘앞 방면 승강장으로),Move (6Line  동묘앞 Bound for 승강장으로),(B3) 6호선 동묘앞 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 방향 환승통로 통해 6호선 B2 대합실로),Move (6Line  방향 환승통로 통해 6Line  B2 대합실로),(B3) 6호선 방향 환승통로 이동통해 6호선 B2 대합실로 이동
+Move,🚶,B3,이동 (7호선 내방 방면 승강장으로),Move (7Line  내방 Bound for 승강장으로),(B3) 7호선 내방 방면 승강장으로 이동
+Move,🚶,B3,이동 (7호선 반포 방면 승강장으로),Move (7Line  반포 Bound for 승강장으로),(B3) 7호선 반포 방면 승강장으로 이동
+Move,🚶,B3,이동 (7호선 자양 방면 승강장),Move (7Line  자양 Bound for 승강장),(B3) 7호선 자양 방면 승강장 엘리베이터 이동
+Move,🚶,B3,이동 (9호선 둔촌오륜 방면 승강장으로),Move (9Line  둔촌오륜 Bound for 승강장으로),(B3) 9호선 둔촌오륜 방면 승강장으로 이동
+Move,🚶,B3,이동 (9호선 한성백제 방면 승강장으로),Move (9Line  한성백제 Bound for 승강장으로),(B3) 9호선 한성백제 방면 승강장으로 이동
+Move,🚶,B3,이동 (강동 방면 승강장으로),Move (강동 Bound for 승강장으로),(B3) 강동 방면 승강장으로 이동
+Move,🚶,B3,이동 (광흥창 방면 승강장으로),Move (광흥창 Bound for 승강장으로),(B3) 광흥창 방면 승강장으로 이동
+Move,🚶,B3,이동 (굽은다리 방면 승강장으로),Move (굽은다리 Bound for 승강장으로),(B3) 굽은다리 방면 승강장으로 이동
+Move,🚶,B3,이동 (내방 방면 승강장으로),Move (내방 Bound for 승강장으로),(B3) 내방 방면 승강장으로 이동
+Move,🚶,B3,이동 (보라매 방면 승강장으로),Move (보라매 Bound for 승강장으로),(B3) 보라매 방면 승강장으로 이동
+Move,🚶,B3,이동 (사당 방면 승강장으로),Move (사당 Bound for 승강장으로),(B3) 사당 방면 승강장으로 이동
+Move,🚶,B3,이동 (선바위 방면 승강장으로),Move (선바위 Bound for 승강장으로),(B3) 선바위 방면 승강장으로 이동
+Move,🚶,B3,이동 (합정 방면 승강장으로),Move (합정 Bound for 승강장으로),(B3) 합정 방면 승강장으로 이동
+Move,🚶,B4,이동 (남구로 방면 승강장으로),Move (남구로 Bound for 승강장으로),(B4) 남구로 방면 승강장으로 이동
+Move,🚶,B4,이동 (동대문사문화공원 방면 승강장으로),Move (동대문사문화공원 Bound for 승강장으로),(B4) 동대문역사문화공원 방면 승강장으로 이동
+Move,🚶,B4,이동 (동대입구 방면 승강장으로),Move (동대입구 Bound for 승강장으로),(B4) 동대입구 방면 승강장으로 이동
+Move,🚶,B4,이동 (상수 방면 승강장으로),Move (상수 Bound for 승강장으로),(B4) 상수 방면 승강장으로 이동
+Move,🚶,B4,이동 (신금호 방면 승강장으로),Move (신금호 Bound for 승강장으로),(B4) 신금호 방면 승강장으로 이동
+Move,🚶,B4,이동 (을지로3가 방면 승강장으로),Move (을지로3가 Bound for 승강장으로),(B4) 을지로3가 방면 승강장으로 이동
+Move,🚶,B4,이동 (이태원 방면 승강장으로),Move (이태원 Bound for 승강장으로),(B4) 이태원 방면 승강장으로 이동
+Move,🚶,B4,이동 (철산 방면 승강장으로),Move (철산 Bound for 승강장으로),(B4) 철산 방면 승강장으로 이동
+Move,🚶,B5,이동 (5호선 광화문 방면 승강장으로),Move (5Line  광화문 Bound for 승강장으로),(B5) 5호선 광화문 방면 승강장으로 이동
+Move,🚶,B5,이동 (9호선 신반포 방면 승강장으로),Move (9Line  신반포 Bound for 승강장으로),(B5) 9호선 신반포 방면 승강장으로 이동
+Move,🚶,B5,이동 (삼각지 방면 승강장으로),Move (삼각지 Bound for 승강장으로),(B5) 삼각지 방면 승강장으로 이동
+Move,🚶,B5,이동 (영등포구청 방면 승강장으로),Move (영등포구청 Bound for 승강장으로),(B5) 영등포구청 방면 승강장으로 이동
+Move,🚶,B5,이동 (왕십리 방면 승강장으로),Move (왕십리 Bound for 승강장으로),(B5) 왕십리 방면 승강장으로 이동
+Move,🚶,B5,이동 (이태원 방면 승강장으로),Move (이태원 Bound for 승강장으로),(B5) 이태원 방면 승강장으로 이동
+Move,🚶,B6,이동 (영등포구청 방면 승강장으로),Move (영등포구청 Bound for 승강장으로),(B6) 영등포구청 방면 승강장으로 이동
+Gate,🎫,,게이트 통과 (1호선 석계 사로 들어가 개집표기 후 내부 이용),Pass Gate (1Line  석계 사로 들어가 개집표기 후 내부 이용),1호선 석계역 역사로 들어가 개집표기 통과 후 내부 엘리베이터 이용
+Move,🚶,,이동 (5호선 환승 대합실로),Move (5Line  환승 대합실로),5호선 환승 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (6호선 상수 방면),Enter Elevator (6Line  상수 Bound for),6호선 상수 방면 엘리베이터 탑승
+Move,🚶,,이동 (7호선 3번 출입구),Move (7Line  3번 Exit),7호선 3번 출입구 옆 엘리베이터 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (9번 출입구 부근 2호선 용두 방면),Enter Elevator (9번 Exit 부근 2Line  용두 Bound for),9번 출입구 부근 2호선 용두 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 구반포 방면),Enter Elevator (9Line  구반포 Bound for),9호선 구반포 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 신방화 방면),Enter Elevator (9Line  신방화 Bound for),9호선 신방화 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 양천향교 방면),Enter Elevator (9Line  양천향교 Bound for),9호선 양천향교 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 흑석 방면),Enter Elevator (9Line  흑석 Bound for),9호선 흑석 방면 엘리베이터 탑승
+Move,🚶,,이동 (경의중앙선 대합실로),Move (경의중앙선 대합실로),경의중앙선 대합실로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 방향),Enter Elevator (경의중앙선 방향),경의중앙선 방향 엘리베이터 탑승
+Move,🚶,,이동 (공항철도 방향 환승통로로),Move (공항철도 방향 환승통로로),공항철도 방향 환승통로로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (대합실),Enter Elevator (대합실),대합실 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (독정 방면),Enter Elevator (독정 Bound for),독정 방면 엘리베이터 탑승
+Move,🚶,,이동 (수인분당선 대합실로),Move (수인분당선 대합실로),수인분당선 대합실로 이동
+Unknown,?,,어린이대공원 방면 승강장 이용,어린이대공원 방면 승강장 이용,어린이대공원 방면 승강장 이용
+Move,🚶,,이동 (연신내 방면 승강장으로),Move (연신내 Bound for 승강장으로),연신내 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (영등포시장방면 지하4층),Enter Elevator (영등포시장Bound for 지하4층),영등포시장방면 지하4층 엘리베이터 탑승
+Unknown,?,,지하4층 안국 방향 승강장 도착,지하4층 안국 방향 승강장 도착,지하4층 안국 방향 승강장 도착
+Unknown,?,,지하4층 을지로3가 방향 승강장 도착,지하4층 을지로3가 방향 승강장 도착,지하4층 을지로3가 방향 승강장 도착
+Move,🚶,,이동 (직진 후 좌회전하여 7호선 10번출구로 (약 200m)),Move (직진 후 좌회전하여 7Line  10번Exit로 (약 200m)),직진 후 좌회전하여 7호선 10번출구로 이동(약 200m)
+Move,🚶,2F,이동 (1호선 광운대 방면 승강장으로),Move (1Line  광운대 Bound for 승강장으로),(2F) 1호선 광운대 방면 승강장으로 이동
+Move,🚶,2F,이동 (1호선 신이문 방면 승강장으로),Move (1Line  신이문 Bound for 승강장으로),(2F) 1호선 신이문 방면 승강장으로 이동
+Move,🚶,2F,이동 (경의중앙선 대합실로),Move (경의중앙선 대합실로),(2F) 경의중앙선 대합실로 이동
+Elevator Activity,🛗,2F,엘리베이터 탑승 (경의중앙선 사 승강장),Enter Elevator (경의중앙선 사 승강장),(2F) 경의중앙선 역사에서 승강장 엘리베이터 탑승
+Move,🚶,3F,이동 (인천2호선 독정 방면 승강장으로),Move (인천2Line  독정 Bound for 승강장으로),(3F) 인천2호선 독정 방면 승강장으로 이동
+Move,🚶,B1,이동 (3호선 대합실로),Move (3Line  대합실로),(B1) 3호선 대합실로 이동
+Move,🚶,B2,이동 (2호선 용두 방면 승강장으로),Move (2Line  용두 Bound for 승강장으로),(B2) 2호선 용두 방면 승강장으로 이동
+Move,🚶,B2,이동 (9호선 신방화 방면 승강장으로),Move (9Line  신방화 Bound for 승강장으로),(B2) 9호선 신방화 방면 승강장으로 이동
+Move,🚶,B2,이동 (9호선 양천향교 방면 승강장으로),Move (9Line  양천향교 Bound for 승강장으로),(B2) 9호선 양천향교 방면 승강장으로 이동
+Elevator Activity,🛗,B2,엘리베이터 하차 (당산방면),Exit Elevator (당산Bound for),(B2) 당산방면 엘리베이터 하차
+Elevator Activity,🛗,B2,엘리베이터 하차 (문래방면),Exit Elevator (문래Bound for),(B2) 문래방면 엘리베이터 하차
+Move,🚶,B2,이동 (우이신설선 보문 방면 승강장으로),Move (우이신설선 보문 Bound for 승강장으로),(B2) 우이신설선 보문 방면 승강장으로 이동
+Move,🚶,B2,이동 (1호선 종각 방면 승강장으로),Move (1Line  종각 Bound for 승강장으로),(B2)1호선 종각 방면 승강장으로 이동
+Move,🚶,B3,이동 (6호선 버티고개 방면 승강장으로),Move (6Line  버티고개 Bound for 승강장으로),(B3) 6호선 버티고개 방면 승강장으로 이동
+Move,🚶,B3,이동 (9호선 구반포 방면 승강장으로),Move (9Line  구반포 Bound for 승강장으로),(B3) 9호선 구반포 방면 승강장으로 이동
+Move,🚶,B3,이동 (9호선 흑석 방면 승강장으로),Move (9Line  흑석 Bound for 승강장으로),(B3) 9호선 흑석 방면 승강장으로 이동
+Move,🚶,B3,이동 (공항철도 대합실로),Move (공항철도 대합실로),(B3) 공항철도 대합실로 이동
+Move,🚶,B3,이동 (공항철도 홍대입구 방면 승강장으로),Move (공항철도 홍대입구 Bound for 승강장으로),(B3) 공항철도 홍대입구 방면 승강장으로 이동
+Move,🚶,B4,이동 (7호선 내방 방면 승강장으로),Move (7Line  내방 Bound for 승강장으로),(B4) 7호선 내방 방면 승강장으로 이동
+Elevator Activity,🛗,,엘리베이터 탑승 (1F 7호선),Enter Elevator (1F 7Line ),1F 7호선 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (1호선 도봉 방면),Enter Elevator (1Line  도봉 Bound for),1호선 도봉 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 구로디지털단지 방면),Enter Elevator (2Line  구로디지털단지 Bound for),2호선 구로디지털단지 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 승강장 방향),Enter Elevator (2Line  승강장 방향),2호선 승강장 방향 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 신도림 방면),Enter Elevator (2Line  신도림 Bound for),2호선 신도림 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (2호선 한양대 방면),Enter Elevator (2Line  한양대 Bound for),2호선 한양대 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (6호선 월드컵경기장 방면 장애인용리프트),Board (6Line  월드컵경기장 Bound for 장애인용리프트),6호선 월드컵경기장 방면 장애인용리프트 탑승
+Subway Activity,🚉,,승차 (6호선 증산 방면 장애인용리프트),Board (6Line  증산 Bound for 장애인용리프트),6호선 증산 방면 장애인용리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (9호선 신반포 방면),Enter Elevator (9Line  신반포 Bound for),9호선 신반포 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (가산디지털단지 방면 휠체어리프트),Board (가산디지털단지 Bound for 휠체어리프트),가산디지털단지 방면 휠체어리프트 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (경의중앙선 용산 방면),Enter Elevator (경의중앙선 용산 Bound for),경의중앙선 용산 방면 엘리베이터 탑승
+Subway Activity,🚉,,승차 (대림 방면 휠체어리프트),Board (대림 Bound for 휠체어리프트),대림 방면 휠체어리프트 탑승
+Subway Activity,🚉,,"승차 ((1-4, 4-1 휠체어칸))","Board ((1-4, 4-1 휠체어칸))","승차 (1-4, 4-1 휠체어칸)"
+Elevator Activity,🛗,,엘리베이터 하차 (영등포시장방면 지하5층),Exit Elevator (영등포시장Bound for 지하5층),영등포시장방면 지하5층 엘리베이터 하차
+Elevator Activity,🛗,,엘리베이터 탑승 (청구 방면),Enter Elevator (청구 Bound for),청구 방면 엘리베이터 탑승
+Elevator Activity,🛗,,엘리베이터 탑승 (한강진 방면),Enter Elevator (한강진 Bound for),한강진 방면 엘리베이터 탑승
+Move,🚶,1F,이동 (1호선 도봉 방면 승강장),Move (1Line  도봉 Bound for 승강장),(1F) 1호선 도봉 방면 승강장 이동
+Move,🚶,1F,이동 (1호선 망월사 방면 승강장),Move (1Line  망월사 Bound for 승강장),(1F) 1호선 망월사 방면 승강장 이동
+Move,🚶,1F,이동 (경의중앙선 용산 방면 승강장으로),Move (경의중앙선 용산 Bound for 승강장으로),(1F) 경의중앙선 용산 방면 승강장으로 이동
+Move,🚶,3F,이동 (2호선 구로디지털단지 방면 승강장으로),Move (2Line  구로디지털단지 Bound for 승강장으로),(3F) 2호선 구로디지털단지 방면 승강장으로 이동
+Move,🚶,3F,이동 (2호선 신도림 방면 승강장으로),Move (2Line  신도림 Bound for 승강장으로),(3F) 2호선 신도림 방면 승강장으로 이동
+Gate,🎫,B1,게이트 통과 (표내는곳),Pass Gate (표내는곳),(B1) 표내는곳 통과
+Move,🚶,B2,이동 (2호선 신촌 방면 승강장으로),Move (2Line  신촌 Bound for 승강장으로),(B2) 2호선 신촌 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 한양대 방면 승강장으로),Move (2Line  한양대 Bound for 승강장으로),(B2) 2호선 한양대 방면 승강장으로 이동
+Move,🚶,B2,이동 (2호선 합정 방면 승강장으로),Move (2Line  합정 Bound for 승강장으로),(B2) 2호선 합정 방면 승강장으로 이동
+Move,🚶,B2,이동 (4호선 회현 방면 승강장으로),Move (4Line  회현 Bound for 승강장으로),(B2) 4호선 회현 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 월드컵경기장 방면 승강장으로),Move (6Line  월드컵경기장 Bound for 승강장으로),(B2) 6호선 월드컵경기장 방면 승강장으로 이동
+Move,🚶,B2,이동 (6호선 증산 방면 승강장으로),Move (6Line  증산 Bound for 승강장으로),(B2) 6호선 증산 방면 승강장으로 이동
+Move,🚶,B3,이동 (공덕 방면 승강장으로),Move (공덕 Bound for 승강장으로),(B3) 공덕 방면 승강장으로 이동
+Move,🚶,B3,이동 (삼각지 방면 승강장으로),Move (삼각지 Bound for 승강장으로),(B3) 삼각지 방면 승강장으로 이동
+Move,🚶,B4,이동 (약수 방면 승강장으로),Move (약수 Bound for 승강장으로),(B4) 약수 방면 승강장으로 이동
+Move,🚶,B4,이동 (한강진 방면 승강장으로),Move (한강진 Bound for 승강장으로),(B4) 한강진 방면 승강장으로 이동
+Move,🚶,,이동 (B1 7호선 대합실로),Move (B1 7Line  대합실로),B1 7호선 대합실로 이동
+Gate,🎫,,게이트 통과 (강남 방면 앞 표 내는 곳),Pass Gate (강남 Bound for 앞 표 내는 곳),강남 방면 엘리베이터 앞 표 내는 곳 통과
+Elevator Activity,🛗,,엘리베이터 탑승 (공항철도 공덕 방면),Enter Elevator (공항철도 공덕 Bound for),공항철도 공덕 방면 엘리베이터 탑승
+Gate,🎫,,게이트 통과 (서초 방면 앞 표 내는 곳),Pass Gate (서초 Bound for 앞 표 내는 곳),서초 방면 엘리베이터 앞 표 내는 곳 통과
+Gate,🎫,,게이트 통과 (우대자용 개집표기 호출버튼 눌러 요청(운임구 진입)),Pass Gate (우대자용 개집표기 호출버튼 눌러 요청(운임구 진입)),우대자용 개집표기에서 호출버튼 눌러 통과 요청(운임구역 진입)

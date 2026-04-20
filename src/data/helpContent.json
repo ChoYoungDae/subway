@@ -1,0 +1,139 @@
+{
+  "categories": [
+    {
+      "id": "realtime_help",
+      "icon": "phone-in-talk",
+      "title": "24/7 Support",
+      "subtitle": "24시간 안내",
+      "v1": true,
+      "items": [
+        {
+          "id": "call_1330",
+          "type": "phone",
+          "value": "1330",
+          "label_en": "1330 Hotline (Phone Call)",
+          "label_ko": "한국관광공사 안내전화",
+          "desc_en": "Cellular call · 24/7: English, Japanese, Chinese, Korean · 08:00–19:00: Russian, Vietnamese, Thai, Malay/Indonesian",
+          "v1": true
+        },
+        {
+          "id": "wifi_call_1330",
+          "type": "wifi_call",
+          "label_en": "1330 Hotline (Wi-Fi Call)",
+          "label_ko": "와이파이 무료 전화",
+          "desc_en": "Free over Wi-Fi · No SIM needed · 07:00–24:00 · English, Japanese, Chinese, Korean",
+          "url": "https://kotis.visitkorea.or.kr:5443",
+          "v1": true
+        },
+        {
+          "id": "chat_1330",
+          "type": "chat_web",
+          "label_en": "1330 Hotline (Live Chat)",
+          "label_ko": "실시간 채팅 상담",
+          "desc_en": "Free · VisitKorea · 24/7 · English, Japanese, Chinese",
+          "url": "https://1330chat.visitkorea.or.kr:3000/",
+          "v1": true
+        },
+        {
+          "id": "info_1330",
+          "type": "info",
+          "label_en": "Korea Travel Hotline 1330",
+          "desc_en": "A 24/7 multi-language travel concierge service provided by the Korea Tourism Organization (KTO) for tourists' convenience and safety.",
+          "v1": true
+        }
+      ]
+    },
+    {
+      "id": "lost_found",
+      "icon": "magnify",
+      "title": "Lost & Found",
+      "subtitle": "Retrieve items left on the subway",
+      "v1": true,
+      "items": [
+        {
+          "id": "lost_call",
+          "type": "phone",
+          "value": "02-6110-1122",
+          "label_en": "Lost Items Hotline",
+          "label_ko": "분실물 안내 전화",
+          "desc_en": "Seoul Metro lost & found · Mon–Fri 09:00–18:00",
+          "v1": true
+        },
+        {
+          "id": "lost_web",
+          "type": "link",
+          "label_en": "Report Lost Item Online",
+          "label_ko": "온라인 분실물 신고",
+          "url": "https://www.smrt.co.kr/lost",
+          "v1": true
+        },
+        {
+          "id": "lost_guide",
+          "type": "info",
+          "label_en": "Left something on the train?",
+          "label_ko": "열차에 두고 내렸다면",
+          "desc_en": "Stay at the station and ask staff, or call the hotline above. If you've already left, call within 30 minutes for the best chance of recovery.",
+          "v1": true
+        }
+      ]
+    },
+    {
+      "id": "tickets_fare",
+      "icon": "ticket-confirmation-outline",
+      "title": "Tickets & Fare",
+      "subtitle": "How to pay and get around",
+      "v1": true,
+      "items": [
+        {
+          "id": "tmoney",
+          "type": "accordion_text",
+          "label_en": "T-money Card",
+          "label_ko": "티머니 카드",
+          "desc_en": "Buy at any station convenience store or ticket machine. Charge at machines or GS25/CU stores. Refund at station service centers.",
+          "v1": true
+        },
+        {
+          "id": "climate_card",
+          "type": "accordion_text",
+          "label_en": "Climate Card (Tourist)",
+          "label_ko": "기후동행카드 (관광객용)",
+          "desc_en": "Unlimited rides for 1–7 days. Buy at Gimpo/Incheon Airport or major stations. Valid on subway and bus.",
+          "v1": true
+        },
+        {
+          "id": "fare_info",
+          "type": "accordion_text",
+          "label_en": "How Fares Work",
+          "label_ko": "요금 안내",
+          "desc_en": "Base fare ₩1,400 covers the first 10 km. Additional ₩100 per 5 km. Pay by T-money or single-use card (+₩500 deposit, refundable at exit machines).",
+          "v1": true
+        }
+      ]
+    },
+    {
+      "id": "luggage",
+      "icon": "bag-suitcase-outline",
+      "title": "Luggage Services",
+      "subtitle": "Storage and delivery options",
+      "v1": true,
+      "items": [
+        {
+          "id": "t_locker",
+          "type": "accordion_text",
+          "label_en": "T-Locker (Self-Storage)",
+          "label_ko": "티로커 물품보관",
+          "desc_en": "Available at major stations. Small / Medium / Large sizes. Pay by T-money or credit card at the kiosk. Maximum 24 hours.",
+          "v1": true
+        },
+        {
+          "id": "t_luggage",
+          "type": "accordion_text",
+          "label_en": "T-Luggage (Airport Delivery)",
+          "label_ko": "티러기지 공항 배송",
+          "desc_en": "Drop luggage at designated station service centers. Delivered to Incheon/Gimpo Airport the next day. Book at the service center counter.",
+          "v1": true
+        }
+      ]
+    }
+  ]
+}
