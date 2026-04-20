@@ -131,20 +131,24 @@ function sanitizeSteps(steps: StepTranslation[]): StepTranslation[] {
   const stripIds = (text: string) =>
     text.replace(/\s*\(EV_[A-Z0-9_]+\)/g, '').replace(/\bEV_[A-Z0-9_]+\b/g, 'the elevator').trim();
 
+  // Remove Korean characters from English fields (floor codes like B1, 1F are Latin so safe)
+  const cleanEn = (text: string) =>
+    text.replace(/[ㄱ-ㅎㅏ-ㅣ가-힣]+/g, '').replace(/\s{2,}/g, ' ').replace(/[\s.,]+$/g, '').trim();
+
   // Aggressively remove English words from Korean text except for floor/terminal codes
   const cleanKo = (text: string) =>
-    text.replace(/[A-Za-z]+(?:\s+[A-Za-z]+)*/g, (m) => 
-        /B\d+F?|\d+F?|T\d+|E\/L/.test(m) ? m : "" 
+    text.replace(/[A-Za-z]+(?:\s+[A-Za-z]+)*/g, (m) =>
+        /B\d+F?|\d+F?|T\d+|E\/L/.test(m) ? m : ""
     )
     .replace(/개집표기|개표기\/집표기/g, '개찰구')
-    .replace(/(\s)+/g, "$1") // clean double spaces from removals
-    .replace(/[\.,\s]+$/g, "") // trim trailing punctuation/space
+    .replace(/(\s)+/g, "$1")
+    .replace(/[\.,\s]+$/g, "")
     .trim();
 
   return steps.map(step => ({
     ...step,
-    short:  { en: stripIds(step.short.en),  ko: cleanKo(stripIds(step.short.ko)) },
-    detail: { en: stripIds(step.detail.en), ko: cleanKo(stripIds(step.detail.ko)) },
+    short:  { en: cleanEn(stripIds(step.short.en)),  ko: cleanKo(stripIds(step.short.ko)) },
+    detail: { en: cleanEn(stripIds(step.detail.en)), ko: cleanKo(stripIds(step.detail.ko)) },
   }));
 }
 
