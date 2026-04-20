@@ -1,6 +1,5 @@
 import { fetchStationMovement, fetchTransferMovement, getKricItems, fetchSeoulElevatorStatus } from '../api/seoulApi.js';
 import { cleanStationName, normalizeStationName } from '../utils/textUtils.js';
-import { translateLocation } from '../utils/translation.js';
 import { supabase } from '../../lib/supabase.js';
 
 /**
@@ -274,47 +273,20 @@ export class RouteAssembler {
     }
 
     /**
-     * Calls the translate-movement Edge Function (Gemini), falls back to local translation.
+     * Calls the translate-movement Edge Function (Gemini).
      */
-    async _fetchTranslatedSteps(requestBody, lines) {
-        try {
-            const { data, error } = await supabase.functions.invoke('translate-movement', { body: requestBody });
-            if (error) throw error;
-            if (Array.isArray(data?.steps) && data.steps.length > 0) {
-                console.log(`[RouteAssembler] 🤖 [GEMINI] ${data.cached ? 'Cache hit' : 'Translated'} — ${data.steps.length} steps`);
-                return { steps: data.steps, hashKey: data.hash_key || null };
-            }
-        } catch (e) {
-            console.warn('[RouteAssembler] ⚠️ Edge function failed, using local fallback:', e.message);
+    async _fetchTranslatedSteps(requestBody) {
+        const { data, error } = await supabase.functions.invoke('translate-movement', { body: requestBody });
+        if (error) throw error;
+        if (data?.error) {
+            console.error(`[RouteAssembler] ❌ Edge function error: ${data.error}`);
+            throw new Error(data.error);
         }
-        return { steps: this._linesToSteps(lines), hashKey: null };
-    }
-
-    /**
-     * Fallback: converts raw Korean KRIC lines to StepTranslation using local translation.
-     * Used only when the Edge Function is unavailable.
-     */
-    _linesToSteps(lines, isArrival = false) {
-        return lines.map((ko, idx) => {
-            const en = translateLocation(ko, 'RouteAssembler');
-
-            let type = 'move';
-            if (/엘리베이터|E\/L/.test(ko)) type = 'elevator';
-            else if (/개찰구|개집표기|태그/.test(ko)) type = 'gate';
-            else if (/탑승|승차/.test(ko)) type = 'board';
-            else if (/하차/.test(ko)) type = 'alight';
-
-            const floorMatch = en.match(/B\d+F|\d+F/);
-
-            return {
-                order: isArrival ? lines.length - idx : idx + 1,
-                short:  { en, ko },
-                detail: { en, ko },
-                floor_from: floorMatch ? floorMatch[0] : null,
-                floor_to: null,
-                type,
-            };
-        });
+        if (!Array.isArray(data?.steps) || data.steps.length === 0) {
+            throw new Error('Edge function returned empty steps');
+        }
+        console.log(`[RouteAssembler] 🤖 [GEMINI] ${data.cached ? 'Cache hit' : 'Translated'} — ${data.steps.length} steps`);
+        return { steps: data.steps, hashKey: data.hash_key || null };
     }
 
     /**
@@ -412,7 +384,6 @@ export class RouteAssembler {
      * Also enriches the candidate with atomized movement data.
      */
     async _verifyCandidate(candidate) {
-        const steps = candidate.steps || [];
         const rawItems = candidate.rawItems || [];
 
         candidate.originSteps = [];
@@ -460,12 +431,6 @@ export class RouteAssembler {
                         transferTargetCodes = targetCodes;
 
                         if (codes.lnCd && targetCodes?.lnCd && (codes.lnCd !== targetCodes.lnCd || isBranchTransfer)) {
-                            // ── prevStinCd: INDEX NEIGHBOR MAPPING ──────────
-                            let prevStinCd = null;
-                            if (!isBranchTransfer && item.prevStnCd) {
-                                prevStinCd = this._datagokrToStinCd(item.prevStnCd);
-                            }
-
                             transferNextStinCd = (!isBranchTransfer && item.afterTransferStnCd)
                                 ? this._datagokrToStinCd(item.afterTransferStnCd)
                                 : null;
@@ -673,7 +638,7 @@ export class RouteAssembler {
                                 from_line: codes.lnCd,
                                 to_line: transferTargetCodes?.lnCd ?? null,
                                 next_stin_cd: transferNextStinCd,
-                                analysis_data: codes.analysisData,
+                                analysis_data: null,
                                 movement_steps,
                             };
                         } else if (isDeparture) {
@@ -682,7 +647,7 @@ export class RouteAssembler {
                                 line: codes.lnCd,
                                 exit_no: candidate.originExitNo ?? null,
                                 is_destination: false,
-                                analysis_data: codes.analysisData,
+                                analysis_data: null,
                                 movement_steps,
                             };
                         } else {
@@ -691,7 +656,7 @@ export class RouteAssembler {
                                 line: codes.lnCd,
                                 exit_no: candidate.destinationExitNo ?? null,
                                 is_destination: true,
-                                analysis_data: codes.analysisData,
+                                analysis_data: null,
                                 movement_steps,
                             };
                         }
@@ -704,30 +669,22 @@ export class RouteAssembler {
                             arrivalDir: isArrival ? (rawItems[i]?.prevStn?.stnNm ? cleanStationName(rawItems[i].prevStn.stnNm) : null) : null,
                         };
 
-                        try {
-                            const { steps, hashKey } = await this._fetchTranslatedSteps(translationReq, lines);
-                            const enrichedSteps = await this._enrichSteps(steps, item.stnNm, translationCtx);
+                        const { steps, hashKey } = await this._fetchTranslatedSteps(translationReq);
+                        const enrichedSteps = await this._enrichSteps(steps, item.stnNm, translationCtx);
 
-                            if (isDeparture) {
-                                candidate.originSteps = enrichedSteps;
-                                candidate.originHashKey = hashKey;
-                                candidate.originImgPaths = imgPaths;
-                            } else if (isArrival) {
-                                candidate.destinationSteps = enrichedSteps;
-                                candidate.destinationHashKey = hashKey;
-                                candidate.destinationImgPaths = imgPaths;
-                            } else if (isTransfer) {
-                                item.transitSteps = enrichedSteps;
-                                item.transitHashKey = hashKey;
-                                item.transitImgPaths = imgPaths;
-                                console.log(`[RouteAssembler] 📌 Attached ${enrichedSteps.length} steps, ${imgPaths.length} images to item ${i} (${item.stnNm})`);
-                            }
-                        } catch (err) {
-                            console.warn(`[Route] translation error at ${item.stnNm}:`, err);
-                            const fallback = this._linesToSteps(lines, isArrival);
-                            if (isArrival) candidate.destinationSteps = fallback;
-                            else if (isDeparture) candidate.originSteps = fallback;
-                            else item.transitSteps = fallback;
+                        if (isDeparture) {
+                            candidate.originSteps = enrichedSteps;
+                            candidate.originHashKey = hashKey;
+                            candidate.originImgPaths = imgPaths;
+                        } else if (isArrival) {
+                            candidate.destinationSteps = enrichedSteps;
+                            candidate.destinationHashKey = hashKey;
+                            candidate.destinationImgPaths = imgPaths;
+                        } else if (isTransfer) {
+                            item.transitSteps = enrichedSteps;
+                            item.transitHashKey = hashKey;
+                            item.transitImgPaths = imgPaths;
+                            console.log(`[RouteAssembler] 📌 Attached ${enrichedSteps.length} steps, ${imgPaths.length} images to item ${i} (${item.stnNm})`);
                         }
                     } else {
                         console.warn(`[RouteAssembler] ⚠️ [MATCH FAIL] No path for ${item.stnNm}. Groups:`, Object.keys(pathGroups));
