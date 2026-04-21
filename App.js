@@ -44,7 +44,7 @@ const navigationTheme = {
 };
 
 const linking = {
-  prefixes: ['https://seoulroutes.com/subway', 'subway://'],
+  prefixes: ['https://www.seoulroutes.com/subway', 'https://seoulroutes.com/subway', 'subway://'],
   config: {
     screens: {
       Main: {
