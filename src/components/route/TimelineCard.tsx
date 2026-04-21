@@ -188,10 +188,17 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
     if (isRide) {
         const intermediateStations = station.intermediateStations || [];
         return (
-            <View
-                className="rounded-xl overflow-hidden border border-[#E8E8EE] bg-white shadow-sm elevation-[1] flex-row items-center px-3 py-2"
-                style={{ borderLeftWidth: 3, borderLeftColor: lineColor }}
-            >
+            <View style={{
+                borderRadius: 12,
+                overflow: 'hidden',
+                backgroundColor: '#FFFFFF',
+                borderTopWidth: 0.5, borderRightWidth: 0.5, borderBottomWidth: 0.5,
+                borderLeftWidth: 3,
+                borderTopColor: '#E8E8EE', borderRightColor: '#E8E8EE', borderBottomColor: '#E8E8EE',
+                borderLeftColor: lineColor,
+                flexDirection: 'row', alignItems: 'center',
+                paddingHorizontal: 12, paddingVertical: 8,
+            }}>
                 <View className="flex-row items-start flex-1">
                     <View className="pt-0.5">
                         <LineBadge line={station.line} color={lineColor} size={22} />
@@ -217,10 +224,15 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
 
     // ── Station access / transfer card ────────────────────────────────────────
     return (
-        <View
-            className="rounded-2xl overflow-hidden border border-[#E8E8EE] bg-white shadow-sm elevation-[1]"
-            style={{ borderLeftWidth: 3, borderLeftColor: lineColor }}
-        >
+        <View style={{
+            borderRadius: 16,
+            overflow: 'hidden',
+            backgroundColor: '#FFFFFF',
+            borderTopWidth: 0.5, borderRightWidth: 0.5, borderBottomWidth: 0.5,
+            borderLeftWidth: 3,
+            borderTopColor: '#E8E8EE', borderRightColor: '#E8E8EE', borderBottomColor: '#E8E8EE',
+            borderLeftColor: lineColor,
+        }}>
             {/* Card header */}
             <View className="flex-row items-start px-3 py-2.5 border-b border-[#E8E8EE]">
                 <View className="pt-1">
