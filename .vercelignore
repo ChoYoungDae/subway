@@ -18,3 +18,4 @@ verify_*
 !vercel.json
 !app.json
 !tsconfig.json
+!src/**/*.json
