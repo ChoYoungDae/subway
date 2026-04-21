@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationContainer, DefaultTheme, getPathFromState as defaultGetPathFromState, getStateFromPath as defaultGetStateFromPath } from '@react-navigation/native';
+import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { StatusBar } from 'expo-status-bar';
@@ -46,6 +46,7 @@ const navigationTheme = {
 const SCREEN_CONFIG = {
   screens: {
     Main: {
+      ...(Platform.OS === 'web' ? { path: 'subway' } : {}),
       screens: {
         Route: 'route',
         Station: 'station',
@@ -53,24 +54,16 @@ const SCREEN_CONFIG = {
         Settings: 'settings',
       },
     },
-    RoutePreview: 'preview',
-    Wizard: 'wizard',
-    Exit: 'exit',
-    Facility: 'facility',
+    RoutePreview: Platform.OS === 'web' ? 'subway/preview' : 'preview',
+    Wizard: Platform.OS === 'web' ? 'subway/wizard' : 'wizard',
+    Exit: Platform.OS === 'web' ? 'subway/exit' : 'exit',
+    Facility: Platform.OS === 'web' ? 'subway/facility' : 'facility',
   },
 };
 
 const linking = {
   prefixes: ['https://www.seoulroutes.com', 'https://seoulroutes.com', 'subway://'],
   config: SCREEN_CONFIG,
-  getPathFromState(state) {
-    const path = defaultGetPathFromState(state, SCREEN_CONFIG);
-    return Platform.OS === 'web' ? '/subway' + path : path;
-  },
-  getStateFromPath(path, config) {
-    const stripped = path.replace(/^\/subway/, '') || '/';
-    return defaultGetStateFromPath(stripped, config);
-  },
 };
 
 
