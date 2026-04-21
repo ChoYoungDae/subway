@@ -40,6 +40,6 @@ const styles = StyleSheet.create({
     },
     text: {
         color: '#FFFFFF',
-        fontWeight: '900',
+        fontFamily: 'Nunito-ExtraBold',
     },
 });

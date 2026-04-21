@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 
 interface ExitBadgeProps {
     num: string | number;
@@ -7,30 +7,34 @@ interface ExitBadgeProps {
     className?: string;
 }
 
-export const ExitBadge: React.FC<ExitBadgeProps> = ({ num, size = 'md', className }) => {
+const sizeMap: Record<string, { paddingHorizontal: number; paddingVertical: number; fontSize: number }> = {
+    xxs: { paddingHorizontal: 2,  paddingVertical: 0, fontSize: 7  },
+    xs:  { paddingHorizontal: 4,  paddingVertical: 0, fontSize: 8  },
+    sm:  { paddingHorizontal: 4,  paddingVertical: 2, fontSize: 9  },
+    md:  { paddingHorizontal: 6,  paddingVertical: 2, fontSize: 10 },
+    lg:  { paddingHorizontal: 8,  paddingVertical: 2, fontSize: 12 },
+};
+
+export const ExitBadge: React.FC<ExitBadgeProps> = ({ num, size = 'md' }) => {
     if (!num || num === 'NONE' || num === 'none') return null;
-    let paddingClass = 'px-1.5 py-0.5';
-    let fontSizeClass = 'text-[10px]';
-    if (size === 'lg') {
-        paddingClass = 'px-2 py-0.5';
-        fontSizeClass = 'text-[12px]';
-    }
-    if (size === 'sm') {
-        paddingClass = 'px-1 py-0.5';
-        fontSizeClass = 'text-[9px]';
-    }
-    if (size === 'xs') {
-        paddingClass = 'px-1 py-0';
-        fontSizeClass = 'text-[8px]';
-    }
-    if (size === 'xxs') {
-        paddingClass = 'px-0.5 py-0';
-        fontSizeClass = 'text-[7px]';
-    }
+    const { paddingHorizontal, paddingVertical, fontSize } = sizeMap[size] ?? sizeMap.md;
 
     return (
-        <View className={`bg-subway-exit rounded justify-center items-center ${paddingClass} ${className || ''}`}>
-            <Text className={`text-black font-bold ${fontSizeClass}`}>EXIT {num}</Text>
+        <View style={[styles.badge, { paddingHorizontal, paddingVertical }]}>
+            <Text style={[styles.text, { fontSize }]}>EXIT {num}</Text>
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    badge: {
+        backgroundColor: '#FFD500',
+        borderRadius: 4,
+        justifyContent: 'center',
+        alignItems: 'center',
+    },
+    text: {
+        color: '#000000',
+        fontFamily: 'Nunito-Bold',
+    },
+});

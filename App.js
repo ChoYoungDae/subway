@@ -119,20 +119,6 @@ export default function App() {
     return <SplashScreen />;
   }
 
-  // Web-specific: Inject global font CSS to match local aesthetics
-  if (Platform.OS === 'web' && typeof document !== 'undefined') {
-    const style = document.createElement('style');
-    style.textContent = `
-      * {
-        font-family: 'Nunito-Medium', 'Pretendard-Regular', -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial, sans-serif !important;
-      }
-      b, strong, h1, h2, h3 {
-        font-family: 'Nunito-Bold', 'Pretendard-Bold' !important;
-      }
-    `;
-    document.head.append(style);
-  }
-
   return (
     <SafeAreaProvider>
       <NavigationContainer theme={navigationTheme} linking={linking}>
