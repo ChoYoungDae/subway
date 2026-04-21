@@ -44,10 +44,11 @@ const navigationTheme = {
 };
 
 const linking = {
-  prefixes: ['https://www.seoulroutes.com/subway', 'https://seoulroutes.com/subway', 'subway://'],
+  prefixes: ['https://www.seoulroutes.com', 'https://seoulroutes.com', 'subway://'],
   config: {
     screens: {
       Main: {
+        path: 'subway',
         screens: {
           Route: 'route',
           Station: 'station',
@@ -55,10 +56,10 @@ const linking = {
           Settings: 'settings',
         },
       },
-      RoutePreview: 'preview',
-      Wizard: 'wizard',
-      Exit: 'exit',
-      Facility: 'facility',
+      RoutePreview: 'subway/preview',
+      Wizard: 'subway/wizard',
+      Exit: 'subway/exit',
+      Facility: 'subway/facility',
     },
   },
 };

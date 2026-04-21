@@ -190,7 +190,6 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
         return (
             <View style={{
                 borderRadius: 12,
-                overflow: 'hidden',
                 backgroundColor: '#FFFFFF',
                 borderTopWidth: 0.5, borderRightWidth: 0.5, borderBottomWidth: 0.5,
                 borderLeftWidth: 3,
@@ -199,15 +198,15 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
                 flexDirection: 'row', alignItems: 'center',
                 paddingHorizontal: 12, paddingVertical: 8,
             }}>
-                <View className="flex-row items-start flex-1">
-                    <View className="pt-0.5">
+                <View style={{ flexDirection: 'row', alignItems: 'flex-start', flex: 1 }}>
+                    <View style={{ paddingTop: 2 }}>
                         <LineBadge line={station.line} color={lineColor} size={22} />
                     </View>
-                    <View className="flex-1 ml-3">
+                    <View style={{ flex: 1, marginLeft: 12 }}>
                         <Text style={{ fontSize: 13.5, fontFamily: 'Nunito-Bold', color: '#111116' }}>{steps[0]?.en}</Text>
                         <Text style={{ fontSize: 10.5, fontFamily: 'Pretendard-Regular', color: '#71717A', marginTop: 1 }}>{steps[0]?.ko}</Text>
                         {intermediateStations.length > 0 && (
-                            <View className="mt-1 flex-row flex-wrap">
+                            <View style={{ marginTop: 4, flexDirection: 'row', flexWrap: 'wrap' }}>
                                 <Text style={{ fontSize: 10, fontFamily: 'Nunito-Regular', color: '#8E8E93' }} numberOfLines={2}>
                                     {intermediateStations.map((st: string) => {
                                         const en = stationNameMap[st] || st;
@@ -226,7 +225,6 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
     return (
         <View style={{
             borderRadius: 16,
-            overflow: 'hidden',
             backgroundColor: '#FFFFFF',
             borderTopWidth: 0.5, borderRightWidth: 0.5, borderBottomWidth: 0.5,
             borderLeftWidth: 3,
@@ -234,17 +232,17 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
             borderLeftColor: lineColor,
         }}>
             {/* Card header */}
-            <View className="flex-row items-start px-3 py-2.5 border-b border-[#E8E8EE]">
-                <View className="pt-1">
+            <View style={{ flexDirection: 'row', alignItems: 'flex-start', paddingHorizontal: 12, paddingVertical: 10, borderBottomWidth: 0.5, borderBottomColor: '#E8E8EE' }}>
+                <View style={{ paddingTop: 4 }}>
                     <LineBadge line={station.line} color={lineColor} size={24} />
                 </View>
-                <View className="flex-1 ml-3">
-                    <View className="flex-row items-center justify-between">
-                        <View className="flex-row items-center flex-wrap flex-1">
+                <View style={{ flex: 1, marginLeft: 12 }}>
+                    <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+                        <View style={{ flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap', flex: 1 }}>
                             <Text style={{ fontSize: 20, fontFamily: 'Nunito-Bold', color: '#111116', marginRight: 8 }} numberOfLines={1}>{station.name}</Text>
                             {transfer && (
                                 <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: 8 }}>
-                                    <View className="bg-[#2E5E4A] px-1.5 py-0.5 rounded">
+                                    <View style={{ backgroundColor: '#2E5E4A', paddingHorizontal: 6, paddingVertical: 2, borderRadius: 4 }}>
                                         <Text style={{ fontSize: 10, fontFamily: 'Nunito-Bold', color: '#fff' }}>Transfer · 환승</Text>
                                     </View>
                                     {toLine && (
@@ -283,7 +281,7 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
                             </TouchableOpacity>
                         )}
                     </View>
-                    <View className="flex-row items-center justify-between mt-0.5">
+                    <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 2 }}>
                         <Text style={{ fontSize: 14, fontFamily: 'Pretendard-Regular', color: '#71717A' }}>{station.ko ? (station.ko.endsWith('역') ? station.ko : station.ko + '역') : ''}</Text>
                     </View>
                 </View>

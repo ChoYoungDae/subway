@@ -2,11 +2,6 @@
   "buildCommand": "npx expo export --platform web",
   "outputDirectory": "dist",
   "rewrites": [
-    { "source": "/subway/_expo/(.*)", "destination": "/_expo/$1" },
-    { "source": "/subway/assets/(.*)", "destination": "/assets/$1" },
-    { "source": "/subway/favicon.ico", "destination": "/favicon.ico" },
-    { "source": "/subway", "destination": "/index.html" },
-    { "source": "/subway/(.*)", "destination": "/index.html" },
     { "source": "/(.*)", "destination": "/index.html" }
   ],
   "crons": [
