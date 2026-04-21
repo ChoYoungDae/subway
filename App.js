@@ -46,7 +46,6 @@ const navigationTheme = {
 const SCREEN_CONFIG = {
   screens: {
     Main: {
-      ...(Platform.OS === 'web' ? { path: 'subway' } : {}),
       screens: {
         Route: 'route',
         Station: 'station',
@@ -54,15 +53,15 @@ const SCREEN_CONFIG = {
         Settings: 'settings',
       },
     },
-    RoutePreview: Platform.OS === 'web' ? 'subway/preview' : 'preview',
-    Wizard: Platform.OS === 'web' ? 'subway/wizard' : 'wizard',
-    Exit: Platform.OS === 'web' ? 'subway/exit' : 'exit',
-    Facility: Platform.OS === 'web' ? 'subway/facility' : 'facility',
+    RoutePreview: 'preview',
+    Wizard: 'wizard',
+    Exit: 'exit',
+    Facility: 'facility',
   },
 };
 
 const linking = {
-  prefixes: ['https://www.seoulroutes.com', 'https://seoulroutes.com', 'subway://'],
+  prefixes: ['https://subway.seoulroutes.com', 'subway://'],
   config: SCREEN_CONFIG,
 };
 
