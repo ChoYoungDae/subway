@@ -1,7 +1,12 @@
 {
+  "buildCommand": "npx expo export --platform web",
+  "outputDirectory": "dist",
   "rewrites": [
     { "source": "/subway/(.*)", "destination": "/dist/$1" },
     { "source": "/subway", "destination": "/dist/index.html" },
     { "source": "/(.*)", "destination": "/dist/index.html" }
+  ],
+  "crons": [
+    { "path": "/api/trigger-refine", "schedule": "0 3 * * *" }
   ]
 }
