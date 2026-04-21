@@ -48,12 +48,11 @@ const linking = {
   config: {
     screens: {
       Main: {
-        path: 'subway',
         screens: {
-          Route: 'route',
-          Station: 'station',
-          Help: 'help',
-          Settings: 'settings',
+          Route: 'subway/route',
+          Station: 'subway/station',
+          Help: 'subway/help',
+          Settings: 'subway/settings',
         },
       },
       RoutePreview: 'subway/preview',
