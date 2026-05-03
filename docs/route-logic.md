@@ -1,30 +1,86 @@
 # 교통약자 경로 탐색 로직 (Route Logic)
 
-> 최종 업데이트: 2026-04-19
-> 대상 파일: `PathFinder.js` · `RouteAssembler.js` · `RouteService.js` · `DirectionResolver.ts`
+> 최종 업데이트: 2026-04-21
+> 대상 파일: `PathFinder.js` · `RouteAssembler.js` · `RouteService.js` · `RoutePreviewScreen.js`
 > DB 설정 스크립트: `scripts/populate_direction_data.mjs`
 
 ---
 
 ## 1. 전체 흐름
 
+경로 조회는 5단계 Phase로 진행된다.
+
+### Phase 1 — 경로 후보 수집
+
 ```
-사용자 입력
-  └─ departure (역명만 — 호선 미선택)
-  └─ destination (역명만 — 호선 미선택)
-           │
-           ▼
-     RouteService
-      ├─ Supabase: stations 로드 (stin_cons_ordr 포함)
-      ├─ DB 캐시 조회 (prod 환경만)
-      │
-      ├─ [캐시 없음] PathFinder.findCandidatePaths()
-      │     └─ data.go.kr API 순차 호출 (transfer → duration → distance)
-      │         └─ 미지원 노선 없는 첫 번째 경로 채택
-      │
-      └─ RouteAssembler.findValidatedPath(candidates)
-            └─ 순위별 순차 검증 (KRIC API 호출)
-                └─ 첫 번째 유효 경로 반환
+RoutePreviewScreen.handleFindRoute()
+  └─ RouteService 인스턴스 생성
+       ├─ _loadStations()  →  Supabase stations 전체 로드 (인스턴스 메모리 캐시)
+       └─ PathFinder.findCandidatePaths()
+             └─ Data.go.kr API 순차 시도: transfer → duration → distance
+                   미지원 노선 없는 첫 결과 채택
+                   세 유형 모두 실패 → UNSUPPORTED_LINE_TRANSFER 에러
+```
+
+`_processPath()`: API 응답을 출발+환승+도착 경계역만 압축,
+`prevStn` / `afterTransferStn` / `intermediateStations` 첨부.
+
+### Phase 2 — 출구 목록 식별
+
+```
+RouteService.getRouteAndAvailableExits()
+  └─ RouteAssembler.identifyExitsForCandidate()
+       ├─ 출발역: _findCodes() → KRIC fetchStationMovement()
+       │     mvContDtl 정규식 /(\d+)번\s*(?:출구|출입구)/ 로 출구 번호 추출
+       └─ 도착역: 동일 처리
+             → availableOriginExits[], availableDestExits[] 반환
+```
+
+UI는 자동으로 첫 번째(최소 번호) 출구 선택.
+
+### Phase 3 — 엘리베이터 실시간 상태 (선택적)
+
+출구가 여러 개인 경우에만 실행.
+
+```
+fetchSeoulElevatorStatus()  (Supabase 프록시 경유)
+  → oprtngSitu === 'M' (운행 중)인 최소 번호 출구로 자동 전환
+  → 전환 발생 시 Phase 4 재실행 (isPartialLoading 상태)
+```
+
+### Phase 4 — 상세 경로 확정
+
+```
+RouteService.finalizeRoute()
+  └─ RouteAssembler.findValidatedPath()
+       └─ _verifyCandidate(): rawItems의 각 역 순회
+            ├─ fetchSeoulElevatorStatus()  →  item.elevatorStatuses 첨부
+            ├─ fetchStationMovement() or fetchTransferMovement()  (KRIC)
+            │     mvPathMgNo로 그룹화 → 출구번호·방향 기준 최적 그룹 선택
+            │     movement_steps (한국어 원문) 구성
+            ├─ _fetchTranslatedSteps()
+            │     Supabase Edge Function 'translate-movement'
+            │       ├─ movement_translations DB 캐시 조회 (SHA-256 hash_key)
+            │       │     hit  → 즉시 반환
+            │       │     miss → Gemini 2.5 Flash 번역 → DB 저장
+            │       └─ 실패 → _linesToSteps() fallback (translation_dict + 정규식)
+            └─ _enrichSteps()
+                  elevators 테이블 조회
+                    is_internal=FALSE → exit_no 첨부
+                    is_internal=TRUE  → car_position 첨부
+```
+
+검증 게이트: `originSteps.length > 0` AND `destinationSteps.length > 0`
+실패 시 `isBarrierFree=false` fallback으로 반환.
+
+### Phase 5 — 결과 표시
+
+```
+RoutePreviewScreen._handleFinalRouteReady()
+  ├─ stations.name_en 조회 → stationNameMap 구성
+  └─ ResultView 렌더링
+
+출구 변경 시: Phase 4만 재실행 (Phase 1-2 스킵)
 ```
 
 ---
@@ -351,7 +407,33 @@ getBarrierFreeRoute(departure, destination, onProgress)
 
 ---
 
-## 9. 핵심 결정 이력
+## 9. 캐싱 레이어
+
+| 레이어 | 범위 | 키 |
+|--------|------|----|
+| `_stationsCache` | RouteService 인스턴스 메모리 | — |
+| `this.kricCache` | RouteAssembler 인스턴스 메모리 Map | `STN:oprCd:lnCd:stinCd` / `TRANS:oprCd:lnCd:stinCd:targetLn:nextStinCd` |
+| `movement_translations` DB | Supabase 영구 | SHA-256 hash_key |
+| `cached_routes` DB | Supabase 30일 TTL | `출발ID_도착ID_originExit_destExit` |
+
+> KRIC 캐시는 인스턴스 단위로만 유지된다. 새 검색마다 RouteService 인스턴스를 새로 생성하므로 캐시가 초기화된다.
+
+---
+
+## 10. 에러 처리 및 Fallback
+
+| 에러 상황 | 발생 위치 | 처리 |
+|-----------|-----------|------|
+| 모든 경로가 미지원 노선 경유 | PathFinder | `UNSUPPORTED_LINE_TRANSFER` throw → UI 에러 메시지 |
+| 역 코드 매칭 실패 | `_findCodes()` | `null` 반환, 해당 역 안내 건너뜀 |
+| KRIC 이동 동선 없음 | `_verifyCandidate()` | `isBarrierFree=false` fallback으로 반환 |
+| 출구/방향 그룹 매칭 실패 | `_verifyCandidate()` | 첫 번째 그룹 사용, `originExitFallback=true` 플래그 |
+| 번역 Edge Function 실패 | `_fetchTranslatedSteps()` | `_linesToSteps()` 로컬 번역 (translation_dict DB + 정규식) |
+| 엘리베이터 상태 조회 실패 | RoutePreviewScreen | 무시, 자동 출구 전환 없이 진행 |
+
+---
+
+## 11. 핵심 결정 이력
 
 | 일자 | 결정 | 이유 |
 |------|------|------|
@@ -383,7 +465,7 @@ getBarrierFreeRoute(departure, destination, onProgress)
 
 ---
 
-## 10. 미구현 / 향후 과제
+## 12. 미구현 / 향후 과제
 
 - **빠른하차(Quick Exit) UI**: `toward_station_ko` / `car_number` / `door_number`는 DB에 저장되어 있으나 TimelineCard에서 아직 미표시
 - **섬식 승강장 양방향 제안**: `quick_exit_alt` 배열 활용하여 사용자에게 "반대편 승강장 옵션" 표시

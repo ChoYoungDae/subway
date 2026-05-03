@@ -103,3 +103,6 @@ start-expo.js
 /table_debug_output.txt
 /schema.sql
 /main.py
+
+.vercel
+.env*.local

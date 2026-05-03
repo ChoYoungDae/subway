@@ -1,12 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useAppLang, tLang } from '../../context/LanguageContext';
+import { STRINGS } from '../../i18n/strings';
 
-/**
- * ErrorPlaceholder: Actionable error UI for missing or failed data.
- * Standard: Bilingual (English first, Korean second)
- */
 const ErrorPlaceholder = ({ message, messageKo, onRetry, isCompact = false }) => {
+    const { lang } = useAppLang();
+    const displayMessage = lang === 'ko' ? (messageKo || message || '문제가 발생했습니다') : (message || 'Something went wrong');
+
     return (
         <View style={[styles.container, isCompact && styles.compactContainer]}>
             <MaterialCommunityIcons
@@ -15,11 +16,8 @@ const ErrorPlaceholder = ({ message, messageKo, onRetry, isCompact = false }) =>
                 color={isCompact ? "#ef4444" : "#f59e0b"}
             />
             <View style={[styles.textContainer, isCompact && styles.compactTextContainer]}>
-                <Text style={[styles.messageEn, isCompact && styles.compactMessageEn]}>
-                    {message || 'Something went wrong'}
-                </Text>
-                <Text style={[styles.messageKo, isCompact && styles.compactMessageKo]}>
-                    {messageKo || '문제가 발생했습니다'}
+                <Text style={[styles.message, isCompact && styles.compactMessage]}>
+                    {displayMessage}
                 </Text>
             </View>
 
@@ -30,7 +28,9 @@ const ErrorPlaceholder = ({ message, messageKo, onRetry, isCompact = false }) =>
                     activeOpacity={0.8}
                 >
                     <MaterialCommunityIcons name="refresh" size={14} color="#fff" />
-                    <Text style={[styles.retryText, isCompact && styles.compactRetryText]}>Retry [다시 시도]</Text>
+                    <Text style={[styles.retryText, isCompact && styles.compactRetryText]}>
+                        {tLang(STRINGS.common.retry, lang)}
+                    </Text>
                 </TouchableOpacity>
             )}
         </View>
@@ -52,17 +52,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         marginVertical: 12,
     },
-    messageEn: {
+    message: {
         fontSize: 14,
         fontFamily: 'Nunito-Bold',
         color: '#b45309',
-        textAlign: 'center',
-    },
-    messageKo: {
-        fontSize: 12,
-        fontFamily: 'Pretendard-Regular',
-        color: '#d97706',
-        marginTop: 2,
         textAlign: 'center',
     },
     retryBtn: {
@@ -95,13 +88,8 @@ const styles = StyleSheet.create({
         alignItems: 'flex-start',
         marginVertical: 4,
     },
-    compactMessageEn: {
+    compactMessage: {
         fontSize: 12,
-        color: '#991b1b',
-        textAlign: 'left',
-    },
-    compactMessageKo: {
-        fontSize: 10,
         color: '#991b1b',
         textAlign: 'left',
     },

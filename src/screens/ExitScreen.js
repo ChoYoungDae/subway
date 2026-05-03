@@ -20,6 +20,7 @@ import {
 } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { STRINGS, formatWithVars } from '../i18n/strings';
+import { useAppLang, tLang, pick } from '../context/LanguageContext';
 import { supabase } from '../../lib/supabase';
 import { useFavorites } from '../hooks/useFavorites';
 import { getLineColor, getLineBadgeLabel } from '../utils/lineColors';
@@ -262,7 +263,10 @@ function ExitLineCircle({ line }) {
   );
 }
 
-function FacilityItem({ icon, labelEn, labelKo, subEn, subKo, tagEn, tagKo, tagColor }) {
+function FacilityItem({ icon, labelEn, labelKo, subEn, subKo, tagEn, tagKo, tagColor, lang }) {
+  const label = pick(labelEn, labelKo, lang);
+  const sub = pick(subEn, subKo, lang);
+  const tag = pick(tagEn, tagKo, lang);
   return (
     <View style={styles.facilityItem}>
       <View style={styles.facilityIconWrap}>
@@ -271,26 +275,25 @@ function FacilityItem({ icon, labelEn, labelKo, subEn, subKo, tagEn, tagKo, tagC
       <View style={styles.facilityContent}>
         <View style={styles.facilityTitleRow}>
           <View style={styles.facilityTextGroup}>
-            <Text style={styles.facilityLabelEn}>{labelEn}</Text>
-            <Text style={styles.facilityLabelKo}>{labelKo}</Text>
+            <Text style={styles.facilityLabel}>{label}</Text>
           </View>
-          {tagEn && (
+          {tag && (
             <View style={[styles.facilityTag, { backgroundColor: tagColor || '#f0ecff' }]}>
-              <Text style={[styles.facilityTagText, { color: tagColor ? '#fff' : '#7c65c1' }]}>{tagEn}</Text>
+              <Text style={[styles.facilityTagText, { color: tagColor ? '#fff' : '#7c65c1' }]}>{tag}</Text>
             </View>
           )}
         </View>
-        {(subEn || subKo) && (
+        {sub ? (
           <View style={styles.facilitySubGroup}>
-            {subEn && <Text style={styles.facilitySubEn}>{subEn}</Text>}
-            {subKo && <Text style={styles.facilitySubKo}>{subKo}</Text>}
+            <Text style={styles.facilitySub}>{sub}</Text>
           </View>
-        )}
+        ) : null}
       </View>
     </View>
   );
 }
 export default function ExitScreen({ route, navigation }) {
+  const { lang } = useAppLang();
   const { stationId, nameEn, nameKo, stationLines = [], wizardResult } = route.params || {};
   const [exits, setExits] = useState([]);
   const [elevatorStatus, setElevatorStatus] = useState({});
@@ -398,7 +401,7 @@ export default function ExitScreen({ route, navigation }) {
 
   useEffect(() => {
     navigation.setOptions({
-      title: `${nameEn || ''} · ${nameKo || ''}`,
+      title: nameEn || nameKo || '',
       headerRight: () => (
         <TouchableOpacity onPress={() => toggleFavorite(station)} style={{ marginRight: 4 }}>
           <Text style={{ fontSize: 22, color: '#FFC107' }}>{isFav ? '★' : '☆'}</Text>
@@ -602,7 +605,7 @@ export default function ExitScreen({ route, navigation }) {
     const key = String(exit.exit_no);
     if (elevatorStatus[key] !== undefined) return elevatorStatus[key];
     const avail = exit.status !== 'out_of_service';
-    return { avail, label: avail ? { ko: '정상 운행', en: 'In Service' } : { ko: '이용 불가', en: 'Out of Service' } };
+    return { avail, label: avail ? STRINGS.exits.statusInService : STRINGS.exits.statusOutOfService };
   };
 
   const loadDetailedFacilities = async () => {
@@ -911,7 +914,7 @@ export default function ExitScreen({ route, navigation }) {
                 <Text style={styles.sectionHeadingIcon}>🛗</Text>
               </View>
               <View>
-                <Text style={styles.sectionHeadingTitle}>Accessible Exits [엘리베이터 이용 가능 출구]</Text>
+                <Text style={styles.sectionHeadingTitle}>{tLang(STRINGS.exits.sectionAccessible, lang)}</Text>
                 <Text style={styles.sectionHeadingSubtitle}>Elevators available at these exits</Text>
               </View>
               {statusLoading && (
@@ -926,8 +929,7 @@ export default function ExitScreen({ route, navigation }) {
                 {exits.map((exit, idx) => {
                   const exitNo = exit.refined_exit_no || exit.exit_no;
                   const isSelected = selectedExit === exitNo;
-                  const exitLabelEn = formatWithVars(STRINGS.exits.exitLabel.en, { number: exitNo });
-                  const exitLabelKo = formatWithVars(STRINGS.exits.exitLabel.ko, { number: exitNo });
+                  const exitLabelEn = formatWithVars(tLang(STRINGS.exits.exitLabel, lang), { number: exitNo });
                   const { avail, label } = getStatus(exit);
                   const isLast = idx === exits.length - 1;
                   return (
@@ -950,20 +952,11 @@ export default function ExitScreen({ route, navigation }) {
                             ({exit.landmarks.en.slice(0, 2).join(', ')})
                           </Text>
                         )}
-                        <View style={{ flexDirection: 'row', alignItems: 'center' }}>
-                          <Text style={styles.exitLabelKo}>{exitLabelKo}</Text>
-                          {exit.landmarks?.ko && exit.landmarks.ko.length > 0 && (
-                            <Text style={styles.exitLandmarkKo} numberOfLines={1}>
-                              {' '}({exit.landmarks.ko.slice(0, 2).join(', ')})
-                            </Text>
-                          )}
-                        </View>
                       </View>
                       <View style={styles.statusBadge}>
                         <View style={[styles.statusDot, { backgroundColor: avail ? '#2e7d32' : '#c62828' }]} />
                         <View>
-                          <Text style={[styles.statusTextEn, { color: avail ? '#2e7d32' : '#c62828' }]}>{label.en}</Text>
-                          <Text style={styles.statusTextKo}>{label.ko}</Text>
+                          <Text style={[styles.statusTextEn, { color: avail ? '#2e7d32' : '#c62828' }]}>{tLang(label, lang)}</Text>
                         </View>
                       </View>
                     </TouchableOpacity>
@@ -973,15 +966,14 @@ export default function ExitScreen({ route, navigation }) {
             ) : (
               <View style={styles.emptyBox}>
                 <Text style={styles.emptyEmoji}>🚫</Text>
-                <Text style={styles.emptyText}>{STRINGS.exits.noExits.en}</Text>
-                <Text style={styles.emptySubtext}>{STRINGS.exits.noExits.ko}</Text>
+                <Text style={styles.emptyText}>{tLang(STRINGS.exits.noExits, lang)}</Text>
               </View>
             )}
           </View>
 
           {/* ── Direction Guide (New) ── */}
           <View style={styles.destHelperWrap}>
-            <Text style={styles.destHelperTitle}>Destination Guide · 목적지 방면 찾기</Text>
+            <Text style={styles.destHelperTitle}>{tLang(STRINGS.exits.destinationGuide, lang)}</Text>
             <View style={styles.destInputRow}>
               <TextInput
                 style={styles.destInput}
@@ -1017,7 +1009,7 @@ export default function ExitScreen({ route, navigation }) {
                 <Text style={styles.sectionHeadingIcon}>🧳</Text>
               </View>
               <View>
-                <Text style={styles.sectionHeadingTitle}>Accessible Routes [엘리베이터 이동 경로 안내]</Text>
+                <Text style={styles.sectionHeadingTitle}>{tLang(STRINGS.exits.sectionRoutes, lang)}</Text>
                 <Text style={styles.sectionHeadingSubtitle}>Detailed movement paths to platform/exit</Text>
               </View>
             </View>
@@ -1027,8 +1019,7 @@ export default function ExitScreen({ route, navigation }) {
             ) : !hasAnyMovement ? (
               <View style={styles.emptyBox}>
                 <Text style={styles.emptyEmoji}>ℹ️</Text>
-                <Text style={styles.emptyText}>No route information available</Text>
-                <Text style={styles.emptySubtext}>이 역은 이동동선 정보가 제공되지 않습니다</Text>
+                <Text style={styles.emptyText}>{pick('No route information available', '이 역은 이동동선 정보가 제공되지 않습니다', lang)}</Text>
               </View>
             ) : (
               lineMovements.map(({ line, lnCd, paths }) => {
@@ -1111,8 +1102,7 @@ export default function ExitScreen({ route, navigation }) {
                         >
                           {showSectionHeader && (
                             <View style={[styles.routeTypeHeader, { borderLeftColor: '#7E57C2' }]}>
-                              <Text style={[styles.routeTypeEn, { color: '#7E57C2' }]}>Exit Routes</Text>
-                              <Text style={styles.routeTypeKo}>출입구 ↔ 승강장</Text>
+                              <Text style={[styles.routeTypeEn, { color: '#7E57C2' }]}>{tLang(STRINGS.exits.exitRoutes, lang)}</Text>
                             </View>
                           )}
                           {renderRouteCard(path, cardKey, isExpanded, lineColor)}
@@ -1135,8 +1125,7 @@ export default function ExitScreen({ route, navigation }) {
                           const isExpanded = expandedKey === cardKey;
                           const prevDvCd = pathIdx > 0 ? otherPaths[pathIdx - 1].dvCd : null;
                           const showSectionHeader = path.dvCd !== prevDvCd;
-                          const sectionLabelEn = path.dvCd === '3' ? 'Transfer Routes' : 'Internal Routes';
-                          const sectionLabelKo = path.dvCd === '3' ? '환승 경로' : '내부 경로';
+                          const sectionLabelEntry = path.dvCd === '3' ? STRINGS.exits.transferRoutes : STRINGS.exits.internalRoutes;
 
                           return (
                             <View
@@ -1145,8 +1134,7 @@ export default function ExitScreen({ route, navigation }) {
                             >
                               {showSectionHeader && (
                                 <View style={[styles.routeTypeHeader, { borderLeftColor: '#7E57C2', backgroundColor: selectedExit ? '#f8f8f8' : '#EDE7F6' }]}>
-                                  <Text style={[styles.routeTypeEn, { color: '#7E57C2' }]}>{sectionLabelEn}</Text>
-                                  <Text style={styles.routeTypeKo}>{sectionLabelKo}</Text>
+                                  <Text style={[styles.routeTypeEn, { color: '#7E57C2' }]}>{tLang(sectionLabelEntry, lang)}</Text>
                                 </View>
                               )}
                               {renderRouteCard(path, cardKey, isExpanded, lineColor, selectedExit ? 0.7 : 1)}
@@ -1180,8 +1168,7 @@ export default function ExitScreen({ route, navigation }) {
             <Text style={styles.fabIcon}>💳</Text>
           </View>
           <View style={styles.fabTextContainer}>
-            <Text style={styles.fabLabelEn}>Facilities</Text>
-            <Text style={styles.fabLabelKo}>편의시설</Text>
+            <Text style={styles.fabLabelEn}>{tLang(STRINGS.exits.facilities, lang)}</Text>
           </View>
         </TouchableOpacity>
       </View>
@@ -1217,12 +1204,10 @@ const styles = StyleSheet.create({
   exitNumber: { fontSize: 15, fontFamily: 'Nunito-Bold', color: NAVY },
   exitLandmarkEn: { fontSize: 13, color: '#475569', fontFamily: 'Nunito-Medium', fontWeight: '500', marginTop: 1 },
   exitLandmarkKo: { fontSize: 11, color: '#94A3B8', marginTop: 2 },
-  exitLabelKo: { fontSize: 12, color: '#9e9e9e', marginTop: 2 },
 
   statusBadge: { flexDirection: 'row', alignItems: 'flex-start', gap: 6 },
   statusDot: { width: 8, height: 8, borderRadius: 4, marginTop: 4 },
   statusTextEn: { fontSize: 12, fontFamily: 'Nunito-SemiBold', textAlign: 'right' },
-  statusTextKo: { fontSize: 10, color: '#9e9e9e', marginTop: 2, textAlign: 'right' },
 
   loader: { marginVertical: 24 },
   emptyBox: { alignItems: 'center', paddingVertical: 24 },
@@ -1247,7 +1232,6 @@ const styles = StyleSheet.create({
     borderLeftWidth: 4,
   },
   routeTypeEn: { fontSize: 13, fontFamily: 'Nunito-ExtraBold' },
-  routeTypeKo: { fontSize: 12, color: '#9575CD', marginLeft: 4 },
 
   routeCard: { backgroundColor: 'transparent', marginBottom: 4, overflow: 'hidden' },
   routeHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', paddingVertical: 10, paddingHorizontal: 4 },
@@ -1313,12 +1297,6 @@ const styles = StyleSheet.create({
     fontWeight: '800',
     fontSize: 13,
     lineHeight: 15,
-  },
-  fabLabelKo: {
-    color: 'rgba(255,255,255,0.8)',
-    fontWeight: '600',
-    fontSize: 10,
-    marginTop: 1,
   },
   transferDivider: {
     flexDirection: 'row',

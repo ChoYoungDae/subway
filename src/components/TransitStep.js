@@ -1,11 +1,9 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useAppLang, tLang } from '../context/LanguageContext';
+import { STRINGS } from '../i18n/strings';
 
-/**
- * TransitStep: Displays actual transportation info (Subway Line, Direction, etc.)
- * Standard: English primary, Korean secondary
- */
 const TransitStep = ({
     lineNumber,
     direction,
@@ -13,8 +11,24 @@ const TransitStep = ({
     travelTime,
     stationCount,
     lineColor = '#7c65c1',
-    isRealTime = false, // TODO: Integrate real-time API when available
+    isRealTime = false,
 }) => {
+    const { lang } = useAppLang();
+    const isKo = lang === 'ko';
+
+    const lineLabel = isKo ? `${lineNumber}호선` : `Line ${lineNumber}`;
+    const directionLabel = direction || directionKo
+        ? isKo
+            ? `${directionKo || direction} ${tLang(STRINGS.transit.towards, lang)}`
+            : `Towards ${direction || directionKo}`
+        : null;
+    const timeLabel = travelTime
+        ? isKo ? `${travelTime}${tLang(STRINGS.transit.travelTime, lang)}` : `${travelTime} ${tLang(STRINGS.transit.travelTime, lang)}`
+        : null;
+    const stationsLabel = stationCount
+        ? isKo ? `${stationCount}${tLang(STRINGS.transit.stationCount, lang)}` : `${stationCount} ${tLang(STRINGS.transit.stationCount, lang)}`
+        : null;
+
     return (
         <View style={styles.container}>
             <View style={styles.spine}>
@@ -28,37 +42,37 @@ const TransitStep = ({
             <View style={styles.content}>
                 <View style={styles.headerRow}>
                     <View style={styles.lineInfoRow}>
-                        <Text style={styles.lineText}>
-                            Line {lineNumber} <Text style={styles.subText}>({lineNumber}호선)</Text>
+                        <Text style={[styles.lineText, { fontFamily: isKo ? 'Pretendard-Bold' : 'Nunito-Bold' }]}>
+                            {lineLabel}
                         </Text>
                         {isRealTime && (
                             <View style={styles.liveBadge}>
                                 <View style={styles.liveDot} />
-                                <Text style={styles.liveText}>Live (실시간)</Text>
+                                <Text style={styles.liveText}>{tLang(STRINGS.transit.live, lang)}</Text>
                             </View>
                         )}
                     </View>
-                    {direction && (
-                        <Text style={styles.directionText}>
-                            Towards {direction} <Text style={styles.subText}>({directionKo || direction} 방면)</Text>
+                    {directionLabel && (
+                        <Text style={[styles.directionText, { fontFamily: isKo ? 'Pretendard-Regular' : 'Nunito-Bold' }]}>
+                            {directionLabel}
                         </Text>
                     )}
                 </View>
 
                 <View style={styles.detailsRow}>
-                    {travelTime && (
+                    {timeLabel && (
                         <View style={styles.detailBadge}>
                             <MaterialCommunityIcons name="clock-outline" size={12} color="#64748B" />
-                            <Text style={styles.detailText}>
-                                {travelTime} mins <Text style={styles.subText}>({travelTime}분 소요)</Text>
+                            <Text style={[styles.detailText, { fontFamily: isKo ? 'Pretendard-Regular' : 'Nunito-Bold' }]}>
+                                {timeLabel}
                             </Text>
                         </View>
                     )}
-                    {stationCount && (
+                    {stationsLabel && (
                         <View style={styles.detailBadge}>
                             <MaterialCommunityIcons name="train" size={12} color="#64748B" />
-                            <Text style={styles.detailText}>
-                                {stationCount} Stations <Text style={styles.subText}>({stationCount}개 역 이동)</Text>
+                            <Text style={[styles.detailText, { fontFamily: isKo ? 'Pretendard-Regular' : 'Nunito-Bold' }]}>
+                                {stationsLabel}
                             </Text>
                         </View>
                     )}
@@ -106,7 +120,6 @@ const styles = StyleSheet.create({
     },
     lineText: {
         fontSize: 16,
-        fontWeight: '900',
         color: '#1a1040',
     },
     liveBadge: {
@@ -126,20 +139,14 @@ const styles = StyleSheet.create({
     },
     liveText: {
         fontSize: 10,
-        fontWeight: '800',
+        fontFamily: 'Nunito-Bold',
         color: '#ef4444',
         textTransform: 'uppercase',
     },
     directionText: {
         fontSize: 14,
-        fontWeight: '700',
         color: '#475569',
         marginTop: 2,
-    },
-    subText: {
-        fontSize: 12,
-        fontWeight: '500',
-        color: '#94A3B8',
     },
     detailsRow: {
         flexDirection: 'row',
@@ -157,7 +164,6 @@ const styles = StyleSheet.create({
     },
     detailText: {
         fontSize: 11,
-        fontWeight: '700',
         color: '#64748B',
     },
 });

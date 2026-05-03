@@ -5,10 +5,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 import {
     View, Text, TouchableOpacity, ScrollView,
-    StatusBar, Image,
+    StatusBar, Image, Linking,
 } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { ArrowUpDown, Luggage, Map } from 'lucide-react-native';
+import { ArrowUpDown, Luggage, Toilet } from 'lucide-react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { ResultView } from '../components/route/ResultView';
@@ -18,6 +18,8 @@ import { getLineColor, getLineBadgeLabel } from '../utils/lineColors';
 import { RouteService } from '../services/RouteService';
 import { supabase } from '../../lib/supabase';
 import { fetchSeoulElevatorStatus } from '../api/seoulApi';
+import { useAppLang, tLang } from '../context/LanguageContext';
+import { STRINGS } from '../i18n/strings';
 
 
 const C = {
@@ -33,8 +35,10 @@ const C = {
     green:      '#2E5E4A',
     red:        '#C8362A',
 };
+const FEEDBACK_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdYtc7o7HQ25VpPbjlL1hHZHI4PKQ4YzgT95WZO7VRsVltFkQ/viewform';
 
 export default function RoutePreviewScreen() {
+    const { lang } = useAppLang();
     const insets = useSafeAreaInsets();
 
     const [origin, setOrigin]           = useState(null);
@@ -323,7 +327,7 @@ export default function RoutePreviewScreen() {
                                 {value.ko.endsWith('역') ? value.ko : value.ko + '역'}
                             </Text>
                         ) : (
-                            <Text style={{ fontSize: 13, fontFamily: 'Pretendard-Regular', color: C.textLow, marginTop: 1 }} numberOfLines={1}>
+                            <Text style={{ fontSize: 13, fontFamily: lang === 'ko' ? 'Pretendard-Regular' : 'Nunito-Regular', color: C.textLow, marginTop: 1 }} numberOfLines={1}>
                                 {isOrigin ? '출발역' : '도착역'}
                             </Text>
                         )}
@@ -486,7 +490,7 @@ export default function RoutePreviewScreen() {
                             style={{ width: 40, height: 40, borderRadius: 8, marginRight: 12 }}
                             resizeMode="contain"
                         />
-                        <View>
+                        <View style={{ flex: 1, justifyContent: 'center' }}>
                             <Text style={{ fontSize: 19, fontFamily: 'Nunito-ExtraBold', color: C.textHigh, letterSpacing: -0.3 }}>
                                 <Text style={{ color: C.primary }}>S</Text>
                                 <Text>tep-Free </Text>
@@ -494,9 +498,6 @@ export default function RoutePreviewScreen() {
                                 <Text>eoul </Text>
                                 <Text style={{ color: C.primary }}>S</Text>
                                 <Text>ubway</Text>
-                            </Text>
-                            <Text style={{ fontSize: 11, fontFamily: 'Pretendard-Regular', color: C.textLow, marginTop: 2 }}>
-                                서울 지하철: 계단 없이 엘리베이터로 이동하세요.
                             </Text>
                         </View>
                     </View>
@@ -520,7 +521,7 @@ export default function RoutePreviewScreen() {
                             letterSpacing: 0.3,
                             fontStyle: 'italic',
                         }}>
-                            Beyond Subway Lines, We Guide Your Every Step.
+                            No More Stairs. Elevator-to-Elevator.
                         </Text>
                         <View style={{
                             flexDirection: 'row',
@@ -528,22 +529,10 @@ export default function RoutePreviewScreen() {
                             marginBottom: 24,
                         }}>
                             {[
-                                {
-                                    Icon: ArrowUpDown,
-                                    label: 'Exit-to-Exit',
-                                    labelKo: '지하철 입구에서 출구까지',
-                                },
-                                {
-                                    Icon: Luggage,
-                                    label: 'Luggage Friendly',
-                                    labelKo: '캐리어 이동 최적화',
-                                },
-                                {
-                                    Icon: Map,
-                                    label: 'In-Station Path',
-                                    labelKo: '상세 역내 동선',
-                                },
-                            ].map(({ Icon, label, labelKo }, idx, arr) => (
+                                { Icon: ArrowUpDown,   label: 'Elevator Routes' },
+                                { Icon: Luggage,       label: 'Luggage Friendly' },
+                                { Icon: Toilet,       label: 'Station Amenities' },
+                            ].map(({ Icon, label }, idx, arr) => (
                                 <React.Fragment key={label}>
                                     <View style={{ flex: 1, alignItems: 'center', gap: 6 }}>
                                         <Icon size={22} color="#8A9CA3" strokeWidth={2} />
@@ -555,15 +544,6 @@ export default function RoutePreviewScreen() {
                                             lineHeight: 14,
                                         }}>
                                             {label}
-                                        </Text>
-                                        <Text style={{
-                                            fontSize: 9,
-                                            fontFamily: 'Pretendard-Regular',
-                                            color: '#AAABB8',
-                                            textAlign: 'center',
-                                            lineHeight: 12,
-                                        }}>
-                                            {labelKo}
                                         </Text>
                                     </View>
                                     {idx < arr.length - 1 && (
@@ -634,10 +614,7 @@ export default function RoutePreviewScreen() {
                                     }}
                                 >
                                     <Text style={{ fontSize: 16, fontFamily: 'Nunito-ExtraBold', color: isReady ? '#fff' : C.textMuted }}>
-                                        Find Step-Free Route
-                                    </Text>
-                                    <Text style={{ fontSize: 11, fontFamily: 'Pretendard-Regular', marginTop: 2, color: isReady ? 'rgba(255,255,255,0.75)' : C.textMuted }}>
-                                        계단 없는 경로 찾기
+                                        Find Route
                                     </Text>
                                 </TouchableOpacity>
                             );
@@ -674,6 +651,32 @@ export default function RoutePreviewScreen() {
                         <Text style={{ fontSize: 9, fontFamily: 'Nunito-Regular', color: C.textLow }}>
                             Data: KRIC · Public Data Portal · Seoul Metro
                         </Text>
+                        
+                        <TouchableOpacity 
+                            onPress={() => Linking.openURL(FEEDBACK_URL)}
+                            activeOpacity={0.7}
+                            style={{ 
+                                flexDirection: 'row', 
+                                alignItems: 'center', 
+                                marginTop: 6,
+                                paddingVertical: 2,
+                            }}
+                        >
+                            <Text style={{ fontSize: 9, fontFamily: 'Nunito-Regular', color: C.textLow }}>
+                                Help us improve our route accuracy: 
+                            </Text>
+                            <View style={{ flexDirection: 'row', alignItems: 'center', marginLeft: 4 }}>
+                                <MaterialCommunityIcons name="alert-circle-outline" size={10} color={C.primary} style={{ marginRight: 2 }} />
+                                <Text style={{ 
+                                    fontSize: 9, 
+                                    fontFamily: 'Nunito-Bold', 
+                                    color: C.primary,
+                                    textDecorationLine: 'underline'
+                                }}>
+                                    Report an error
+                                </Text>
+                            </View>
+                        </TouchableOpacity>
                     </View>
                 </View>
             )}
@@ -687,7 +690,7 @@ export default function RoutePreviewScreen() {
                     <SearchingView
                         onClose={() => setSearchType(null)}
                         onSelect={handleSelectStation}
-                        placeholder={searchType === 'origin' ? 'Starting Station 출발역' : 'Arrival Station 도착역'}
+                        placeholder={tLang(searchType === 'origin' ? STRINGS.route.searchPlaceholderOrigin : STRINGS.route.searchPlaceholderDest, lang)}
                         autoFocusInput
                         showNearby={searchType === 'origin'}
                     />

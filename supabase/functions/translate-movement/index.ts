@@ -190,22 +190,28 @@ async function logError(errorType: string, errorMsg: string, context: Record<str
   await supabase.from('ai_error_log').insert({ error_type: errorType, error_msg: errorMsg, context });
 }
 
+const CORS_HEADERS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+};
+
 // ── Main handler ──────────────────────────────────────────────────────
 Deno.serve(async (req: Request) => {
   if (req.method === 'OPTIONS') {
-    return new Response('ok', { headers: { 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Headers': 'authorization, content-type' } });
+    return new Response('ok', { headers: CORS_HEADERS });
   }
 
   let body: TranslationRequest;
   try {
     body = await req.json();
   } catch {
-    return new Response(JSON.stringify({ error: 'Invalid JSON' }), { status: 400 });
+    return new Response(JSON.stringify({ error: 'Invalid JSON' }), { status: 400, headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' } });
   }
 
   const { stin_cd, line, movement_steps } = body;
   if (!stin_cd || !line || !movement_steps?.length) {
-    return new Response(JSON.stringify({ error: 'Missing required fields: stin_cd, line, movement_steps' }), { status: 400 });
+    return new Response(JSON.stringify({ error: 'Missing required fields: stin_cd, line, movement_steps' }), { status: 400, headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' } });
   }
 
   const hashKey = await makeHashKey(body);
@@ -219,7 +225,7 @@ Deno.serve(async (req: Request) => {
 
   if (cached) {
     return new Response(JSON.stringify({ steps: sanitizeSteps(cached.steps), cached: true }), {
-      headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+      headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
     });
   }
 
@@ -234,26 +240,28 @@ Deno.serve(async (req: Request) => {
     const errorType = e.errorType ?? 'api_error';
     await logError(errorType, e.message, { stin_cd, line, exit_no: body.exit_no, is_transfer: body.is_transfer });
     return new Response(JSON.stringify({ steps: [], error: errorType }), {
-      status: 200, // Return 200 so app can show empty state gracefully
-      headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+      status: 200,
+      headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
     });
   }
 
   // ── 3. Store in DB ──────────────────────────────────────────────────
   await supabase.from('movement_translations').insert({
-    hash_key:       hashKey,
-    stin_cd:        body.stin_cd,
-    line:           body.line,
-    exit_no:        body.exit_no ?? null,
-    is_destination: body.is_destination ?? false,
-    is_transfer:    body.is_transfer ?? false,
-    from_line:      body.from_line ?? null,
-    to_line:        body.to_line ?? null,
-    next_stin_cd:   body.next_stin_cd ?? null,
+    hash_key:           hashKey,
+    stin_cd:            body.stin_cd,
+    line:               body.line,
+    exit_no:            body.exit_no ?? null,
+    is_destination:     body.is_destination ?? false,
+    is_transfer:        body.is_transfer ?? false,
+    from_line:          body.from_line ?? null,
+    to_line:            body.to_line ?? null,
+    next_stin_cd:       body.next_stin_cd ?? null,
     steps,
+    movement_steps_ko:  body.movement_steps,
+    translation_status: 'realtime',
   });
 
   return new Response(JSON.stringify({ steps, cached: false }), {
-    headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
+    headers: { ...CORS_HEADERS, 'Content-Type': 'application/json' },
   });
 });

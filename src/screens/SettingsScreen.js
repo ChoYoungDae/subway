@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   View,
   Text,
@@ -9,181 +9,124 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useLanguage, saveLanguage, LANGUAGE_KEY } from '../hooks/useLanguage';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+import { useAppLang } from '../context/LanguageContext';
 
-// ── Color Palette (CLAUDE.md) ─────────────────────────────────────────────────
-const ACCENT      = '#C8362A';   // Dancheong Red
-const BG          = '#F7F7FA';   // Light BG
-const CARD        = '#FFFFFF';   // Card White
-const BORDER      = '#E8E8EE';
-const TEXT_MAIN   = '#111116';   // Gwakgi Dark Gray
-const TEXT_SUB    = '#AAABB8';   // Muted Text
-const TEXT_BODY   = '#3D3D4A';   // Stone Wall Gray
-const GREEN       = '#2E5E4A';   // Namsan Pine Green (active badge)
+const ACCENT    = '#C8362A';
+const BG        = '#F7F7FA';
+const CARD      = '#FFFFFF';
+const BORDER    = '#E8E8EE';
+const TEXT_MAIN = '#111116';
+const TEXT_SUB  = '#AAABB8';
+const TEXT_BODY = '#555568';
+const GREEN     = '#2E5E4A';
 
-// ── Language Data ─────────────────────────────────────────────────────────────
-// status: 'active' | 'inactive' | 'disabled'
-//   active   → currently selected
-//   inactive → available but not selected
-//   disabled → not yet supported (shown dimmed)
+const APP_VERSION = '1.0.0';
+const FEEDBACK_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSdYtc7o7HQ25VpPbjlL1hHZHI4PKQ4YzgT95WZO7VRsVltFkQ/viewform';
+
 const LANGUAGES = [
-  {
-    code: 'en',
-    label: 'English',
-    sublabel: 'Korean',   // "Korean" in English
-    isDefault: true,
-    status: 'active',
-  },
-  {
-    code: 'ko',
-    label: '한국어',
-    sublabel: null,       // No sublabel — avoids "한국어 / 한국어" redundancy
-    isDefault: false,
-    status: 'disabled',
-  },
-  {
-    code: 'zh-Hans',
-    label: '简体中文',
-    sublabel: '韩语',     // "Korean" in Simplified Chinese
-    isDefault: false,
-    status: 'disabled',
-  },
-  {
-    code: 'ja',
-    label: '日本語',
-    sublabel: '韓国語',   // "Korean" in Japanese
-    isDefault: false,
-    status: 'disabled',
-  },
+  { code: 'en',      label: 'English',   sublabel: '영어',  status: 'active',   isDefault: true  },
+  // { code: 'ko',      label: '한국어',     sublabel: null,    status: 'disabled', isDefault: false },
+  // { code: 'zh-Hans', label: '简体中文',   sublabel: '韩语',  status: 'disabled', isDefault: false },
+  // { code: 'ja',      label: '日本語',     sublabel: '韓国語', status: 'disabled', isDefault: false },
 ];
 
-// ── LanguageItem Component ────────────────────────────────────────────────────
 function LanguageItem({ lang, isSelected, onPress }) {
-  const isDisabled = lang.status === 'disabled';
-
+  const disabled = lang.status === 'disabled';
   return (
     <TouchableOpacity
-      style={[styles.item, isSelected && styles.itemSelected]}
-      onPress={() => !isDisabled && onPress(lang.code)}
-      activeOpacity={isDisabled ? 1 : 0.7}
-      disabled={isDisabled}
+      style={[styles.row, isSelected && styles.rowSelected]}
+      onPress={() => !disabled && onPress(lang.code)}
+      activeOpacity={disabled ? 1 : 0.7}
+      disabled={disabled}
     >
-      <View style={[styles.itemInner, isDisabled && styles.itemDisabled]}>
-        {/* Left: language label */}
-        <View style={styles.labelGroup}>
-          <Text style={[styles.labelMain, isSelected && styles.labelMainActive]}>
+      <View style={[styles.rowInner, disabled && { opacity: 0.4 }]}>
+        <View style={styles.rowLeft}>
+          <Text style={[styles.rowLabel, isSelected && { color: ACCENT, fontFamily: 'Nunito-SemiBold' }]}>
             {lang.label}
-            {lang.sublabel ? (
-              <Text style={styles.labelSub}>  /  {lang.sublabel}</Text>
-            ) : null}
+            {lang.sublabel ? <Text style={styles.rowSub}>  /  {lang.sublabel}</Text> : null}
           </Text>
-
           <View style={styles.badgeRow}>
             {isSelected && (
-              <View style={styles.badgeActive}>
-                <Text style={styles.badgeText}>In use</Text>
+              <View style={[styles.badge, { backgroundColor: ACCENT }]}>
+                <Text style={styles.badgeText}>사용 중</Text>
               </View>
             )}
             {lang.isDefault && (
-              <View style={styles.badgeDefault}>
-                <Text style={styles.badgeDefaultText}>Default</Text>
+              <View style={[styles.badge, { backgroundColor: GREEN }]}>
+                <Text style={styles.badgeText}>기본</Text>
               </View>
             )}
-            {isDisabled && (
-              <View style={styles.badgeDisabled}>
-                <Text style={styles.badgeDisabledText}>Coming soon</Text>
+            {disabled && (
+              <View style={[styles.badge, { backgroundColor: '#EEEEF3' }]}>
+                <Text style={[styles.badgeText, { color: TEXT_SUB }]}>준비 중</Text>
               </View>
             )}
           </View>
         </View>
-
-        {/* Right: radio / coming-soon icon */}
-        {isDisabled ? (
-          <MaterialCommunityIcons name="lock-outline" size={18} color={TEXT_SUB} />
-        ) : isSelected ? (
-          <MaterialCommunityIcons name="check-circle" size={22} color={ACCENT} />
-        ) : (
-          <MaterialCommunityIcons name="circle-outline" size={22} color={TEXT_SUB} />
-        )}
+        {disabled
+          ? <MaterialCommunityIcons name="lock-outline" size={18} color={TEXT_SUB} />
+          : isSelected
+            ? <MaterialCommunityIcons name="check-circle" size={22} color={ACCENT} />
+            : <MaterialCommunityIcons name="circle-outline" size={22} color={TEXT_SUB} />
+        }
       </View>
     </TouchableOpacity>
   );
 }
 
-const REPORT_FORM_URL = 'https://forms.gle/PLACEHOLDER'; // Replace with actual Google Form URL
-
-// ── SettingsScreen ────────────────────────────────────────────────────────────
 export default function SettingsScreen() {
-  const currentLang = useLanguage();
-  const [selectedLang, setSelectedLang] = useState(currentLang);
+  const { lang: selectedLang, setLang } = useAppLang();
 
-  useEffect(() => { setSelectedLang(currentLang); }, [currentLang]);
-
-  const handleSelectLang = (code) => {
-    setSelectedLang(code);
-    saveLanguage(code);
-  };
-
-  const handleOpenReportForm = () => {
-    Linking.openURL(REPORT_FORM_URL);
+  const handleFeedback = () => {
+    Linking.openURL(FEEDBACK_URL);
   };
 
   return (
-    <SafeAreaView style={styles.safeArea} edges={['top']}>
+    <SafeAreaView style={styles.safe} edges={['top']}>
       <ScrollView
         style={styles.scroll}
-        contentContainerStyle={styles.scrollContent}
+        contentContainerStyle={styles.content}
         showsVerticalScrollIndicator={false}
       >
-        {/* Page title */}
-        <Text style={styles.pageTitle}>Settings</Text>
+        <Text style={styles.pageTitle}>Settings / 설정</Text>
 
-        {/* Language section */}
-        <Text style={styles.sectionTitle}>Language</Text>
-        <Text style={styles.sectionDesc}>
-          Choose the display language for this app.
-        </Text>
-
+        {/* ── LANGUAGE ─────────────────────────────────── */}
+        <Text style={styles.sectionHeader}>Language / 언어</Text>
         <View style={styles.card}>
           {LANGUAGES.map((lang, idx) => (
             <React.Fragment key={lang.code}>
               <LanguageItem
                 lang={lang}
                 isSelected={selectedLang === lang.code}
-                onPress={handleSelectLang}
+                onPress={setLang}
               />
               {idx < LANGUAGES.length - 1 && <View style={styles.divider} />}
             </React.Fragment>
           ))}
         </View>
+        <Text style={styles.sectionNote}>추후 더 많은 언어가 추가될 예정입니다. (More languages coming soon)</Text>
 
-        <Text style={styles.sectionNote}>
-          More languages will be added in future updates.
-        </Text>
-
-        {/* Report & Suggestion section */}
-        <Text style={[styles.sectionTitle, { marginTop: 32 }]}>Report & Suggestion</Text>
-        <Text style={styles.sectionDesc}>
-          We accept reports on the following topics:
-          {'\n'}· Wrong Path (잘못된 경로)
-          {'\n'}· Information Error (정보 오류)
-          {'\n'}· Feature Suggestion (기능 제안)
-          {'\n'}· Other Inquiries (기타 문의 및 의견)
-        </Text>
-
+        {/* ── ABOUT ────────────────────────────────────── */}
+        <Text style={[styles.sectionHeader, { marginTop: 32 }]}>About / 정보</Text>
         <View style={styles.card}>
-          <TouchableOpacity
-            style={styles.item}
-            onPress={handleOpenReportForm}
-            activeOpacity={0.7}
-          >
-            <View style={styles.itemInner}>
-              <View style={styles.labelGroup}>
-                <Text style={styles.reportLabel}>Submit via Google Form</Text>
-                <Text style={styles.reportSub}>Opens in browser</Text>
+          {/* Version row */}
+          <View style={styles.row}>
+            <View style={styles.rowInner}>
+              <Text style={styles.rowLabel}>Version / 버전</Text>
+              <Text style={styles.rowValue}>{APP_VERSION}</Text>
+            </View>
+          </View>
+
+          <View style={styles.divider} />
+
+          {/* Send Feedback row */}
+          <TouchableOpacity style={styles.row} onPress={handleFeedback} activeOpacity={0.7}>
+            <View style={styles.rowInner}>
+              <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <MaterialCommunityIcons name="message-outline" size={20} color={TEXT_BODY} />
+                <Text style={styles.rowLabel}>Send Feedback / 의견 보내기</Text>
               </View>
-              <MaterialCommunityIcons name="open-in-new" size={20} color={ACCENT} />
+              <MaterialCommunityIcons name="chevron-right" size={20} color={TEXT_SUB} />
             </View>
           </TouchableOpacity>
         </View>
@@ -192,21 +135,17 @@ export default function SettingsScreen() {
   );
 }
 
-// ── Styles ────────────────────────────────────────────────────────────────────
 const styles = StyleSheet.create({
-  safeArea: {
+  safe: {
     flex: 1,
     backgroundColor: BG,
   },
-  scroll: {
-    flex: 1,
-  },
-  scrollContent: {
+  scroll: { flex: 1 },
+  content: {
     paddingHorizontal: 20,
     paddingBottom: 40,
   },
 
-  // Page header
   pageTitle: {
     fontSize: 24,
     fontFamily: 'Nunito-Bold',
@@ -215,127 +154,75 @@ const styles = StyleSheet.create({
     marginBottom: 28,
   },
 
-  // Section
-  sectionTitle: {
-    fontSize: 13,
+  sectionHeader: {
+    fontSize: 12,
     fontFamily: 'Nunito-SemiBold',
-    color: TEXT_BODY,
-    textTransform: 'uppercase',
-    letterSpacing: 0.8,
-    marginBottom: 6,
-  },
-  sectionDesc: {
-    fontSize: 13,
     color: TEXT_SUB,
-    marginBottom: 12,
+    textTransform: 'uppercase',
+    letterSpacing: 1,
+    marginBottom: 8,
   },
   sectionNote: {
     fontSize: 12,
     color: TEXT_SUB,
-    marginTop: 10,
+    marginTop: 8,
     textAlign: 'center',
   },
 
-  // Card
   card: {
     backgroundColor: CARD,
-    borderRadius: 14,
+    borderRadius: 16,
     borderWidth: 0.5,
     borderColor: BORDER,
     overflow: 'hidden',
   },
 
-  // Item
-  item: {
+  row: {
     paddingHorizontal: 16,
     paddingVertical: 14,
   },
-  itemSelected: {
-    backgroundColor: '#FDF5F5',  // very light red tint
+  rowSelected: {
+    backgroundColor: '#FDF5F5',
   },
-  itemInner: {
+  rowInner: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  itemDisabled: {
-    opacity: 0.45,
-  },
+  rowLeft: { flex: 1, marginRight: 12 },
 
-  // Label
-  labelGroup: {
-    flex: 1,
-    marginRight: 12,
-  },
-  labelMain: {
+  rowLabel: {
     fontSize: 16,
     fontFamily: 'Nunito-Medium',
     color: TEXT_MAIN,
   },
-  labelMainActive: {
-    color: ACCENT,
-    fontFamily: 'Nunito-SemiBold',
-  },
-  labelSub: {
+  rowSub: {
     fontSize: 14,
     fontFamily: 'Nunito-Regular',
     color: TEXT_SUB,
   },
+  rowValue: {
+    fontSize: 15,
+    fontFamily: 'Nunito-Medium',
+    color: TEXT_SUB,
+  },
 
-  // Badge row
   badgeRow: {
     flexDirection: 'row',
     gap: 6,
-    marginTop: 5,
+    marginTop: 4,
   },
-  badgeActive: {
-    backgroundColor: ACCENT,
-    borderRadius: 10,
+  badge: {
+    borderRadius: 999,
     paddingHorizontal: 8,
     paddingVertical: 2,
   },
   badgeText: {
     fontSize: 10,
-    color: '#fff',
     fontFamily: 'Nunito-SemiBold',
-  },
-  badgeDefault: {
-    backgroundColor: GREEN,
-    borderRadius: 10,
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-  },
-  badgeDefaultText: {
-    fontSize: 10,
     color: '#fff',
-    fontFamily: 'Nunito-Medium',
-  },
-  badgeDisabled: {
-    backgroundColor: '#EEEEF3',
-    borderRadius: 10,
-    paddingHorizontal: 8,
-    paddingVertical: 2,
-  },
-  badgeDisabledText: {
-    fontSize: 10,
-    color: TEXT_SUB,
-    fontFamily: 'Nunito-Medium',
   },
 
-  // Report row
-  reportLabel: {
-    fontSize: 16,
-    fontFamily: 'Nunito-SemiBold',
-    color: ACCENT,
-  },
-  reportSub: {
-    fontSize: 12,
-    fontFamily: 'Nunito-Regular',
-    color: TEXT_SUB,
-    marginTop: 2,
-  },
-
-  // Divider
   divider: {
     height: StyleSheet.hairlineWidth,
     backgroundColor: BORDER,

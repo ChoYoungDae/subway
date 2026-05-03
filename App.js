@@ -22,6 +22,7 @@ import HelpScreen from './src/screens/HelpScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import BottomNav from './src/components/nav/BottomNav';
 import { loadTranslationCache } from './src/utils/translation';
+import { LanguageProvider } from './src/context/LanguageContext';
 
 import SplashScreen from './src/components/common/SplashScreen';
 
@@ -117,12 +118,10 @@ export default function App() {
     }
   }, [fontsLoaded, fontError]);
 
-  if (!isAppReady || !fontsLoaded) {
-    return <SplashScreen />;
-  }
-
-  return (
-    <SafeAreaProvider>
+  const content = (!isAppReady || !fontsLoaded)
+    ? <SplashScreen />
+    : (
+      <SafeAreaProvider>
       <NavigationContainer theme={navigationTheme} linking={linking}>
         <StatusBar style="dark" />
         <Stack.Navigator
@@ -169,5 +168,7 @@ export default function App() {
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
-  );
+    );
+
+  return <LanguageProvider>{content}</LanguageProvider>;
 }

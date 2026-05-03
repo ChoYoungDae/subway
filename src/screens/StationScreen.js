@@ -11,6 +11,7 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import * as Location from 'expo-location';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useAppLang, pick } from '../context/LanguageContext';
 import { supabase } from '../../lib/supabase';
 import { getLineColor, getLineBadgeLabel } from '../utils/lineColors';
 import { loadTranslationCache, tryTranslate } from '../utils/translation';
@@ -120,6 +121,7 @@ function StationBooleanIcons({ can_cross_over, is_island_platform, is_inside_res
 // ── Legend bar ────────────────────────────────────────────────────────────────
 function LegendBar() {
     const [tooltip, setTooltip] = useState(null);
+    const { lang } = useAppLang();
     const activeRed = C.primary;
 
     const items = [
@@ -200,15 +202,13 @@ function LegendBar() {
                         </TouchableOpacity>
                         {/* Active state — red */}
                         <Text style={s.tooltipTitle}>{tooltip?.title}</Text>
-                        <Text style={s.tooltipEn}>{tooltip?.en}</Text>
-                        <Text style={s.tooltipKr}>{tooltip?.kr}</Text>
+                        <Text style={s.tooltipEn}>{lang === 'ko' ? tooltip?.kr : tooltip?.en}</Text>
 
                         <View style={s.tooltipDivider} />
 
                         {/* Inactive state — gray */}
                         <Text style={s.tooltipInactiveTitle}>{tooltip?.inactiveTitle}</Text>
-                        <Text style={s.tooltipInactiveEn}>{tooltip?.inactiveEn}</Text>
-                        <Text style={s.tooltipInactiveKr}>{tooltip?.inactiveKr}</Text>
+                        <Text style={s.tooltipInactiveEn}>{lang === 'ko' ? tooltip?.inactiveKr : tooltip?.inactiveEn}</Text>
                     </View>
                 </TouchableOpacity>
             </Modal>
@@ -312,10 +312,10 @@ function AccordionSection({ title, subTitle, icon, open, onToggle, children }) {
 
 // ── Not available ─────────────────────────────────────────────────────────────
 function NotAvailable() {
+    const { lang } = useAppLang();
     return (
         <View style={s.notAvailableWrap}>
-            <Text style={s.notAvailableEn}>Not available at this station</Text>
-            <Text style={s.notAvailableKo}>이 역에는 해당 시설이 없습니다</Text>
+            <Text style={s.notAvailableEn}>{pick('Not available at this station', '이 역에는 해당 시설이 없습니다', lang)}</Text>
         </View>
     );
 }
@@ -381,14 +381,12 @@ function FacilityGroupedList({ items, renderItem }) {
 // ── Dot status indicator ──────────────────────────────────────────────────────
 function StatusDot({ oprtngSitu }) {
     const status = elevatorStatusLabel(oprtngSitu);
+    const { lang } = useAppLang();
     const info = STATUS_MAP[oprtngSitu] || { color: C.textLow, icon: 'help-circle-outline' };
     return (
         <View style={s.statusDotWrap}>
             <View style={[s.statusDot, { backgroundColor: info.color }]} />
-            <View>
-                <Text style={[s.statusDotEn, { color: info.color }]}>{status.en}</Text>
-                <Text style={[s.statusDotKo, { color: info.color }]}>{status.ko}</Text>
-            </View>
+            <Text style={[s.statusDotEn, { color: info.color }]}>{lang === 'ko' ? status.ko : status.en}</Text>
         </View>
     );
 }
@@ -562,6 +560,7 @@ function LockerItem({ item, showLineBadge }) {
 // ─────────────────────────────────────────────────────────────────────────────
 export default function StationScreen() {
     const insets = useSafeAreaInsets();
+    const { lang } = useAppLang();
 
     // ── List view state ───────────────────────────────────────────────────────
     const [stationList, setStationList]       = useState([]);
@@ -1006,9 +1005,6 @@ export default function StationScreen() {
                                     style={s.listSearchInput}
                                     clearButtonMode="while-editing"
                                 />
-                                {!searchQuery ? (
-                                    <Text style={s.listSearchHintKo}>역 이름 검색</Text>
-                                ) : null}
                             </View>
                             {gpsLoading
                                 ? <ActivityIndicator size="small" color={C.primary} style={{ marginLeft: 8 }} />
@@ -1153,7 +1149,7 @@ export default function StationScreen() {
                                 {/* ── Elevators ── */}
                                 <AccordionSection
                                     title="Elevators"
-                                    subTitle="엘리베이터"
+                                    subTitle={pick(null, '엘리베이터', lang)}
                                     icon={
                                         <View style={[s.headerIconBg, { backgroundColor: C.primary }]}>
                                             <MaterialCommunityIcons name="elevator" size={18} color="#fff" />
@@ -1178,7 +1174,7 @@ export default function StationScreen() {
                                 {/* ── Restrooms ── */}
                                 <AccordionSection
                                     title="Restrooms"
-                                    subTitle="화장실"
+                                    subTitle={pick(null, '화장실', lang)}
                                     icon={
                                         <View style={[s.headerIconBg, { backgroundColor: C.primary }]}>
                                             <MaterialCommunityIcons name="human-male-female" size={18} color="#fff" />
@@ -1202,7 +1198,7 @@ export default function StationScreen() {
                                 {/* ── ATM ── */}
                                 <AccordionSection
                                     title="ATM"
-                                    subTitle="ATM"
+                                    subTitle={null}
                                     icon={
                                         <View style={[s.headerIconBg, { backgroundColor: C.primary }]}>
                                             <Text style={{ color: '#fff', fontSize: 11, fontWeight: '900' }}>ATM</Text>
@@ -1226,7 +1222,7 @@ export default function StationScreen() {
                                 {/* ── Lockers ── */}
                                 <AccordionSection
                                     title="Lockers"
-                                    subTitle="물품보관함"
+                                    subTitle={pick(null, '물품보관함', lang)}
                                     icon={
                                         <View style={[s.headerIconBg, { backgroundColor: C.primary }]}>
                                             <MaterialCommunityIcons name="lock-outline" size={18} color="#fff" />
@@ -1258,7 +1254,7 @@ export default function StationScreen() {
                                 {/* ── Nursing Room ── */}
                                 <AccordionSection
                                     title="Nursing Room"
-                                    subTitle="수유실"
+                                    subTitle={pick(null, '수유실', lang)}
                                     icon={
                                         <View style={[s.headerIconBg, { backgroundColor: C.primary }]}>
                                             <MaterialCommunityIcons name="baby-bottle-outline" size={18} color="#fff" />
@@ -1311,9 +1307,6 @@ const s = StyleSheet.create({
     listSearchInput: {
         fontSize: 16, fontFamily: 'Nunito-SemiBold', color: C.textHigh,
         padding: 0,
-    },
-    listSearchHintKo: {
-        fontSize: 11, fontFamily: 'Pretendard-Regular', color: C.textLow, marginTop: 2,
     },
     listSearchBtn: {
         backgroundColor: C.primary,
@@ -1376,11 +1369,9 @@ const s = StyleSheet.create({
     tooltipClose: { position: 'absolute', top: 8, right: 8 },
     tooltipTitle: { fontSize: 14, fontFamily: 'Nunito-Bold', color: C.primary, marginBottom: 6 },
     tooltipEn: { fontSize: 12, color: C.primary, marginBottom: 3 },
-    tooltipKr: { fontSize: 12, color: C.primary },
     tooltipDivider: { height: StyleSheet.hairlineWidth, backgroundColor: C.border, marginVertical: 10 },
     tooltipInactiveTitle: { fontSize: 14, fontFamily: 'Nunito-Bold', color: '#9E9E9E', marginBottom: 6 },
-    tooltipInactiveEn: { fontSize: 12, color: '#9E9E9E', marginBottom: 3 },
-    tooltipInactiveKr: { fontSize: 12, color: '#9E9E9E' },
+    tooltipInactiveEn: { fontSize: 12, color: '#9E9E9E' },
 
     // Platform mini icon boxes
     ptIconWrap: { alignItems: 'center', justifyContent: 'center', marginRight: 4 },
@@ -1532,12 +1523,10 @@ const s = StyleSheet.create({
     statusDotWrap: { flexDirection: 'row', alignItems: 'center', gap: 5 },
     statusDot: { width: 8, height: 8, borderRadius: 4 },
     statusDotEn: { fontSize: 11, fontFamily: 'Nunito-Bold', lineHeight: 13 },
-    statusDotKo: { fontSize: 9, lineHeight: 11, color: C.textMid },
 
     // Not available
     notAvailableWrap: { paddingVertical: 8 },
     notAvailableEn: { fontSize: 13, fontWeight: '600', color: C.textMid },
-    notAvailableKo: { fontSize: 11, color: C.textLow, marginTop: 2 },
 
     // Station info chips
     infoChipRow: { flexDirection: 'row', flexWrap: 'wrap', gap: 4 },

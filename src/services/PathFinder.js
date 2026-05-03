@@ -154,11 +154,15 @@ export class PathFinder {
                 const name = cleanStationName(seg.arvlStn.stnNm);
                 const line = seg.arvlStn.lineNm;
                 steps.push(`${name}_${line}`);
+                
+                const prevSeg = idx > 0 ? items[idx - 1] : null;
                 processedItems.push({
                     stnNm: seg.arvlStn.stnNm,
                     lineNm: line,
                     transferYn: 'N',
                     datagokrStnCd: seg.arvlStn.stnCd || null,
+                    prevStn: prevSeg ? { stnNm: prevSeg.dptreStn.stnNm, lineNm: prevSeg.dptreStn.lineNm } : null,
+                    prevStnCd: prevSeg?.dptreStn?.stnCd || null,
                 });
             }
         });

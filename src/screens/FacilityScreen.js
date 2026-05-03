@@ -10,10 +10,15 @@ import {
 import { getLineColor, getLineBadgeLabel } from '../utils/lineColors';
 import { translateLocation, synthesizeLocation, checkIsInside } from '../utils/translation';
 import TimelineContainer from '../components/TimelineContainer';
+import { useAppLang, pick } from '../context/LanguageContext';
+import { STRINGS, formatWithVars } from '../i18n/strings';
 
 const NAVY = '#3d2f7a';
 
-const FacilityItem = ({ icon, labelEn, labelKo, subEn, subKo, tagEn, tagKo, tagColor }) => {
+const FacilityItem = ({ icon, labelEn, labelKo, subEn, subKo, tagEn, tagKo, tagColor, lang }) => {
+    const label = pick(labelEn, labelKo, lang);
+    const sub = pick(subEn, subKo, lang);
+    const tag = pick(tagEn, tagKo, lang);
     return (
         <View style={styles.facilityItem}>
             <View style={styles.facilityIconWrap}>
@@ -22,21 +27,19 @@ const FacilityItem = ({ icon, labelEn, labelKo, subEn, subKo, tagEn, tagKo, tagC
             <View style={styles.facilityContent}>
                 <View style={styles.facilityTitleRow}>
                     <View style={styles.facilityTextGroup}>
-                        <Text style={styles.facilityLabelEn}>{labelEn}</Text>
-                        <Text style={styles.facilityLabelKo}>{labelKo}</Text>
+                        <Text style={styles.facilityLabel}>{label}</Text>
                     </View>
-                    {tagEn && (
+                    {tag && (
                         <View style={[styles.facilityTag, { backgroundColor: tagColor || '#f0ecff' }]}>
-                            <Text style={[styles.facilityTagText, { color: tagColor ? '#fff' : '#7c65c1' }]}>{tagEn}</Text>
+                            <Text style={[styles.facilityTagText, { color: tagColor ? '#fff' : '#7c65c1' }]}>{tag}</Text>
                         </View>
                     )}
                 </View>
-                {(subEn || subKo) && (
+                {sub ? (
                     <View style={styles.facilitySubGroup}>
-                        {subEn && <Text style={styles.facilitySubEn}>{subEn}</Text>}
-                        {subKo && <Text style={styles.facilitySubKo}>{subKo}</Text>}
+                        <Text style={styles.facilitySub}>{sub}</Text>
                     </View>
-                )}
+                ) : null}
             </View>
         </View>
     );
@@ -55,6 +58,7 @@ const LineCircle = ({ line }) => {
 };
 
 export default function FacilityScreen({ route, navigation }) {
+    const { lang } = useAppLang();
     const { nameEn, nameKo, lines = [], facilities = [] } = route.params || {};
 
     return (
@@ -74,8 +78,7 @@ export default function FacilityScreen({ route, navigation }) {
                 </View>
 
                 <View style={styles.pageTitleArea}>
-                    <Text style={styles.pageTitleEn}>Station Facilities</Text>
-                    <Text style={styles.pageTitleKo}>역내 편의시설 안내</Text>
+                    <Text style={styles.pageTitle}>{pick('Station Facilities', '역내 편의시설 안내', lang)}</Text>
                 </View>
 
 
@@ -86,7 +89,7 @@ export default function FacilityScreen({ route, navigation }) {
                         </View>
                         <View>
                             <Text style={styles.sectionHeadingTitle}>Convenience Services</Text>
-                            <Text style={styles.sectionHeadingSubtitle}>상세 위치 및 게이트 정보</Text>
+                            <Text style={styles.sectionHeadingSubtitle}>{pick('Location & gate details', '상세 위치 및 게이트 정보', lang)}</Text>
                         </View>
                     </View>
 
@@ -112,8 +115,7 @@ export default function FacilityScreen({ route, navigation }) {
                                                 <View style={styles.facilityContent}>
                                                     <View style={styles.facilityTitleRow}>
                                                         <View style={styles.facilityTextGroup}>
-                                                            <Text style={styles.facilityLabelEn}>{f.labelEn}</Text>
-                                                            <Text style={styles.facilityLabelKo}>{f.labelKo}</Text>
+                                                            <Text style={styles.facilityLabel}>{pick(f.labelEn, f.labelKo, lang)}</Text>
                                                         </View>
                                                     </View>
                                                 </View>
@@ -132,8 +134,7 @@ export default function FacilityScreen({ route, navigation }) {
                                                                 <Text style={styles.itemGateText}>{itemIsInside ? 'IN' : 'OUT'}</Text>
                                                             </View>
                                                             <View style={{ flex: 1 }}>
-                                                                <Text style={styles.subLocEn}>{locEn}</Text>
-                                                                <Text style={styles.subLocKo}>{locKo}</Text>
+                                                                <Text style={styles.subLoc}>{pick(locEn, locKo, lang)}</Text>
                                                                 {(item.mlFmlDvNm || item.toltNum || item.diapExchNum) && (
                                                                     <View style={styles.itemExtraRow}>
                                                                         {item.mlFmlDvNm && (
@@ -159,7 +160,7 @@ export default function FacilityScreen({ route, navigation }) {
 
                                 return (
                                     <View key={f.id}>
-                                        <FacilityItem {...f} />
+                                        <FacilityItem {...f} lang={lang} />
                                         {idx < facilities.length - 1 && <View style={styles.facilityDivider} />}
                                     </View>
                                 );
@@ -204,8 +205,7 @@ const styles = StyleSheet.create({
         paddingBottom: 4,
         alignItems: 'center'
     },
-    pageTitleEn: { fontSize: 18, fontWeight: '800', color: '#3d2f7a', letterSpacing: -0.5 },
-    pageTitleKo: { fontSize: 13, color: '#9e9e9e', marginTop: 4, fontWeight: '500' },
+    pageTitle: { fontSize: 18, fontFamily: 'Nunito-Bold', color: '#3d2f7a', letterSpacing: -0.5 },
 
     sectionBlock: {
         marginHorizontal: 16,
@@ -239,13 +239,11 @@ const styles = StyleSheet.create({
     facilityContent: { flex: 1 },
     facilityTitleRow: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start' },
     facilityTextGroup: { flex: 1, marginRight: 8 },
-    facilityLabelEn: { fontSize: 15, fontFamily: 'Nunito-Bold', color: '#212121' },
-    facilityLabelKo: { fontSize: 11, color: '#9e9e9e', marginTop: 1 },
+    facilityLabel: { fontSize: 15, fontFamily: 'Nunito-Bold', color: '#212121' },
     facilityTag: { paddingHorizontal: 8, paddingVertical: 3, borderRadius: 6 },
     facilityTagText: { fontSize: 10, fontFamily: 'Nunito-ExtraBold' },
     facilitySubGroup: { marginTop: 8, backgroundColor: '#f8f9fa', padding: 10, borderRadius: 8 },
-    facilitySubEn: { fontSize: 12, color: '#424242', fontFamily: 'Nunito-Medium', fontWeight: '500' },
-    facilitySubKo: { fontSize: 11, color: '#9e9e9e', marginTop: 2 },
+    facilitySub: { fontSize: 12, color: '#424242', fontFamily: 'Nunito-Medium' },
 
     // Grouped Styles
     groupedContainer: { paddingVertical: 8 },
@@ -254,8 +252,7 @@ const styles = StyleSheet.create({
     subLocItem: { flexDirection: 'row', alignItems: 'flex-start', marginBottom: 12 },
     itemGateIndicator: { width: 32, height: 16, borderRadius: 4, alignItems: 'center', justifyContent: 'center', marginRight: 10, marginTop: 2 },
     itemGateText: { fontSize: 9, fontFamily: 'Nunito-ExtraBold', color: '#fff' },
-    subLocEn: { fontSize: 13, fontFamily: 'Nunito-SemiBold', color: '#212121' },
-    subLocKo: { fontSize: 11, color: '#9e9e9e', marginTop: 1 },
+    subLoc: { fontSize: 13, fontFamily: 'Nunito-SemiBold', color: '#212121' },
     itemExtraRow: { flexDirection: 'row', alignItems: 'center', marginTop: 4, gap: 6 },
     itemExtraTag: { fontSize: 10, color: '#3d2f7a', backgroundColor: '#eeebff', paddingHorizontal: 5, paddingVertical: 1, borderRadius: 3, fontFamily: 'Nunito-Bold' },
     itemExtraText: { fontSize: 10, color: '#757575' },

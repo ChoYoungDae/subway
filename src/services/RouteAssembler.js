@@ -291,21 +291,24 @@ export class RouteAssembler {
 
     /**
      * Enriches translated steps with exit_no (external elevator) or
-     * car_position (platform elevator) using is_internal as the source of truth.
-     * is_internal=TRUE → look for "방면" → car_position
-     * If is_internal=TRUE and text match fails, uses context.arrivalDir for fallback.
      */
-    async _enrichSteps(steps, stationNameKo, context = {}) {
-        if (!steps?.length) return steps;
+    async _enrichSteps(stationNameKo, steps, item, context) {
+        if (!steps || steps.length === 0) return steps;
 
         const cleanName = normalizeStationName(stationNameKo || '');
+        const cleanLine = item.lineNm || '';
+        const lineNum = cleanLine.match(/\d+/)?.[0] || cleanLine;
+
+        // 1. Fetch elevators for this station (Filtering by Name and Line)
         let internalElevators = [];
         let externalElevators = [];
         try {
             const { data } = await supabase
                 .from('elevators')
-                .select('exit_no, is_internal, boarding_positions')
-                .eq('station_name_ko', cleanName);
+                .select('exit_no, is_internal, boarding_positions, line')
+                .eq('station_name_ko', cleanName)
+                .ilike('line', `%${lineNum}%`);
+            
             const all = data || [];
             internalElevators = all.filter(e => e.is_internal);
             externalElevators = all.filter(e => !e.is_internal);
@@ -317,62 +320,87 @@ export class RouteAssembler {
             if (step.type !== 'elevator') return step;
 
             const koText = step.short?.ko || step.detail?.ko || '';
-            // look-back: KRIC 텍스트에서 출구번호가 이동 step에 먼저 나오는 경우 대응
             const prevKoText = i > 0 ? (steps[i - 1].short?.ko || steps[i - 1].detail?.ko || '') : '';
-
-            // is_internal=TRUE → "방면" 키워드 → toward_station_ko 직접 매칭 → car_position
-            // is_internal=FALSE → "출구/출입구" 번호 (현재 또는 직전 step) → exit_no
-            console.log(`[_enrichSteps] type=${step.type} koText="${koText}"`);
+            
             const dirMatch = koText.match(/(\S+)\s*방면/);
             const exitMatch = koText.match(/(\d+)번\s*(?:출구|출입구)/)
                            || prevKoText.match(/(\d+)번\s*(?:출구|출입구)/);
 
-            // 1. External Elevator match (Highest Priority for exits)
-            if (exitMatch && externalElevators.length > 0) {
+            // 1. Identify if this is a platform-level step
+            const hasPlatformFloor = (s) => {
+                const f = String(s || '');
+                return f.includes('승강장') || (f.startsWith('B') && parseInt(f.substring(1)) >= 2);
+            };
+            const isPlatformStep = koText.includes('승강장') || koText.includes('승하차') || koText.includes('Platform')
+                                || hasPlatformFloor(step.floor_from) || hasPlatformFloor(step.floor_to);
+
+            console.log(`[_enrichSteps] Station: ${cleanName}, Step: ${i}, Floor: ${step.floor_from}->${step.floor_to}, isPlatform: ${isPlatformStep}, Elevators: ${internalElevators.length}`);
+
+            // 2. External Elevator match (Highest Priority if it's clearly an exit-bound step)
+            if (exitMatch && !isPlatformStep && externalElevators.length > 0) {
+                console.log(`[_enrichSteps] ✅ External match found: ${exitMatch[1]}`);
                 return { ...step, exit_no: exitMatch[1] };
             }
 
-            // 2. Internal Elevator match (Platform -> Hall)
-            if (dirMatch || (step.type === 'elevator' && (koText.includes('승강장') || koText.includes('승하차') || context.isArrival))) {
+            // 3. Internal Elevator match (Platform -> Hall)
+            if (dirMatch || (step.type === 'elevator' && (isPlatformStep || context.isArrival))) {
                 const direction = dirMatch ? dirMatch[1] : '';
-                
-                let bestMatch = null;
+                let candidates = [];
 
                 for (const elev of internalElevators) {
                     const positions = Array.isArray(elev.boarding_positions) ? elev.boarding_positions : [];
-                    
-                    // Match within boarding_positions
-                    const matchedPos = positions.find(p => {
+                    for (const p of positions) {
                         const toward = p.toward || '';
-                        // 1. Exact "방면" match
-                        if (direction && (
-                            toward === direction ||
-                            direction.includes(toward) ||
-                            toward.includes(direction)
-                        )) return true;
-
-                        // 2. Departure next station match
-                        if (context.departureDir && (
-                            toward === context.departureDir ||
-                            context.departureDir.includes(toward) ||
-                            toward.includes(context.departureDir)
-                        )) return true;
-
-                        return false;
-                    });
-
-                    if (matchedPos) {
-                        bestMatch = matchedPos;
-                        break;
+                        if (direction && (toward === direction || direction.includes(toward) || toward.includes(direction))) {
+                            candidates.push(p);
+                            continue;
+                        }
+                        if (context.departureDir && (toward === context.departureDir || context.departureDir.includes(toward) || toward.includes(context.departureDir))) {
+                            candidates.push(p);
+                        }
                     }
                 }
 
-                if (bestMatch) {
-                    const carPos = bestMatch.door != null
-                        ? `${bestMatch.car}-${bestMatch.door}`
-                        : `${bestMatch.car}`;
-                    return { ...step, car_position: carPos };
+                // Arrival/Transfer strict matching logic (Only if not already matched an exit)
+                if ((context.isArrival || context.isTransfer) && context.arrivalDir && candidates.length === 0) {
+                    const possiblePositions = internalElevators.flatMap(e => Array.isArray(e.boarding_positions) ? e.boarding_positions : []);
+                    console.log(`[_enrichSteps] 🔍 ${context.isTransfer ? 'Transfer' : 'Arrival'} logic for ${cleanName}: possiblePositions=${possiblePositions.length}, arrivalDir=${context.arrivalDir}`);
+                    
+                    const filtered = possiblePositions.filter(p => {
+                        const toward = normalizeStationName(p.toward || '');
+                        const arrival = normalizeStationName(context.arrivalDir || '');
+                        if (!arrival) return true;
+                        return !(toward === arrival || toward.includes(arrival) || arrival.includes(toward));
+                    });
+
+                    const uniquePosMap = new Map();
+                    filtered.forEach(p => {
+                        const key = `${p.car}-${p.door || 0}`;
+                        if (!uniquePosMap.has(key)) uniquePosMap.set(key, p);
+                    });
+                    const uniqueFiltered = Array.from(uniquePosMap.values());
+
+                    console.log(`[_enrichSteps] 🔍 Unique candidates after exclusion: ${uniqueFiltered.length}`);
+
+                    if (uniqueFiltered.length === 1) {
+                        candidates.push(uniqueFiltered[0]);
+                    }
                 }
+
+                if (candidates.length >= 1) {
+                    const uniqueCandidates = Array.from(new Map(candidates.map(p => [`${p.car}-${p.door || 0}`, p])).values());
+                    if (uniqueCandidates.length === 1) {
+                        const bestMatch = uniqueCandidates[0];
+                        const carPos = bestMatch.door != null ? `${bestMatch.car}-${bestMatch.door}` : `${bestMatch.car}`;
+                        console.log(`[_enrichSteps] ✅ Internal match success: ${carPos}`);
+                        return { ...step, car_position: carPos };
+                    }
+                }
+            }
+
+            // 3. Final Fallback for External
+            if (exitMatch && externalElevators.length > 0) {
+                return { ...step, exit_no: exitMatch[1] };
             }
 
             return step;
@@ -618,14 +646,23 @@ export class RouteAssembler {
                         const lines = targetMovements.flatMap(m => {
                             const bulk = m.mvContDtl || '';
                             return bulk.split(/\r?\n/).flatMap(line =>
-                                line.split(/(?:^|\s)\d+\)/).map(s => s.trim()).filter(Boolean)
+                                line.split(/(?:^|\s)\d+\)/)
+                                    .map(s => s.trim())
+                                    .map(s => s.replace(/^([B비지하]?\d+[층F]?\s+)/, '')) // Remove leading floor numbers in Korean
+                                    .filter(Boolean)
                             );
                         });
                         const imgPaths = [...new Set(targetMovements.map(m => m.imgPath).filter(Boolean))];
-                        const movement_steps = lines.map((text, idx) => ({ 
-                            order: isArrival ? lines.length - idx : idx + 1, 
-                            text 
-                        }));
+                        const movement_steps = lines.map((text, idx) => {
+                            // Find the original movement object to get floor info
+                            const m = targetMovements.find(tm => tm.mvContDtl?.includes(text)) || targetMovements[0];
+                            return { 
+                                order: isArrival ? lines.length - idx : idx + 1, 
+                                text,
+                                floor_from: m.stFloor,
+                                floor_to: m.edFloor
+                            };
+                        });
 
                         console.log(`[RouteAssembler] 🛠️ [STEP B] ${lines.length} lines, ${imgPaths.length} images for ${item.stnNm}`);
 
@@ -661,16 +698,20 @@ export class RouteAssembler {
                             };
                         }
 
+                        const arrivalDir = isArrival ? (rawItems[i]?.prevStn?.stnNm ? normalizeStationName(rawItems[i].prevStn.stnNm) : null) : null;
+                        
                         const translationCtx = {
                             isArrival,
                             isDeparture,
                             isTransfer,
                             departureDir: isDeparture ? candidate.firstAdjacentStn : null,
-                            arrivalDir: isArrival ? (rawItems[i]?.prevStn?.stnNm ? cleanStationName(rawItems[i].prevStn.stnNm) : null) : null,
+                            arrivalDir: arrivalDir,
                         };
+                        
+                        if (isArrival) console.log(`[RouteAssembler] 📍 Arrival Context: station=${item.stnNm}, arrivalDir=${arrivalDir}`);
 
                         const { steps, hashKey } = await this._fetchTranslatedSteps(translationReq);
-                        const enrichedSteps = await this._enrichSteps(steps, item.stnNm, translationCtx);
+                        const enrichedSteps = await this._enrichSteps(item.stnNm, steps, item, translationCtx);
 
                         if (isDeparture) {
                             candidate.originSteps = enrichedSteps;

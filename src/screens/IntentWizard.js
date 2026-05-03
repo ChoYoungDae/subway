@@ -14,10 +14,13 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { getLineColor, getLineBadgeLabel } from '../utils/lineColors';
 import { supabase } from '../../lib/supabase';
 import { matchesChosung } from '../utils/chosung';
+import { useAppLang, tLang } from '../context/LanguageContext';
+import { STRINGS } from '../i18n/strings';
 
 const NAVY = '#3d2f7a';
 
 export default function IntentWizard({ route, navigation }) {
+    const { lang } = useAppLang();
     const { stationId, nameEn, nameKo, stationLines = [] } = route.params || {};
     const [step, setStep] = useState(1); // 1: Intent, 2: Destination/Transfer Line
     const [intent, setIntent] = useState(null); // 'IN', 'OUT', 'TRANSFER'
@@ -93,8 +96,8 @@ export default function IntentWizard({ route, navigation }) {
                     <View style={[styles.iconBox, { backgroundColor: '#f0ecff' }]}>
                         <MaterialCommunityIcons name="login" size={32} color="#7c65c1" />
                     </View>
-                    <Text style={styles.intentTitle}>Entrance (승차)</Text>
-                    <Text style={styles.intentDesc}>To the platforms (들어오기)</Text>
+                    <Text style={styles.intentTitle}>{tLang(STRINGS.intent.entrance, lang)}</Text>
+                    <Text style={styles.intentDesc}>{tLang(STRINGS.intent.entranceDesc, lang)}</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
@@ -104,8 +107,8 @@ export default function IntentWizard({ route, navigation }) {
                     <View style={[styles.iconBox, { backgroundColor: '#f0ecff' }]}>
                         <MaterialCommunityIcons name="logout" size={32} color="#7c65c1" />
                     </View>
-                    <Text style={styles.intentTitle}>Exit (하차)</Text>
-                    <Text style={styles.intentDesc}>To the street/exit (나가기)</Text>
+                    <Text style={styles.intentTitle}>{tLang(STRINGS.intent.exit, lang)}</Text>
+                    <Text style={styles.intentDesc}>{tLang(STRINGS.intent.exitDesc, lang)}</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
@@ -115,8 +118,8 @@ export default function IntentWizard({ route, navigation }) {
                     <View style={[styles.iconBox, { backgroundColor: '#f0ecff' }]}>
                         <MaterialCommunityIcons name="transit-transfer" size={32} color="#7c65c1" />
                     </View>
-                    <Text style={styles.intentTitle}>Transfer (환승)</Text>
-                    <Text style={styles.intentDesc}>To another line (갈아타기)</Text>
+                    <Text style={styles.intentTitle}>{tLang(STRINGS.intent.transfer, lang)}</Text>
+                    <Text style={styles.intentDesc}>{tLang(STRINGS.intent.transferDesc, lang)}</Text>
                 </TouchableOpacity>
             </View>
         </View>

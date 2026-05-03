@@ -6,6 +6,8 @@ import { ExitBadge } from '../common/ExitBadge';
 import LineBadge from "../common/LineBadge";
 import { MaterialIcons, MaterialCommunityIcons } from '@expo/vector-icons';
 import { FeedbackService } from '../../services/FeedbackService';
+import { useAppLang, tLang } from '../../context/LanguageContext';
+import { STRINGS } from '../../i18n/strings';
 
 type ViewMode = 'summary' | 'detail';
 
@@ -164,6 +166,7 @@ const DottedLine = ({ style }: { style?: any }) => {
 
 export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImages = false, routeKey, segmentIndex, hashKey }: TimelineCardProps) {
     // All hooks must come before any conditional return
+    const { lang } = useAppLang();
     const activeImgIdx = 0;
     const [mapExpanded, setMapExpanded] = useState(false);
     const [zoomUri, setZoomUri] = useState<string | null>(null);
@@ -243,7 +246,7 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
                             {transfer && (
                                 <View style={{ flexDirection: 'row', alignItems: 'center', marginRight: 8 }}>
                                     <View style={{ backgroundColor: '#2E5E4A', paddingHorizontal: 6, paddingVertical: 2, borderRadius: 4 }}>
-                                        <Text style={{ fontSize: 10, fontFamily: 'Nunito-Bold', color: '#fff' }}>Transfer · 환승</Text>
+                                        <Text style={{ fontSize: 10, fontFamily: 'Nunito-Bold', color: '#fff' }}>{tLang(STRINGS.transit.transfer, lang)}</Text>
                                     </View>
                                     {toLine && (
                                         <View style={{ marginLeft: 6 }}>
@@ -419,52 +422,56 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
                                  flexShrink: 1,
                                  paddingTop: viewMode === 'summary' ? 2 : 4, 
                                  paddingBottom: isLastStep ? 0 : spacing,
-                                 paddingRight: step.car_position ? 56 : 20 
+                                 paddingRight: 20 
                              }}>
-                                {viewMode === 'summary' ? (
-                                    <>
-                                        {(() => {
-                                            const { prefix: enPre, rest: enRest } = parseStepText(moveTrailingParen(step.short?.en ?? '', floorLabel));
-                                            const { rest: koRest } = parseStepText(moveTrailingParen(step.short?.ko ?? '', floorLabel));
-                                            return (
-                                                <>
-                                                    <Text style={{ fontSize: 12, fontFamily: 'Nunito-SemiBold', color: '#111116', lineHeight: 16 }}>
-                                                        {enPre ? <Text style={{ color: '#0090D2' }}>{enPre}{'  '}</Text> : null}{enRest}
+                                {(() => {
+                                    const isSummary = viewMode === 'summary';
+                                    const { prefix: enPre, rest: enRest } = parseStepText(moveTrailingParen(isSummary ? (step.short?.en ?? '') : (step.detail?.en ?? ''), floorLabel));
+                                    const { rest: koRest } = parseStepText(moveTrailingParen(isSummary ? (step.short?.ko ?? '') : (step.detail?.ko ?? ''), floorLabel));
+                                    
+                                    return (
+                                        <View style={{ flexDirection: 'row', alignItems: 'flex-start' }}>
+                                            {enPre ? (
+                                                <Text style={{ 
+                                                    fontSize: isSummary ? 12 : 14, 
+                                                    fontFamily: isSummary ? 'Nunito-SemiBold' : 'Nunito-Bold', 
+                                                    color: '#0090D2',
+                                                    lineHeight: isSummary ? 16 : 20,
+                                                    marginRight: 8,
+                                                    minWidth: 24
+                                                }}>
+                                                    {enPre}
+                                                </Text>
+                                            ) : null}
+                                            <View style={{ flex: 1 }}>
+                                                <Text style={{ 
+                                                    fontSize: isSummary ? 12 : 14, 
+                                                    fontFamily: isSummary ? 'Nunito-SemiBold' : 'Nunito-Bold', 
+                                                    color: '#111116',
+                                                    lineHeight: isSummary ? 16 : 20 
+                                                }}>
+                                                    {enRest}
+                                                </Text>
+                                                {koRest ? (
+                                                    <Text style={{ 
+                                                        fontSize: isSummary ? 12 : 14, 
+                                                        fontFamily: 'Pretendard-Regular', 
+                                                        color: '#8E8E93', 
+                                                        lineHeight: isSummary ? 16 : 20,
+                                                        marginTop: isSummary ? 2 : 3 
+                                                    }}>
+                                                        {koRest}
                                                     </Text>
-                                                    {step.short?.ko ? (
-                                                        <Text style={{ fontSize: 10.5, fontFamily: 'Pretendard-Regular', color: '#8E8E93', lineHeight: 14, marginTop: 1 }}>
-                                                            {koRest}
-                                                        </Text>
-                                                    ) : null}
-                                                </>
-                                            );
-                                        })()}
-                                    </>
-                                ) : (
-                                    <>
-                                        {(() => {
-                                            const { prefix: enPre, rest: enRest } = parseStepText(moveTrailingParen(step.detail?.en ?? '', floorLabel));
-                                            const { rest: koRest } = parseStepText(moveTrailingParen(step.detail?.ko ?? '', floorLabel));
-                                            return (
-                                                <View style={{ flexDirection: 'column', alignItems: 'flex-start' }}>
-                                                    <Text style={{ fontFamily: 'Nunito-Bold', fontSize: 14, color: '#111116' }}>
-                                                        {enPre ? <Text style={{ color: '#0090D2' }}>{enPre}{'  '}</Text> : null}{enRest}
-                                                    </Text>
-                                                    {step.detail?.ko ? (
-                                                        <Text style={{ fontFamily: 'Pretendard-Regular', fontSize: 12, color: '#8E8E93', marginTop: 2 }}>
-                                                            {koRest}
-                                                        </Text>
-                                                    ) : null}
-                                                </View>
-                                            );
-                                        })()}
-                                    </>
-                                )}
+                                                ) : null}
+                                            </View>
+                                        </View>
+                                    );
+                                })()}
                             </View>
 
                             {/* Exit chip / car position badge + elevator status dot */}
-                            <View style={{ position: 'absolute', right: 4, top: viewMode === 'summary' ? 3 : 9, flexDirection: 'row', alignItems: 'center', gap: 4 }}>
-                            {step.car_position ? (
+                            <View style={{ position: 'absolute', right: 4, top: viewMode === 'summary' ? 3 : 9, flexDirection: 'row', alignItems: 'center', gap: 5 }}>
+                            {/* {step.car_position ? (
                                 <View style={{
                                     borderRadius: 4,
                                     paddingHorizontal: 5,
@@ -475,11 +482,20 @@ export function TimelineCard({ segment, viewMode, stationNameMap = {}, hideImage
                                         {step.car_position}{step.car_position_uncertain ? '?' : ''}
                                     </Text>
                                 </View>
-                            ) : null}
+                            ) : null} */}
+
                             {(() => {
                                 const color = getElevatorStatusColor(step, elevatorStatuses);
                                 if (!color) return null;
-                                return <View style={{ width: 8, height: 8, borderRadius: 4, backgroundColor: color }} />;
+                                return (
+                                    <View style={{ 
+                                        width: 7, 
+                                        height: 7, 
+                                        borderRadius: 3.5, 
+                                        backgroundColor: color,
+                                        transform: [{ translateY: 2 }] // Move dot down by 2px for better vertical center alignment
+                                    }} />
+                                );
                             })()}
                         </View>
                     </View>

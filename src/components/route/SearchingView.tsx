@@ -8,6 +8,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { supabase } from '../../../lib/supabase';
 
 import { matchesChosung } from '../../utils/chosung';
+import { useAppLang, tLang } from '../../context/LanguageContext';
+import { STRINGS } from '../../i18n/strings';
 
 type Station = any; // Will represent a single station without exit
 
@@ -26,6 +28,7 @@ const SafeTextInput: any = TextInput;
 const SafeScrollView: any = ScrollView;
 
 export function SearchingView({ onClose, onSelect, placeholder, autoFocusInput, showNearby }: SearchingViewProps) {
+    const { lang } = useAppLang();
     const [query, setQuery] = useState('');
     const [results, setResults] = useState<any[]>([]);
     const [loading, setLoading] = useState(false);
@@ -346,7 +349,7 @@ export function SearchingView({ onClose, onSelect, placeholder, autoFocusInput, 
 
                     {/* Footer */}
                     <View style={{ marginTop: 32, marginBottom: 40, alignItems: 'center' }}>
-                        <Text style={{ fontSize: 8, fontWeight: '700', color: '#52525B', textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 }}>Coverage · 지원 노선</Text>
+                        <Text style={{ fontSize: 8, fontWeight: '700', color: '#52525B', textTransform: 'uppercase', letterSpacing: 0.5, marginBottom: 8 }}>{tLang(STRINGS.search.coverage, lang)}</Text>
                         <View style={{ flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: 4, marginBottom: 8 }}>
                             {([1, 2, 3, 4, 5, 6, 7, 8, 9, 'A']).map((l) => (
                                 <View key={l} style={{ backgroundColor: LINE_COLORS[String(l)], width: 14, height: 14, borderRadius: 7, alignItems: 'center', justifyContent: 'center' }}>

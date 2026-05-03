@@ -1,5 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { View, Text, StyleSheet, Animated, Dimensions, StatusBar, Image } from 'react-native';
+import { useAppLang, tLang } from '../../context/LanguageContext';
+import { STRINGS } from '../../i18n/strings';
 
 const { width, height } = Dimensions.get('window');
 
@@ -8,6 +10,7 @@ const RED = '#C8362A';
 const SILVER = '#8A9CA3';
 
 const SplashScreen = () => {
+    const { lang } = useAppLang();
     // Animation Values
     const logoScale = useRef(new Animated.Value(0)).current;
     const titleOpacity = useRef(new Animated.Value(0)).current;
@@ -74,7 +77,7 @@ const SplashScreen = () => {
                 <Text style={styles.title}>
                     <Text style={styles.redS}>S</Text>tep-Free <Text style={styles.redS}>S</Text>eoul <Text style={styles.redS}>S</Text>ubway
                 </Text>
-                <Text style={styles.subtitleKo}>서울 지하철: 계단 없이 엘리베이터로</Text>
+                <Text style={styles.subtitle}>{tLang(STRINGS.splash.subtitle, lang)}</Text>
                 <Text style={styles.tagline}>No more dragging suitcases!</Text>
             </Animated.View>
 
@@ -133,12 +136,11 @@ const styles = StyleSheet.create({
         color: RED,
         fontFamily: 'Nunito-ExtraBold',
     },
-    subtitleKo: {
+    subtitle: {
         fontSize: 14,
         fontFamily: 'Pretendard-Regular',
         color: SILVER,
         marginBottom: 8,
-        fontWeight: '500',
     },
     tagline: {
         fontSize: 14,

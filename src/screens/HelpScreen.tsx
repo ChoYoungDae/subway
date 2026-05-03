@@ -10,6 +10,8 @@ import {
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import helpData from '../data/helpContent.json';
+import { useAppLang, tLang } from '../context/LanguageContext';
+import { STRINGS } from '../i18n/strings';
 
 // ── Palette (CLAUDE.md) ────────────────────────────────────────────────────────
 const C = {
@@ -247,13 +249,14 @@ function CategoryCard({ category }: { category: Category }) {
 // ── Screen ────────────────────────────────────────────────────────────────────
 export default function HelpScreen() {
     const insets = useSafeAreaInsets();
+    const { lang } = useAppLang();
     const categories: Category[] = (helpData as any).categories;
 
     return (
         <View style={[styles.root, { paddingTop: insets.top }]}>
             <View style={styles.topBar}>
                 <Text style={styles.topBarTitle}>Help</Text>
-                <Text style={styles.topBarSub}>도움말 · 긴급 연락처</Text>
+                <Text style={styles.topBarSub}>{tLang(STRINGS.help.subtitle, lang)}</Text>
             </View>
 
             <ScrollView
